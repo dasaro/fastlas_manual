@@ -11,6 +11,7 @@ Nothing is pseudo-code.
 | --- | --- |
 | [`examples/`](examples) | the numbered examples from the body of the guide (`ex01`–`ex18`) |
 | [`examples/solutions/`](examples/solutions) | worked solutions to the exercises (`sol01`–`sol13`) |
+| [`examples/asp/`](examples/asp) | plain ASP programs for **clingo** (`asp01`–`asp09`): primes, clique, Hamiltonian cycles, eight queens, vertex cover, colouring, knapsack, weak constraints, paths |
 
 ## Running an example
 
@@ -43,7 +44,26 @@ $ FastLAS --opl --read-cache  c1 examples/ex15_window2.las
 `ex05` learned constants · `ex06`–`ex07` scoring with `#bias` · `ex08`–`ex09` non-observational
 learning · `ex10`–`ex11` `#predict` · `ex12` mode-bias performance · `ex13`–`ex14` recursion and
 the verifier reframing · `ex15` incremental learning · `ex16` `#final_bias` · `ex17` `num_var`
-thresholds · `ex18` access-control policy learning.
+thresholds · `ex18` access-control policy learning · `ex19`–`ex22` the classic problems as learning
+tasks (vertex cover, graph colouring, pet owner, a SUSHI-style taste).
+
+The `examples/asp/` programs are for [clingo](https://potassco.org/clingo/), not FastLAS:
+
+```
+$ clingo examples/asp/asp05_vertexcover.lp
+in(b) in(c) in(d) in(e)
+```
+
+They use choice rules, conditional literals, aggregates and weak constraints, which are outside
+the FastLAS input dialect. The guide explains which construct goes where.
+
+## Credits
+
+The ASP programs and the classic examples follow the *Logic Programming and Explainable AI*
+lecture notes of F. A. D'Asaro (University of Trento, 2023), which in turn draw on the textbook
+treatments of Lifschitz (*Answer Set Programming*, Springer 2019) and Gebser et al. (*Answer Set
+Solving in Practice*, 2012). The SUSHI features follow Kamishima's SUSHI preference data sets
+(<http://www.kamishima.net/sushi/>).
 
 ## Getting FastLAS
 
