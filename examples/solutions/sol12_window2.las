@@ -1,0 +1,6 @@
+#modeh(p).
+#modeb(a).
+#modeb(b).
+#pos(w2, {}, {p}, { b. }).
+#bias("penalty(1, head)    :- in_head(X).").
+#bias("penalty(1, body(X)) :- in_body(X).").
