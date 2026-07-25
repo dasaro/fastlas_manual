@@ -1,4 +1,5 @@
-% A negative example says: no answer set may look like this. Here it is what
+% A negative example says: no answer set may look like this. Here it is
+% what
 % stops the learner settling for "all birds fly".
 bird(tweety). bird(polly). penguin(tweety).
 

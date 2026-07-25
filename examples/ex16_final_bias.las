@@ -1,6 +1,8 @@
 % Semi-decomposable scoring: charge ONCE for using negation-as-failure,
-% no matter how many negated literals a rule has. The only rule that fits
-% here is  p :- not a, not b  (two negations) -- yet its 'naf' cost is 1.
+% no matter how many negated literals a rule has. The only rule that
+% fits
+% here is  p :- not a, not b  (two negations) -- yet its 'naf' cost is
+% 1.
 #modeh(p).
 #modeb(not a).
 #modeb(not b).

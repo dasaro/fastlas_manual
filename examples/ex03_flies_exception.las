@@ -9,4 +9,5 @@ animal(eagle).  animal(ostrich).  animal(sparrow).
 
 #pos(p1, {flies(eagle)},   {},            { winged(eagle).   }).
 #pos(p2, {flies(sparrow)}, {},            { winged(sparrow). }).
-#pos(p3, {},               {flies(ostrich)}, { winged(ostrich). flightless(ostrich). }).
+#pos(p3, {}, {flies(ostrich)},
+     { winged(ostrich). flightless(ostrich). }).

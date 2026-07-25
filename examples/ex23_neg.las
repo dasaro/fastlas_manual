@@ -1,4 +1,5 @@
-% A task stated with a negative example instead of an exclusion. It behaves
+% A task stated with a negative example instead of an exclusion. It
+% behaves
 % differently under the two algorithms: see the pitfall in Section 3.3.
 #modeh(cycle).
 #modeb(rain).

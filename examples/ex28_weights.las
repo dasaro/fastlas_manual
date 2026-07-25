@@ -1,5 +1,7 @@
-% Two examples that contradict each other, both noisy. FastLAS keeps whichever
-% is more expensive to abandon: here e1, at the price of leaving e2 uncovered.
+% Two examples that contradict each other, both noisy. FastLAS keeps
+% whichever
+% is more expensive to abandon: here e1, at the price of leaving e2
+% uncovered.
 % Swap the two weights and the answer flips to the empty hypothesis.
 #modeh(p).
 #modeb(a).

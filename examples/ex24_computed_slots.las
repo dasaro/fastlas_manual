@@ -1,4 +1,5 @@
-% Computed inclusions and exclusions: the two set slots of every example are
+% Computed inclusions and exclusions: the two set slots of every example
+% are
 % empty, and the background derives them instead (Section 3.3).
 animal(a). animal(b).
 inclusion(flies(X)) :- animal(X), goal(X).

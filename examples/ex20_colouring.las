@@ -5,8 +5,12 @@ vertex(a). vertex(b).  shade(red). shade(blue).
 #modeb(edge(var(vertex), var(vertex))).
 #modeb(colour(var(vertex), var(shade))).
 #maxv(3).
-#pos(ok1,  {},          {violated}, { edge(a,b). colour(a,red).  colour(b,blue). }).
-#pos(ok2,  {},          {violated}, { edge(a,b). colour(a,blue). colour(b,red).  }).
-#pos(bad1, {violated},  {},         { edge(a,b). colour(a,red).  colour(b,red).  }).
-#pos(bad2, {violated},  {},         { edge(a,b). colour(a,blue). colour(b,blue). }).
+#pos(ok1, {}, {violated},
+     { edge(a,b). colour(a,red). colour(b,blue). }).
+#pos(ok2, {}, {violated},
+     { edge(a,b). colour(a,blue). colour(b,red). }).
+#pos(bad1, {violated}, {},
+     { edge(a,b). colour(a,red). colour(b,red). }).
+#pos(bad2, {violated}, {},
+     { edge(a,b). colour(a,blue). colour(b,blue). }).
 #bias("penalty(1, body(X)) :- in_body(X).").
