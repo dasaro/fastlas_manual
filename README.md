@@ -45,7 +45,9 @@ $ FastLAS --opl --read-cache  c1 examples/ex15_window2.las
 learning · `ex10`–`ex11` `#predict` · `ex12` mode-bias performance · `ex13`–`ex14` recursion and
 the verifier reframing · `ex15` incremental learning · `ex16` `#final_bias` · `ex17` `num_var`
 thresholds · `ex18` access-control policy learning · `ex19`–`ex22` the classic problems as learning
-tasks (vertex cover, graph colouring, pet owner, a SUSHI-style taste).
+tasks (vertex cover, graph colouring, pet owner, a SUSHI-style taste) · `ex23`–`ex26` the
+semantics demonstrations (#neg needing --nopl, computed inclusion/exclusion slots, brave coverage,
+noisy examples).
 
 The `examples/asp/` programs are for [clingo](https://potassco.org/clingo/), not FastLAS:
 
