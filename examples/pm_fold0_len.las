@@ -1,3 +1,8 @@
+% Project Management access-control fold 0 (sf_len), ported to
+% FastLAS 2 syntax from the FastLAS distribution's
+% FastLAS1/data/policy_learning/files/ (MIT License,
+% (c) 2020 Imperial College London; data after Xu & Stoller 2014).
+% Port: #constant(t,v) -> t_t(v) facts, const(t) -> const(t_t).
 #pos(eg(id0), {accept}, {}, {  subject_user_id(employee__5__0).
   subject_role(employee).
   subject_projects(proj__5__3).
