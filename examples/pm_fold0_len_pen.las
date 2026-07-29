@@ -1,0 +1,9221 @@
+#pos(eg(id0)@1, {accept}, {}, {  subject_user_id(employee__5__0).
+  subject_role(employee).
+  subject_projects(proj__5__3).
+  subject_tasks(task__5__1__5).
+  resource_resource_id(task__5__1__2).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__5__1).
+  resource_dept_id(dept__5).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id1)@1, {accept}, {}, {  subject_user_id(pjl13__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__13__0).
+  resource_resource_id(bg__13__0).
+  resource_type(budget).
+  resource_project_id(proj__13__0).
+  resource_dept_id(dept__13).
+  action_action_type(write).
+}).
+
+#pos(eg(id2)@1, {accept}, {}, {  subject_user_id(pjl14__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__14__1).
+  resource_resource_id(bg__14__0).
+  resource_type(budget).
+  resource_project_id(proj__14__0).
+  resource_dept_id(dept__14).
+  action_action_type(write).
+}).
+
+#pos(eg(id3)@1, {accept}, {}, {  subject_user_id(planner__17).
+  subject_role(planner).
+  subject_projects(proj__17__3).
+  resource_resource_id(task__17__3__5).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__17__3).
+  resource_dept_id(dept__17).
+  resource_expertises(tech__area__3).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id4)@1, {accept}, {}, {  subject_user_id(manager__17).
+  subject_role(manager).
+  subject_dept_id(dept__17).
+  resource_resource_id(bg__17__0).
+  resource_type(budget).
+  resource_project_id(proj__17__0).
+  resource_dept_id(dept__17).
+  action_action_type(approve).
+}).
+
+#pos(eg(id5)@1, {accept}, {}, {  subject_user_id(pjl7__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__7__2).
+  resource_resource_id(sc__7__2).
+  resource_type(schedule).
+  resource_project_id(proj__7__2).
+  resource_dept_id(dept__7).
+  action_action_type(write).
+}).
+
+#pos(eg(id6)@1, {accept}, {}, {  subject_user_id(pjl12__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__12__1).
+  resource_resource_id(bg__12__1).
+  resource_type(budget).
+  resource_project_id(proj__12__1).
+  resource_dept_id(dept__12).
+  action_action_type(write).
+}).
+
+#pos(eg(id7)@1, {accept}, {}, {  subject_user_id(pjl16__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__16__1).
+  resource_resource_id(sc__16__1).
+  resource_type(schedule).
+  resource_project_id(proj__16__1).
+  resource_dept_id(dept__16).
+  action_action_type(write).
+}).
+
+#pos(eg(id8)@1, {accept}, {}, {  subject_user_id(pjl16__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__16__1).
+  resource_resource_id(sc__16__0).
+  resource_type(schedule).
+  resource_project_id(proj__16__0).
+  resource_dept_id(dept__16).
+  action_action_type(read).
+}).
+
+#pos(eg(id9)@1, {accept}, {}, {  subject_user_id(employee__5__0).
+  subject_role(employee).
+  subject_projects(proj__5__3).
+  subject_tasks(task__5__1__5).
+  resource_resource_id(task__5__3__1).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__5__3).
+  resource_dept_id(dept__5).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id10)@1, {accept}, {}, {  subject_user_id(auditor__13).
+  subject_role(auditor).
+  subject_projects(proj__13__3).
+  resource_resource_id(sc__13__3).
+  resource_type(schedule).
+  resource_project_id(proj__13__3).
+  resource_dept_id(dept__13).
+  action_action_type(read).
+}).
+
+#pos(eg(id11)@1, {accept}, {}, {  subject_user_id(pjl7__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__7__3).
+  resource_resource_id(sc__7__1).
+  resource_type(schedule).
+  resource_project_id(proj__7__1).
+  resource_dept_id(dept__7).
+  action_action_type(write).
+}).
+
+#pos(eg(id12)@1, {accept}, {}, {  subject_user_id(manager__0).
+  subject_role(manager).
+  subject_dept_id(dept__0).
+  resource_resource_id(bg__0__1).
+  resource_type(budget).
+  resource_project_id(proj__0__1).
+  resource_dept_id(dept__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id13)@1, {accept}, {}, {  subject_user_id(acct__4).
+  subject_role(accountant).
+  subject_projects(proj__4__1).
+  resource_resource_id(task__4__1__5).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__4__1).
+  resource_dept_id(dept__4).
+  resource_expertises(tech__area__0).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id14)@1, {accept}, {}, {  subject_user_id(pjl4__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__4__0).
+  resource_resource_id(bg__4__0).
+  resource_type(budget).
+  resource_project_id(proj__4__0).
+  resource_dept_id(dept__4).
+  action_action_type(read).
+}).
+
+#pos(eg(id15)@1, {accept}, {}, {  subject_user_id(pjl16__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__16__1).
+  resource_resource_id(bg__16__0).
+  resource_type(budget).
+  resource_project_id(proj__16__0).
+  resource_dept_id(dept__16).
+  action_action_type(read).
+}).
+
+#pos(eg(id16)@1, {accept}, {}, {  subject_user_id(pjl13__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__13__3).
+  resource_resource_id(bg__13__3).
+  resource_type(budget).
+  resource_project_id(proj__13__3).
+  resource_dept_id(dept__13).
+  action_action_type(write).
+}).
+
+#pos(eg(id17)@1, {accept}, {}, {  subject_user_id(auditor__18).
+  subject_role(auditor).
+  subject_projects(proj__18__0).
+  resource_resource_id(sc__18__0).
+  resource_type(schedule).
+  resource_project_id(proj__18__0).
+  resource_dept_id(dept__18).
+  action_action_type(read).
+}).
+
+#pos(eg(id18)@1, {accept}, {}, {  subject_user_id(employee__5__0).
+  subject_role(employee).
+  subject_projects(proj__5__3).
+  subject_tasks(task__5__1__5).
+  resource_resource_id(task__5__3__2).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__5__3).
+  resource_dept_id(dept__5).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id19)@1, {accept}, {}, {  subject_user_id(employee__11__0).
+  subject_role(employee).
+  subject_projects(proj__11__2).
+  subject_tasks(task__11__2__3).
+  resource_resource_id(task__11__2__3).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__11__2).
+  resource_dept_id(dept__11).
+  resource_expertises(tech__area__0).
+  action_action_type(setstatus).
+}).
+
+#pos(eg(id20)@1, {accept}, {}, {  subject_user_id(pjl17__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__17__3).
+  resource_resource_id(bg__17__3).
+  resource_type(budget).
+  resource_project_id(proj__17__3).
+  resource_dept_id(dept__17).
+  action_action_type(read).
+}).
+
+#pos(eg(id21)@1, {accept}, {}, {  subject_user_id(pjl11__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__11__2).
+  resource_resource_id(bg__11__2).
+  resource_type(budget).
+  resource_project_id(proj__11__2).
+  resource_dept_id(dept__11).
+  action_action_type(read).
+}).
+
+#pos(eg(id22)@1, {accept}, {}, {  subject_user_id(auditor__17).
+  subject_role(auditor).
+  subject_projects(proj__17__1).
+  resource_resource_id(bg__17__1).
+  resource_type(budget).
+  resource_project_id(proj__17__1).
+  resource_dept_id(dept__17).
+  action_action_type(read).
+}).
+
+#pos(eg(id23)@1, {accept}, {}, {  subject_user_id(employee__5__1).
+  subject_role(employee).
+  subject_projects(proj__5__3).
+  subject_tasks(task__5__0__1).
+  resource_resource_id(task__5__0__4).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__5__0).
+  resource_dept_id(dept__5).
+  resource_expertises(tech__area__1).
+  action_action_type(read).
+}).
+
+#pos(eg(id24)@1, {accept}, {}, {  subject_user_id(employee__15__0).
+  subject_role(employee).
+  subject_projects(proj__15__1).
+  subject_tasks(task__15__1__1).
+  resource_resource_id(task__15__1__4).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__15__1).
+  resource_dept_id(dept__15).
+  resource_expertises(tech__area__4).
+  action_action_type(request).
+}).
+
+#pos(eg(id25)@1, {accept}, {}, {  subject_user_id(employee__1__0).
+  subject_role(employee).
+  subject_projects(proj__1__0).
+  subject_tasks(task__1__0__3).
+  resource_resource_id(task__1__0__3).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__1__0).
+  resource_dept_id(dept__1).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id26)@1, {accept}, {}, {  subject_user_id(planner__9).
+  subject_role(planner).
+  subject_projects(proj__9__1).
+  resource_resource_id(task__9__1__5).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__9__1).
+  resource_dept_id(dept__9).
+  resource_expertises(tech__area__0).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id27)@1, {accept}, {}, {  subject_user_id(contractor__7__0).
+  subject_role(contractor).
+  subject_projects(proj__7__2).
+  subject_tasks(task__7__2__5).
+  action_action_type(request).
+}).
+
+#pos(eg(id28)@1, {accept}, {}, {  subject_user_id(employee__8__0).
+  subject_role(employee).
+  subject_projects(proj__8__1).
+  subject_tasks(task__8__0__5).
+  resource_resource_id(task__8__0__3).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__8__0).
+  resource_dept_id(dept__8).
+  resource_expertises(tech__area__4).
+  action_action_type(read).
+}).
+
+#pos(eg(id29)@1, {accept}, {}, {  subject_user_id(employee__1__0).
+  subject_role(employee).
+  subject_projects(proj__1__0).
+  subject_tasks(task__1__0__3).
+  resource_resource_id(task__1__1__5).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__1__1).
+  resource_dept_id(dept__1).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id30)@1, {accept}, {}, {  subject_user_id(contractor__17__1).
+  subject_role(contractor).
+  subject_projects(proj__17__1).
+  subject_tasks(task__17__1__2).
+  resource_resource_id(task__17__1__5).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__17__1).
+  resource_dept_id(dept__17).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id31)@1, {accept}, {}, {  subject_user_id(contractor__11__1).
+  subject_role(contractor).
+  subject_projects(proj__11__2).
+  subject_tasks(task__11__2__5).
+  resource_resource_id(task__11__2__4).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__11__2).
+  resource_dept_id(dept__11).
+  resource_expertises(tech__area__4).
+  action_action_type(request).
+}).
+
+#pos(eg(id32)@1, {accept}, {}, {  subject_user_id(employee__14__0).
+  subject_role(employee).
+  subject_projects(proj__14__2).
+  subject_tasks(task__14__0__4).
+  resource_resource_id(task__14__2__4).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__14__2).
+  resource_dept_id(dept__14).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id33)@1, {accept}, {}, {  subject_user_id(pjl5__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__5__2).
+  resource_resource_id(bg__5__2).
+  resource_type(budget).
+  resource_project_id(proj__5__2).
+  resource_dept_id(dept__5).
+  action_action_type(write).
+}).
+
+#pos(eg(id34)@1, {accept}, {}, {  subject_user_id(pjl5__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__5__2).
+  resource_resource_id(sc__5__1).
+  resource_type(schedule).
+  resource_project_id(proj__5__1).
+  resource_dept_id(dept__5).
+  action_action_type(read).
+}).
+
+#pos(eg(id35)@1, {accept}, {}, {  subject_user_id(employee__3__0).
+  subject_role(employee).
+  subject_projects(proj__3__0).
+  subject_tasks(task__3__0__3).
+  resource_resource_id(task__3__1__3).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__3__1).
+  resource_dept_id(dept__3).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id36)@1, {accept}, {}, {  subject_user_id(planner__8).
+  subject_role(planner).
+  subject_projects(proj__8__1).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id37)@1, {accept}, {}, {  subject_user_id(employee__7__0).
+  subject_role(employee).
+  subject_projects(proj__7__2).
+  subject_tasks(task__7__2__2).
+  resource_resource_id(task__7__1__2).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__7__1).
+  resource_dept_id(dept__7).
+  resource_expertises(tech__area__1).
+  action_action_type(request).
+}).
+
+#pos(eg(id38)@1, {accept}, {}, {  subject_user_id(pjl4__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__4__0).
+  resource_resource_id(sc__4__0).
+  resource_type(schedule).
+  resource_project_id(proj__4__0).
+  resource_dept_id(dept__4).
+  action_action_type(read).
+}).
+
+#pos(eg(id39)@1, {accept}, {}, {  subject_user_id(pjl7__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__7__3).
+  resource_resource_id(bg__7__3).
+  resource_type(budget).
+  resource_project_id(proj__7__3).
+  resource_dept_id(dept__7).
+  action_action_type(write).
+}).
+
+#pos(eg(id40)@1, {accept}, {}, {  subject_user_id(pjl11__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__11__2).
+  resource_resource_id(sc__11__1).
+  resource_type(schedule).
+  resource_project_id(proj__11__1).
+  resource_dept_id(dept__11).
+  action_action_type(read).
+}).
+
+#pos(eg(id41)@1, {accept}, {}, {  subject_user_id(planner__7).
+  subject_role(planner).
+  subject_projects(proj__7__3).
+  resource_resource_id(task__7__3__2).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__7__3).
+  resource_dept_id(dept__7).
+  resource_expertises(tech__area__4).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id42)@1, {accept}, {}, {  subject_user_id(manager__12).
+  subject_role(manager).
+  subject_dept_id(dept__12).
+  resource_resource_id(bg__12__0).
+  resource_type(budget).
+  resource_project_id(proj__12__0).
+  resource_dept_id(dept__12).
+  action_action_type(approve).
+}).
+
+#pos(eg(id43)@1, {accept}, {}, {  subject_user_id(planner__16).
+  subject_role(planner).
+  subject_projects(proj__16__0).
+  resource_resource_id(sc__16__0).
+  resource_type(schedule).
+  resource_project_id(proj__16__0).
+  resource_dept_id(dept__16).
+  action_action_type(write).
+}).
+
+#pos(eg(id44)@1, {accept}, {}, {  subject_user_id(contractor__10__0).
+  subject_role(contractor).
+  subject_projects(proj__10__0).
+  subject_tasks(task__10__0__1).
+  resource_resource_id(task__10__0__1).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__10__0).
+  resource_dept_id(dept__10).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id45)@1, {accept}, {}, {  subject_user_id(contractor__11__1).
+  subject_role(contractor).
+  subject_projects(proj__11__2).
+  subject_tasks(task__11__2__5).
+  resource_resource_id(task__11__2__5).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__11__2).
+  resource_dept_id(dept__11).
+  resource_expertises(tech__area__4).
+  action_action_type(read).
+}).
+
+#pos(eg(id46)@1, {accept}, {}, {  subject_user_id(acct__17).
+  subject_role(accountant).
+  subject_projects(proj__17__1).
+  resource_resource_id(task__17__1__5).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__17__1).
+  resource_dept_id(dept__17).
+  resource_expertises(tech__area__0).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id47)@1, {accept}, {}, {  subject_user_id(employee__14__0).
+  subject_role(employee).
+  subject_projects(proj__14__2).
+  subject_tasks(task__14__0__4).
+  resource_resource_id(task__14__0__5).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__14__0).
+  resource_dept_id(dept__14).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id48)@1, {accept}, {}, {  subject_user_id(employee__2__0).
+  subject_role(employee).
+  subject_projects(proj__2__1).
+  subject_tasks(task__2__1__4).
+  resource_resource_id(task__2__1__3).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__2__1).
+  resource_dept_id(dept__2).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id49)@1, {accept}, {}, {  subject_user_id(acct__1).
+  subject_role(accountant).
+  subject_projects(proj__1__0).
+  resource_resource_id(task__1__0__4).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__1__0).
+  resource_dept_id(dept__1).
+  resource_expertises(tech__area__2).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id50)@1, {accept}, {}, {  subject_user_id(employee__3__0).
+  subject_role(employee).
+  subject_projects(proj__3__0).
+  subject_tasks(task__3__0__3).
+  resource_resource_id(task__3__1__3).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__3__1).
+  resource_dept_id(dept__3).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id51)@1, {accept}, {}, {  subject_user_id(employee__11__0).
+  subject_role(employee).
+  subject_projects(proj__11__2).
+  subject_tasks(task__11__2__3).
+  resource_resource_id(task__11__2__3).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__11__2).
+  resource_dept_id(dept__11).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id52)@1, {accept}, {}, {  subject_user_id(employee__1__0).
+  subject_role(employee).
+  subject_projects(proj__1__0).
+  subject_tasks(task__1__0__3).
+  resource_resource_id(task__1__0__1).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__1__0).
+  resource_dept_id(dept__1).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id53)@1, {accept}, {}, {  subject_user_id(contractor__3__0).
+  subject_role(contractor).
+  subject_projects(proj__3__0).
+  subject_tasks(task__3__0__3).
+  action_action_type(request).
+}).
+
+#pos(eg(id54)@1, {accept}, {}, {  subject_user_id(manager__3).
+  subject_role(manager).
+  subject_dept_id(dept__3).
+  resource_resource_id(bg__3__0).
+  resource_type(budget).
+  resource_project_id(proj__3__0).
+  resource_dept_id(dept__3).
+  action_action_type(read).
+}).
+
+#pos(eg(id55)@1, {accept}, {}, {  subject_user_id(employee__2__0).
+  subject_role(employee).
+  subject_projects(proj__2__1).
+  subject_tasks(task__2__1__4).
+  resource_resource_id(task__2__0__1).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__2__0).
+  resource_dept_id(dept__2).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id56)@1, {accept}, {}, {  subject_user_id(pjl11__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__11__2).
+  resource_resource_id(bg__11__0).
+  resource_type(budget).
+  resource_project_id(proj__11__0).
+  resource_dept_id(dept__11).
+  action_action_type(read).
+}).
+
+#pos(eg(id57)@1, {accept}, {}, {  subject_user_id(acct__11).
+  subject_role(accountant).
+  subject_projects(proj__11__3).
+  resource_resource_id(task__11__3__4).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__11__3).
+  resource_dept_id(dept__11).
+  resource_expertises(tech__area__0).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id58)@1, {accept}, {}, {  subject_user_id(employee__2__0).
+  subject_role(employee).
+  subject_projects(proj__2__1).
+  subject_tasks(task__2__1__4).
+  resource_resource_id(task__2__1__4).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__2__1).
+  resource_dept_id(dept__2).
+  resource_expertises(tech__area__1).
+  action_action_type(setstatus).
+}).
+
+#pos(eg(id59)@1, {accept}, {}, {  subject_user_id(pjl14__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__14__1).
+  resource_resource_id(bg__14__1).
+  resource_type(budget).
+  resource_project_id(proj__14__1).
+  resource_dept_id(dept__14).
+  action_action_type(write).
+}).
+
+#pos(eg(id60)@1, {accept}, {}, {  subject_user_id(employee__5__0).
+  subject_role(employee).
+  subject_projects(proj__5__3).
+  subject_tasks(task__5__1__5).
+  resource_resource_id(task__5__3__5).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__5__3).
+  resource_dept_id(dept__5).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id61)@1, {accept}, {}, {  subject_user_id(pjl8__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__8__1).
+  resource_resource_id(bg__8__0).
+  resource_type(budget).
+  resource_project_id(proj__8__0).
+  resource_dept_id(dept__8).
+  action_action_type(read).
+}).
+
+#pos(eg(id62)@1, {accept}, {}, {  subject_user_id(contractor__0__0).
+  subject_role(contractor).
+  subject_projects(proj__0__1).
+  subject_tasks(task__0__1__5).
+  action_action_type(read).
+}).
+
+#pos(eg(id63)@1, {accept}, {}, {  subject_user_id(employee__2__0).
+  subject_role(employee).
+  subject_projects(proj__2__1).
+  subject_tasks(task__2__1__4).
+  resource_resource_id(task__2__1__0).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__2__1).
+  resource_dept_id(dept__2).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id64)@1, {accept}, {}, {  subject_user_id(contractor__7__1).
+  subject_role(contractor).
+  subject_projects(proj__7__2).
+  subject_tasks(task__7__2__4).
+  resource_resource_id(task__7__2__4).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__7__2).
+  resource_dept_id(dept__7).
+  resource_expertises(tech__area__4).
+  action_action_type(setstatus).
+}).
+
+#pos(eg(id65)@1, {accept}, {}, {  subject_user_id(manager__9).
+  subject_role(manager).
+  subject_dept_id(dept__9).
+  resource_resource_id(bg__9__1).
+  resource_type(budget).
+  resource_project_id(proj__9__1).
+  resource_dept_id(dept__9).
+  action_action_type(approve).
+}).
+
+#pos(eg(id66)@1, {accept}, {}, {  subject_user_id(acct__4).
+  subject_role(accountant).
+  subject_projects(proj__4__1).
+  resource_resource_id(task__4__1__0).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__4__1).
+  resource_dept_id(dept__4).
+  resource_expertises(tech__area__2).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id67)@1, {accept}, {}, {  subject_user_id(employee__6__0).
+  subject_role(employee).
+  subject_projects(proj__6__1).
+  subject_tasks(task__6__0__5).
+  resource_resource_id(task__6__0__3).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__6__0).
+  resource_dept_id(dept__6).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id68)@1, {accept}, {}, {  subject_user_id(employee__12__0).
+  subject_role(employee).
+  subject_projects(proj__12__1).
+  subject_tasks(task__12__0__3).
+  resource_resource_id(task__12__0__3).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__12__0).
+  resource_dept_id(dept__12).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id69)@1, {accept}, {}, {  subject_user_id(employee__14__0).
+  subject_role(employee).
+  subject_projects(proj__14__2).
+  subject_tasks(task__14__0__4).
+  resource_resource_id(task__14__0__3).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__14__0).
+  resource_dept_id(dept__14).
+  resource_expertises(tech__area__1).
+  action_action_type(request).
+}).
+
+#pos(eg(id70)@1, {accept}, {}, {  subject_user_id(acct__6).
+  subject_role(accountant).
+  subject_projects(proj__6__1).
+  resource_resource_id(task__6__1__3).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__6__1).
+  resource_dept_id(dept__6).
+  resource_expertises(tech__area__2).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id71)@1, {accept}, {}, {  subject_user_id(acct__11).
+  subject_role(accountant).
+  subject_projects(proj__11__3).
+  resource_resource_id(bg__11__3).
+  resource_type(budget).
+  resource_project_id(proj__11__3).
+  resource_dept_id(dept__11).
+  action_action_type(write).
+}).
+
+#pos(eg(id72)@1, {accept}, {}, {  subject_user_id(employee__12__0).
+  subject_role(employee).
+  subject_projects(proj__12__1).
+  subject_tasks(task__12__0__3).
+  resource_resource_id(task__12__1__3).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__12__1).
+  resource_dept_id(dept__12).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id73)@1, {accept}, {}, {  subject_user_id(employee__8__0).
+  subject_role(employee).
+  subject_projects(proj__8__1).
+  subject_tasks(task__8__0__5).
+  resource_resource_id(task__8__1__4).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__8__1).
+  resource_dept_id(dept__8).
+  resource_expertises(tech__area__3).
+  action_action_type(read).
+}).
+
+#pos(eg(id74)@1, {accept}, {}, {  subject_user_id(employee__13__0).
+  subject_role(employee).
+  subject_projects(proj__13__3).
+  subject_tasks(task__13__2__1).
+  resource_resource_id(task__13__3__1).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__13__3).
+  resource_dept_id(dept__13).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id75)@1, {accept}, {}, {  subject_user_id(acct__16).
+  subject_role(accountant).
+  subject_projects(proj__16__0).
+  resource_resource_id(task__16__0__3).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__16__0).
+  resource_dept_id(dept__16).
+  resource_expertises(tech__area__1).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id76)@1, {accept}, {}, {  subject_user_id(planner__4).
+  subject_role(planner).
+  subject_projects(proj__4__0).
+  resource_resource_id(task__4__0__1).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__4__0).
+  resource_dept_id(dept__4).
+  resource_expertises(tech__area__0).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id77)@1, {accept}, {}, {  subject_user_id(contractor__5__1).
+  subject_role(contractor).
+  subject_projects(proj__5__0).
+  subject_tasks(task__5__0__2).
+  action_action_type(read).
+}).
+
+#pos(eg(id78)@1, {accept}, {}, {  subject_user_id(contractor__12__0).
+  subject_role(contractor).
+  subject_projects(proj__12__0).
+  subject_tasks(task__12__0__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id79)@1, {accept}, {}, {  subject_user_id(employee__5__1).
+  subject_role(employee).
+  subject_projects(proj__5__3).
+  subject_tasks(task__5__0__1).
+  resource_resource_id(task__5__0__1).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__5__0).
+  resource_dept_id(dept__5).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id80)@1, {accept}, {}, {  subject_user_id(acct__14).
+  subject_role(accountant).
+  subject_projects(proj__14__1).
+  resource_resource_id(task__14__1__3).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__14__1).
+  resource_dept_id(dept__14).
+  resource_expertises(tech__area__0).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id81)@1, {accept}, {}, {  subject_user_id(planner__11).
+  subject_role(planner).
+  subject_projects(proj__11__3).
+  resource_resource_id(sc__11__3).
+  resource_type(schedule).
+  resource_project_id(proj__11__3).
+  resource_dept_id(dept__11).
+  action_action_type(read).
+}).
+
+#pos(eg(id82)@1, {accept}, {}, {  subject_user_id(employee__18__0).
+  subject_role(employee).
+  subject_projects(proj__18__1).
+  subject_tasks(task__18__0__3).
+  resource_resource_id(task__18__0__1).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__18__0).
+  resource_dept_id(dept__18).
+  resource_expertises(tech__area__3).
+  action_action_type(read).
+}).
+
+#pos(eg(id83)@1, {accept}, {}, {  subject_user_id(contractor__5__1).
+  subject_role(contractor).
+  subject_projects(proj__5__0).
+  subject_tasks(task__5__0__2).
+  resource_resource_id(task__5__0__2).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__5__0).
+  resource_dept_id(dept__5).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id84)@1, {accept}, {}, {  subject_user_id(planner__10).
+  subject_role(planner).
+  subject_projects(proj__10__1).
+  resource_resource_id(task__10__1__5).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__10__1).
+  resource_dept_id(dept__10).
+  resource_expertises(tech__area__3).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id85)@1, {accept}, {}, {  subject_user_id(acct__7).
+  subject_role(accountant).
+  subject_projects(proj__7__2).
+  resource_resource_id(sc__7__2).
+  resource_type(schedule).
+  resource_project_id(proj__7__2).
+  resource_dept_id(dept__7).
+  action_action_type(read).
+}).
+
+#pos(eg(id86)@1, {accept}, {}, {  subject_user_id(acct__8).
+  subject_role(accountant).
+  subject_projects(proj__8__0).
+  resource_resource_id(task__8__0__0).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__8__0).
+  resource_dept_id(dept__8).
+  resource_expertises(tech__area__0).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id87)@1, {accept}, {}, {  subject_user_id(employee__7__1).
+  subject_role(employee).
+  subject_projects(proj__7__2).
+  subject_tasks(task__7__1__5).
+  resource_resource_id(task__7__1__5).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__7__1).
+  resource_dept_id(dept__7).
+  resource_expertises(tech__area__1).
+  action_action_type(setstatus).
+}).
+
+#pos(eg(id88)@1, {accept}, {}, {  subject_user_id(contractor__7__0).
+  subject_role(contractor).
+  subject_projects(proj__7__2).
+  subject_tasks(task__7__2__5).
+  resource_resource_id(task__7__2__5).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__7__2).
+  resource_dept_id(dept__7).
+  resource_expertises(tech__area__1).
+  action_action_type(read).
+}).
+
+#pos(eg(id89)@1, {accept}, {}, {  subject_user_id(employee__9__0).
+  subject_role(employee).
+  subject_projects(proj__9__0).
+  subject_tasks(task__9__0__1).
+  resource_resource_id(task__9__0__4).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__9__0).
+  resource_dept_id(dept__9).
+  resource_expertises(tech__area__0).
+  action_action_type(setstatus).
+}).
+
+#pos(eg(id90)@1, {accept}, {}, {  subject_user_id(contractor__4__0).
+  subject_role(contractor).
+  subject_projects(proj__4__1).
+  subject_tasks(task__4__1__2).
+  resource_resource_id(task__4__1__2).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__4__1).
+  resource_dept_id(dept__4).
+  resource_expertises(tech__area__2).
+  action_action_type(read).
+}).
+
+#pos(eg(id91)@1, {accept}, {}, {  subject_user_id(employee__5__0).
+  subject_role(employee).
+  subject_projects(proj__5__3).
+  subject_tasks(task__5__1__5).
+  resource_resource_id(task__5__1__5).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__5__1).
+  resource_dept_id(dept__5).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id92)@1, {accept}, {}, {  subject_user_id(employee__19__0).
+  subject_role(employee).
+  subject_projects(proj__19__0).
+  subject_tasks(task__19__0__2).
+  action_action_type(read).
+}).
+
+#pos(eg(id93)@1, {accept}, {}, {  subject_user_id(pjl2__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__2__1).
+  resource_resource_id(bg__2__1).
+  resource_type(budget).
+  resource_project_id(proj__2__1).
+  resource_dept_id(dept__2).
+  action_action_type(write).
+}).
+
+#pos(eg(id94)@1, {accept}, {}, {  subject_user_id(contractor__17__1).
+  subject_role(contractor).
+  subject_projects(proj__17__1).
+  subject_tasks(task__17__1__2).
+  resource_resource_id(task__17__1__4).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__17__1).
+  resource_dept_id(dept__17).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id95)@1, {accept}, {}, {  subject_user_id(planner__8).
+  subject_role(planner).
+  subject_projects(proj__8__1).
+  resource_resource_id(task__8__1__1).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__8__1).
+  resource_dept_id(dept__8).
+  resource_expertises(tech__area__0).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id96)@1, {accept}, {}, {  subject_user_id(pjl0__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__0__1).
+  resource_resource_id(bg__0__1).
+  resource_type(budget).
+  resource_project_id(proj__0__1).
+  resource_dept_id(dept__0).
+  action_action_type(write).
+}).
+
+#pos(eg(id97)@1, {accept}, {}, {  subject_user_id(contractor__8__0).
+  subject_role(contractor).
+  subject_projects(proj__8__1).
+  subject_tasks(task__8__1__5).
+  resource_resource_id(task__8__1__0).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__8__1).
+  resource_dept_id(dept__8).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id98)@1, {accept}, {}, {  subject_user_id(auditor__1).
+  subject_role(auditor).
+  subject_projects(proj__1__1).
+  resource_resource_id(bg__1__1).
+  resource_type(budget).
+  resource_project_id(proj__1__1).
+  resource_dept_id(dept__1).
+  action_action_type(read).
+}).
+
+#pos(eg(id99)@1, {accept}, {}, {  subject_user_id(manager__13).
+  subject_role(manager).
+  subject_dept_id(dept__13).
+  resource_resource_id(bg__13__3).
+  resource_type(budget).
+  resource_project_id(proj__13__3).
+  resource_dept_id(dept__13).
+  action_action_type(approve).
+}).
+
+#pos(eg(id100)@1, {accept}, {}, {  subject_user_id(pjl17__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__17__3).
+  resource_resource_id(sc__17__3).
+  resource_type(schedule).
+  resource_project_id(proj__17__3).
+  resource_dept_id(dept__17).
+  action_action_type(read).
+}).
+
+#pos(eg(id101)@1, {accept}, {}, {  subject_user_id(employee__5__1).
+  subject_role(employee).
+  subject_projects(proj__5__3).
+  subject_tasks(task__5__0__1).
+  resource_resource_id(task__5__3__5).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__5__3).
+  resource_dept_id(dept__5).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id102)@1, {accept}, {}, {  subject_user_id(acct__15).
+  subject_role(accountant).
+  subject_projects(proj__15__1).
+  resource_resource_id(task__15__1__1).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__15__1).
+  resource_dept_id(dept__15).
+  resource_expertises(tech__area__4).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id103)@1, {accept}, {}, {  subject_user_id(employee__7__0).
+  subject_role(employee).
+  subject_projects(proj__7__2).
+  subject_tasks(task__7__2__2).
+  resource_resource_id(task__7__1__3).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__7__1).
+  resource_dept_id(dept__7).
+  resource_expertises(tech__area__1).
+  action_action_type(read).
+}).
+
+#pos(eg(id104)@1, {accept}, {}, {  subject_user_id(auditor__16).
+  subject_role(auditor).
+  subject_projects(proj__16__0).
+  resource_resource_id(sc__16__0).
+  resource_type(schedule).
+  resource_project_id(proj__16__0).
+  resource_dept_id(dept__16).
+  action_action_type(read).
+}).
+
+#pos(eg(id105)@1, {accept}, {}, {  subject_user_id(employee__15__0).
+  subject_role(employee).
+  subject_projects(proj__15__1).
+  subject_tasks(task__15__1__1).
+  resource_resource_id(task__15__1__1).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__15__1).
+  resource_dept_id(dept__15).
+  resource_expertises(tech__area__4).
+  action_action_type(setstatus).
+}).
+
+#pos(eg(id106)@1, {accept}, {}, {  subject_user_id(employee__2__0).
+  subject_role(employee).
+  subject_projects(proj__2__1).
+  subject_tasks(task__2__1__4).
+  resource_resource_id(task__2__0__0).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__2__0).
+  resource_dept_id(dept__2).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id107)@1, {accept}, {}, {  subject_user_id(manager__7).
+  subject_role(manager).
+  subject_dept_id(dept__7).
+  resource_resource_id(bg__7__2).
+  resource_type(budget).
+  resource_project_id(proj__7__2).
+  resource_dept_id(dept__7).
+  action_action_type(approve).
+}).
+
+#pos(eg(id108)@1, {accept}, {}, {  subject_user_id(acct__11).
+  subject_role(accountant).
+  subject_projects(proj__11__3).
+  resource_resource_id(task__11__3__2).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__11__3).
+  resource_dept_id(dept__11).
+  resource_expertises(tech__area__0).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id109)@1, {accept}, {}, {  subject_user_id(pjl15__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__15__1).
+  resource_resource_id(bg__15__1).
+  resource_type(budget).
+  resource_project_id(proj__15__1).
+  resource_dept_id(dept__15).
+  action_action_type(read).
+}).
+
+#pos(eg(id110)@1, {accept}, {}, {  subject_user_id(employee__18__0).
+  subject_role(employee).
+  subject_projects(proj__18__1).
+  subject_tasks(task__18__0__3).
+  resource_resource_id(task__18__0__3).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__18__0).
+  resource_dept_id(dept__18).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id111)@1, {accept}, {}, {  subject_user_id(employee__5__0).
+  subject_role(employee).
+  subject_projects(proj__5__3).
+  subject_tasks(task__5__1__5).
+  resource_resource_id(task__5__1__5).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__5__1).
+  resource_dept_id(dept__5).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id112)@1, {accept}, {}, {  subject_user_id(acct__8).
+  subject_role(accountant).
+  subject_projects(proj__8__0).
+  resource_resource_id(bg__8__0).
+  resource_type(budget).
+  resource_project_id(proj__8__0).
+  resource_dept_id(dept__8).
+  action_action_type(read).
+}).
+
+#pos(eg(id113)@1, {accept}, {}, {  subject_user_id(employee__18__0).
+  subject_role(employee).
+  subject_projects(proj__18__1).
+  subject_tasks(task__18__0__3).
+  resource_resource_id(task__18__1__2).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__18__1).
+  resource_dept_id(dept__18).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id114)@1, {accept}, {}, {  subject_user_id(pjl13__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__13__3).
+  resource_resource_id(sc__13__2).
+  resource_type(schedule).
+  resource_project_id(proj__13__2).
+  resource_dept_id(dept__13).
+  action_action_type(read).
+}).
+
+#pos(eg(id115)@1, {accept}, {}, {  subject_user_id(auditor__8).
+  subject_role(auditor).
+  subject_projects(proj__8__1).
+  resource_resource_id(sc__8__1).
+  resource_type(schedule).
+  resource_project_id(proj__8__1).
+  resource_dept_id(dept__8).
+  action_action_type(read).
+}).
+
+#pos(eg(id116)@1, {accept}, {}, {  subject_user_id(acct__5).
+  subject_role(accountant).
+  subject_projects(proj__5__2).
+  resource_resource_id(task__5__2__2).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__5__2).
+  resource_dept_id(dept__5).
+  resource_expertises(tech__area__2).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id117)@1, {accept}, {}, {  subject_user_id(acct__15).
+  subject_role(accountant).
+  subject_projects(proj__15__1).
+  resource_resource_id(bg__15__1).
+  resource_type(budget).
+  resource_project_id(proj__15__1).
+  resource_dept_id(dept__15).
+  action_action_type(read).
+}).
+
+#pos(eg(id118)@1, {accept}, {}, {  subject_user_id(planner__14).
+  subject_role(planner).
+  subject_projects(proj__14__1).
+  resource_resource_id(task__14__1__4).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__14__1).
+  resource_dept_id(dept__14).
+  resource_expertises(tech__area__2).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id119)@1, {accept}, {}, {  subject_user_id(contractor__7__1).
+  subject_role(contractor).
+  subject_projects(proj__7__2).
+  subject_tasks(task__7__2__4).
+  resource_resource_id(task__7__2__4).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__7__2).
+  resource_dept_id(dept__7).
+  resource_expertises(tech__area__4).
+  action_action_type(read).
+}).
+
+#pos(eg(id120)@1, {accept}, {}, {  subject_user_id(planner__15).
+  subject_role(planner).
+  subject_projects(proj__15__1).
+  resource_resource_id(task__15__1__1).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__15__1).
+  resource_dept_id(dept__15).
+  resource_expertises(tech__area__4).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id121)@1, {accept}, {}, {  subject_user_id(contractor__9__0).
+  subject_role(contractor).
+  subject_projects(proj__9__1).
+  subject_tasks(task__9__1__3).
+  resource_resource_id(task__9__1__0).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__9__1).
+  resource_dept_id(dept__9).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id122)@1, {accept}, {}, {  subject_user_id(pjl14__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__14__3).
+  resource_resource_id(sc__14__2).
+  resource_type(schedule).
+  resource_project_id(proj__14__2).
+  resource_dept_id(dept__14).
+  action_action_type(read).
+}).
+
+#pos(eg(id123)@1, {accept}, {}, {  subject_user_id(employee__1__0).
+  subject_role(employee).
+  subject_projects(proj__1__0).
+  subject_tasks(task__1__0__3).
+  resource_resource_id(task__1__0__3).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__1__0).
+  resource_dept_id(dept__1).
+  resource_expertises(tech__area__0).
+  action_action_type(setstatus).
+}).
+
+#pos(eg(id124)@1, {accept}, {}, {  subject_user_id(contractor__7__0).
+  subject_role(contractor).
+  subject_projects(proj__7__2).
+  subject_tasks(task__7__2__5).
+  action_action_type(read).
+}).
+
+#pos(eg(id125)@1, {accept}, {}, {  subject_user_id(acct__4).
+  subject_role(accountant).
+  subject_projects(proj__4__1).
+  resource_resource_id(task__4__1__4).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__4__1).
+  resource_dept_id(dept__4).
+  resource_expertises(tech__area__0).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id126)@1, {accept}, {}, {  subject_user_id(contractor__4__0).
+  subject_role(contractor).
+  subject_projects(proj__4__1).
+  subject_tasks(task__4__1__2).
+  action_action_type(read).
+}).
+
+#pos(eg(id127)@1, {accept}, {}, {  subject_user_id(employee__14__0).
+  subject_role(employee).
+  subject_projects(proj__14__2).
+  subject_tasks(task__14__0__4).
+  resource_resource_id(task__14__2__4).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__14__2).
+  resource_dept_id(dept__14).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id128)@1, {accept}, {}, {  subject_user_id(contractor__15__0).
+  subject_role(contractor).
+  subject_projects(proj__15__0).
+  subject_tasks(task__15__0__1).
+  resource_resource_id(task__15__0__1).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__15__0).
+  resource_dept_id(dept__15).
+  resource_expertises(tech__area__4).
+  action_action_type(read).
+}).
+
+#pos(eg(id129)@1, {accept}, {}, {  subject_user_id(employee__17__1).
+  subject_role(employee).
+  subject_projects(proj__17__3).
+  subject_tasks(task__17__2__1).
+  resource_resource_id(task__17__3__2).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__17__3).
+  resource_dept_id(dept__17).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id130)@1, {accept}, {}, {  subject_user_id(pjl19__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__19__1).
+  resource_resource_id(sc__19__0).
+  resource_type(schedule).
+  resource_project_id(proj__19__0).
+  resource_dept_id(dept__19).
+  action_action_type(read).
+}).
+
+#pos(eg(id131)@1, {accept}, {}, {  subject_user_id(contractor__1__0).
+  subject_role(contractor).
+  subject_projects(proj__1__1).
+  subject_tasks(task__1__1__4).
+  resource_resource_id(task__1__1__4).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__1__1).
+  resource_dept_id(dept__1).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id132)@1, {accept}, {}, {  subject_user_id(acct__13).
+  subject_role(accountant).
+  subject_projects(proj__13__3).
+  resource_resource_id(task__13__3__3).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__13__3).
+  resource_dept_id(dept__13).
+  resource_expertises(tech__area__3).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id133)@1, {accept}, {}, {  subject_user_id(acct__11).
+  subject_role(accountant).
+  subject_projects(proj__11__3).
+  resource_resource_id(sc__11__3).
+  resource_type(schedule).
+  resource_project_id(proj__11__3).
+  resource_dept_id(dept__11).
+  action_action_type(read).
+}).
+
+#pos(eg(id134)@1, {accept}, {}, {  subject_user_id(employee__4__0).
+  subject_role(employee).
+  subject_projects(proj__4__1).
+  subject_tasks(task__4__1__3).
+  resource_resource_id(task__4__1__1).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__4__1).
+  resource_dept_id(dept__4).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id135)@1, {accept}, {}, {  subject_user_id(employee__8__0).
+  subject_role(employee).
+  subject_projects(proj__8__1).
+  subject_tasks(task__8__0__5).
+  resource_resource_id(task__8__1__3).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__8__1).
+  resource_dept_id(dept__8).
+  resource_expertises(tech__area__1).
+  action_action_type(request).
+}).
+
+#pos(eg(id136)@1, {accept}, {}, {  subject_user_id(pjl1__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__1__0).
+  resource_resource_id(sc__1__0).
+  resource_type(schedule).
+  resource_project_id(proj__1__0).
+  resource_dept_id(dept__1).
+  action_action_type(read).
+}).
+
+#pos(eg(id137)@1, {accept}, {}, {  subject_user_id(manager__17).
+  subject_role(manager).
+  subject_dept_id(dept__17).
+  resource_resource_id(bg__17__3).
+  resource_type(budget).
+  resource_project_id(proj__17__3).
+  resource_dept_id(dept__17).
+  action_action_type(approve).
+}).
+
+#pos(eg(id138)@1, {accept}, {}, {  subject_user_id(employee__4__0).
+  subject_role(employee).
+  subject_projects(proj__4__1).
+  subject_tasks(task__4__1__3).
+  resource_resource_id(task__4__1__5).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__4__1).
+  resource_dept_id(dept__4).
+  resource_expertises(tech__area__0).
+  action_action_type(setstatus).
+}).
+
+#pos(eg(id139)@1, {accept}, {}, {  subject_user_id(pjl5__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__5__2).
+  resource_resource_id(bg__5__2).
+  resource_type(budget).
+  resource_project_id(proj__5__2).
+  resource_dept_id(dept__5).
+  action_action_type(read).
+}).
+
+#pos(eg(id140)@1, {accept}, {}, {  subject_user_id(planner__2).
+  subject_role(planner).
+  subject_projects(proj__2__1).
+  resource_resource_id(sc__2__1).
+  resource_type(schedule).
+  resource_project_id(proj__2__1).
+  resource_dept_id(dept__2).
+  action_action_type(read).
+}).
+
+#pos(eg(id141)@1, {accept}, {}, {  subject_user_id(pjl17__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__17__3).
+  resource_resource_id(bg__17__0).
+  resource_type(budget).
+  resource_project_id(proj__17__0).
+  resource_dept_id(dept__17).
+  action_action_type(write).
+}).
+
+#pos(eg(id142)@1, {accept}, {}, {  subject_user_id(employee__11__1).
+  subject_role(employee).
+  subject_projects(proj__11__2).
+  subject_tasks(task__11__3__5).
+  resource_resource_id(task__11__3__3).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__11__3).
+  resource_dept_id(dept__11).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id143)@1, {accept}, {}, {  subject_user_id(acct__12).
+  subject_role(accountant).
+  subject_projects(proj__12__0).
+  resource_resource_id(task__12__0__3).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__12__0).
+  resource_dept_id(dept__12).
+  resource_expertises(tech__area__0).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id144)@1, {accept}, {}, {  subject_user_id(pjl18__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__18__1).
+  resource_resource_id(bg__18__0).
+  resource_type(budget).
+  resource_project_id(proj__18__0).
+  resource_dept_id(dept__18).
+  action_action_type(write).
+}).
+
+#pos(eg(id145)@1, {accept}, {}, {  subject_user_id(planner__7).
+  subject_role(planner).
+  subject_projects(proj__7__3).
+  resource_resource_id(sc__7__3).
+  resource_type(schedule).
+  resource_project_id(proj__7__3).
+  resource_dept_id(dept__7).
+  action_action_type(write).
+}).
+
+#pos(eg(id146)@1, {accept}, {}, {  subject_user_id(employee__5__1).
+  subject_role(employee).
+  subject_projects(proj__5__3).
+  subject_tasks(task__5__0__1).
+  resource_resource_id(task__5__3__2).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__5__3).
+  resource_dept_id(dept__5).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id147)@1, {accept}, {}, {  subject_user_id(manager__6).
+  subject_role(manager).
+  subject_dept_id(dept__6).
+  resource_resource_id(bg__6__0).
+  resource_type(budget).
+  resource_project_id(proj__6__0).
+  resource_dept_id(dept__6).
+  action_action_type(read).
+}).
+
+#pos(eg(id148)@1, {accept}, {}, {  subject_user_id(acct__10).
+  subject_role(accountant).
+  subject_projects(proj__10__0).
+  resource_resource_id(task__10__0__0).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__10__0).
+  resource_dept_id(dept__10).
+  resource_expertises(tech__area__0).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id149)@1, {accept}, {}, {  subject_user_id(planner__10).
+  subject_role(planner).
+  subject_projects(proj__10__1).
+  resource_resource_id(task__10__1__1).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__10__1).
+  resource_dept_id(dept__10).
+  resource_expertises(tech__area__1).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id150)@1, {accept}, {}, {  subject_user_id(employee__13__1).
+  subject_role(employee).
+  subject_projects(proj__13__3).
+  subject_tasks(task__13__0__1).
+  resource_resource_id(task__13__0__1).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__13__0).
+  resource_dept_id(dept__13).
+  resource_expertises(tech__area__4).
+  action_action_type(setstatus).
+}).
+
+#pos(eg(id151)@1, {accept}, {}, {  subject_user_id(contractor__9__0).
+  subject_role(contractor).
+  subject_projects(proj__9__1).
+  subject_tasks(task__9__1__3).
+  action_action_type(request).
+}).
+
+#pos(eg(id152)@1, {accept}, {}, {  subject_user_id(acct__18).
+  subject_role(accountant).
+  subject_projects(proj__18__0).
+  resource_resource_id(task__18__0__4).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__18__0).
+  resource_dept_id(dept__18).
+  resource_expertises(tech__area__2).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id153)@1, {accept}, {}, {  subject_user_id(employee__14__0).
+  subject_role(employee).
+  subject_projects(proj__14__2).
+  subject_tasks(task__14__0__4).
+  action_action_type(read).
+}).
+
+#pos(eg(id154)@1, {accept}, {}, {  subject_user_id(planner__1).
+  subject_role(planner).
+  subject_projects(proj__1__0).
+  resource_resource_id(task__1__0__2).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__1__0).
+  resource_dept_id(dept__1).
+  resource_expertises(tech__area__3).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id155)@1, {accept}, {}, {  subject_user_id(contractor__18__0).
+  subject_role(contractor).
+  subject_projects(proj__18__0).
+  subject_tasks(task__18__0__5).
+  resource_resource_id(task__18__0__5).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__18__0).
+  resource_dept_id(dept__18).
+  resource_expertises(tech__area__2).
+  action_action_type(request).
+}).
+
+#pos(eg(id156)@1, {accept}, {}, {  subject_user_id(employee__2__0).
+  subject_role(employee).
+  subject_projects(proj__2__1).
+  subject_tasks(task__2__1__4).
+  resource_resource_id(task__2__0__5).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__2__0).
+  resource_dept_id(dept__2).
+  resource_expertises(tech__area__1).
+  action_action_type(request).
+}).
+
+#pos(eg(id157)@1, {accept}, {}, {  subject_user_id(pjl18__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__18__1).
+  resource_resource_id(bg__18__1).
+  resource_type(budget).
+  resource_project_id(proj__18__1).
+  resource_dept_id(dept__18).
+  action_action_type(read).
+}).
+
+#pos(eg(id158)@1, {accept}, {}, {  subject_user_id(pjl17__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__17__3).
+  resource_resource_id(bg__17__0).
+  resource_type(budget).
+  resource_project_id(proj__17__0).
+  resource_dept_id(dept__17).
+  action_action_type(read).
+}).
+
+#pos(eg(id159)@1, {accept}, {}, {  subject_user_id(employee__14__0).
+  subject_role(employee).
+  subject_projects(proj__14__2).
+  subject_tasks(task__14__0__4).
+  resource_resource_id(task__14__2__4).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__14__2).
+  resource_dept_id(dept__14).
+  resource_expertises(tech__area__0).
+  action_action_type(setstatus).
+}).
+
+#pos(eg(id160)@1, {accept}, {}, {  subject_user_id(pjl1__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__1__0).
+  resource_resource_id(sc__1__1).
+  resource_type(schedule).
+  resource_project_id(proj__1__1).
+  resource_dept_id(dept__1).
+  action_action_type(read).
+}).
+
+#pos(eg(id161)@1, {accept}, {}, {  subject_user_id(auditor__15).
+  subject_role(auditor).
+  subject_projects(proj__15__1).
+  resource_resource_id(bg__15__1).
+  resource_type(budget).
+  resource_project_id(proj__15__1).
+  resource_dept_id(dept__15).
+  action_action_type(read).
+}).
+
+#pos(eg(id162)@1, {accept}, {}, {  subject_user_id(manager__10).
+  subject_role(manager).
+  subject_dept_id(dept__10).
+  resource_resource_id(bg__10__1).
+  resource_type(budget).
+  resource_project_id(proj__10__1).
+  resource_dept_id(dept__10).
+  action_action_type(approve).
+}).
+
+#pos(eg(id163)@1, {accept}, {}, {  subject_user_id(manager__2).
+  subject_role(manager).
+  subject_dept_id(dept__2).
+  resource_resource_id(bg__2__1).
+  resource_type(budget).
+  resource_project_id(proj__2__1).
+  resource_dept_id(dept__2).
+  action_action_type(approve).
+}).
+
+#pos(eg(id164)@1, {accept}, {}, {  subject_user_id(employee__11__1).
+  subject_role(employee).
+  subject_projects(proj__11__2).
+  subject_tasks(task__11__3__5).
+  resource_resource_id(task__11__3__4).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__11__3).
+  resource_dept_id(dept__11).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id165)@1, {accept}, {}, {  subject_user_id(contractor__11__0).
+  subject_role(contractor).
+  subject_projects(proj__11__0).
+  subject_tasks(task__11__0__0).
+  resource_resource_id(task__11__0__0).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__11__0).
+  resource_dept_id(dept__11).
+  resource_expertises(tech__area__2).
+  action_action_type(setstatus).
+}).
+
+#pos(eg(id166)@1, {accept}, {}, {  subject_user_id(pjl4__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__4__1).
+  resource_resource_id(sc__4__1).
+  resource_type(schedule).
+  resource_project_id(proj__4__1).
+  resource_dept_id(dept__4).
+  action_action_type(write).
+}).
+
+#pos(eg(id167)@1, {accept}, {}, {  subject_user_id(employee__18__0).
+  subject_role(employee).
+  subject_projects(proj__18__1).
+  subject_tasks(task__18__0__3).
+  resource_resource_id(task__18__1__5).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__18__1).
+  resource_dept_id(dept__18).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id168)@1, {accept}, {}, {  subject_user_id(auditor__11).
+  subject_role(auditor).
+  subject_projects(proj__11__1).
+  resource_resource_id(sc__11__1).
+  resource_type(schedule).
+  resource_project_id(proj__11__1).
+  resource_dept_id(dept__11).
+  action_action_type(read).
+}).
+
+#pos(eg(id169)@1, {accept}, {}, {  subject_user_id(pjl5__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__5__3).
+  resource_resource_id(bg__5__3).
+  resource_type(budget).
+  resource_project_id(proj__5__3).
+  resource_dept_id(dept__5).
+  action_action_type(write).
+}).
+
+#pos(eg(id170)@1, {accept}, {}, {  subject_user_id(pjl6__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__6__0).
+  resource_resource_id(sc__6__0).
+  resource_type(schedule).
+  resource_project_id(proj__6__0).
+  resource_dept_id(dept__6).
+  action_action_type(read).
+}).
+
+#pos(eg(id171)@1, {accept}, {}, {  subject_user_id(pjl13__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__13__3).
+  resource_resource_id(bg__13__3).
+  resource_type(budget).
+  resource_project_id(proj__13__3).
+  resource_dept_id(dept__13).
+  action_action_type(read).
+}).
+
+#pos(eg(id172)@1, {accept}, {}, {  subject_user_id(contractor__0__0).
+  subject_role(contractor).
+  subject_projects(proj__0__1).
+  subject_tasks(task__0__1__5).
+  action_action_type(request).
+}).
+
+#pos(eg(id173)@1, {accept}, {}, {  subject_user_id(acct__18).
+  subject_role(accountant).
+  subject_projects(proj__18__0).
+  resource_resource_id(task__18__0__1).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__18__0).
+  resource_dept_id(dept__18).
+  resource_expertises(tech__area__3).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id174)@1, {accept}, {}, {  subject_user_id(employee__13__0).
+  subject_role(employee).
+  subject_projects(proj__13__3).
+  subject_tasks(task__13__2__1).
+  resource_resource_id(task__13__3__1).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__13__3).
+  resource_dept_id(dept__13).
+  resource_expertises(tech__area__0).
+  action_action_type(setstatus).
+}).
+
+#pos(eg(id175)@1, {accept}, {}, {  subject_user_id(employee__1__0).
+  subject_role(employee).
+  subject_projects(proj__1__0).
+  subject_tasks(task__1__0__3).
+  resource_resource_id(task__1__1__4).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__1__1).
+  resource_dept_id(dept__1).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id176)@1, {accept}, {}, {  subject_user_id(contractor__3__0).
+  subject_role(contractor).
+  subject_projects(proj__3__0).
+  subject_tasks(task__3__0__3).
+  resource_resource_id(task__3__0__3).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__3__0).
+  resource_dept_id(dept__3).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id177)@1, {accept}, {}, {  subject_user_id(manager__15).
+  subject_role(manager).
+  subject_dept_id(dept__15).
+  resource_resource_id(bg__15__0).
+  resource_type(budget).
+  resource_project_id(proj__15__0).
+  resource_dept_id(dept__15).
+  action_action_type(read).
+}).
+
+#pos(eg(id178)@1, {accept}, {}, {  subject_user_id(pjl15__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__15__1).
+  resource_resource_id(sc__15__1).
+  resource_type(schedule).
+  resource_project_id(proj__15__1).
+  resource_dept_id(dept__15).
+  action_action_type(write).
+}).
+
+#pos(eg(id179)@1, {accept}, {}, {  subject_user_id(employee__14__1).
+  subject_role(employee).
+  subject_projects(proj__14__0).
+  subject_tasks(task__14__0__3).
+  resource_resource_id(task__14__0__4).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__14__0).
+  resource_dept_id(dept__14).
+  resource_expertises(tech__area__1).
+  action_action_type(request).
+}).
+
+#pos(eg(id180)@1, {accept}, {}, {  subject_user_id(pjl14__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__14__1).
+  resource_resource_id(sc__14__0).
+  resource_type(schedule).
+  resource_project_id(proj__14__0).
+  resource_dept_id(dept__14).
+  action_action_type(write).
+}).
+
+#pos(eg(id181)@1, {accept}, {}, {  subject_user_id(employee__6__0).
+  subject_role(employee).
+  subject_projects(proj__6__1).
+  subject_tasks(task__6__0__5).
+  resource_resource_id(task__6__1__2).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__6__1).
+  resource_dept_id(dept__6).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id182)@1, {accept}, {}, {  subject_user_id(employee__7__1).
+  subject_role(employee).
+  subject_projects(proj__7__2).
+  subject_tasks(task__7__1__5).
+  resource_resource_id(task__7__1__2).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__7__1).
+  resource_dept_id(dept__7).
+  resource_expertises(tech__area__1).
+  action_action_type(read).
+}).
+
+#pos(eg(id183)@1, {accept}, {}, {  subject_user_id(employee__5__0).
+  subject_role(employee).
+  subject_projects(proj__5__3).
+  subject_tasks(task__5__1__5).
+  resource_resource_id(task__5__3__4).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__5__3).
+  resource_dept_id(dept__5).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id184)@1, {accept}, {}, {  subject_user_id(contractor__17__1).
+  subject_role(contractor).
+  subject_projects(proj__17__1).
+  subject_tasks(task__17__1__2).
+  resource_resource_id(task__17__1__2).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__17__1).
+  resource_dept_id(dept__17).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id185)@1, {accept}, {}, {  subject_user_id(contractor__19__0).
+  subject_role(contractor).
+  subject_projects(proj__19__0).
+  subject_tasks(task__19__0__5).
+  action_action_type(request).
+}).
+
+#pos(eg(id186)@1, {accept}, {}, {  subject_user_id(planner__7).
+  subject_role(planner).
+  subject_projects(proj__7__3).
+  resource_resource_id(task__7__3__3).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__7__3).
+  resource_dept_id(dept__7).
+  resource_expertises(tech__area__0).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id187)@1, {accept}, {}, {  subject_user_id(pjl2__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__2__1).
+  resource_resource_id(sc__2__0).
+  resource_type(schedule).
+  resource_project_id(proj__2__0).
+  resource_dept_id(dept__2).
+  action_action_type(read).
+}).
+
+#pos(eg(id188)@1, {accept}, {}, {  subject_user_id(planner__14).
+  subject_role(planner).
+  subject_projects(proj__14__1).
+  resource_resource_id(task__14__1__5).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__14__1).
+  resource_dept_id(dept__14).
+  resource_expertises(tech__area__1).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id189)@1, {accept}, {}, {  subject_user_id(acct__7).
+  subject_role(accountant).
+  subject_projects(proj__7__2).
+  resource_resource_id(task__7__2__1).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__7__2).
+  resource_dept_id(dept__7).
+  resource_expertises(tech__area__0).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id190)@1, {accept}, {}, {  subject_user_id(employee__17__1).
+  subject_role(employee).
+  subject_projects(proj__17__3).
+  subject_tasks(task__17__2__1).
+  resource_resource_id(task__17__2__5).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__17__2).
+  resource_dept_id(dept__17).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id191)@1, {accept}, {}, {  subject_user_id(acct__6).
+  subject_role(accountant).
+  subject_projects(proj__6__1).
+  resource_resource_id(task__6__1__4).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__6__1).
+  resource_dept_id(dept__6).
+  resource_expertises(tech__area__0).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id192)@1, {accept}, {}, {  subject_user_id(planner__16).
+  subject_role(planner).
+  subject_projects(proj__16__0).
+  resource_resource_id(task__16__0__5).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__16__0).
+  resource_dept_id(dept__16).
+  resource_expertises(tech__area__0).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id193)@1, {accept}, {}, {  subject_user_id(contractor__17__0).
+  subject_role(contractor).
+  subject_projects(proj__17__1).
+  subject_tasks(task__17__1__0).
+  resource_resource_id(task__17__1__0).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__17__1).
+  resource_dept_id(dept__17).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id194)@1, {accept}, {}, {  subject_user_id(contractor__11__1).
+  subject_role(contractor).
+  subject_projects(proj__11__2).
+  subject_tasks(task__11__2__5).
+  resource_resource_id(task__11__2__5).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__11__2).
+  resource_dept_id(dept__11).
+  resource_expertises(tech__area__4).
+  action_action_type(request).
+}).
+
+#pos(eg(id195)@1, {accept}, {}, {  subject_user_id(planner__13).
+  subject_role(planner).
+  subject_projects(proj__13__3).
+  resource_resource_id(sc__13__3).
+  resource_type(schedule).
+  resource_project_id(proj__13__3).
+  resource_dept_id(dept__13).
+  action_action_type(read).
+}).
+
+#pos(eg(id196)@1, {accept}, {}, {  subject_user_id(manager__19).
+  subject_role(manager).
+  subject_dept_id(dept__19).
+  resource_resource_id(bg__19__1).
+  resource_type(budget).
+  resource_project_id(proj__19__1).
+  resource_dept_id(dept__19).
+  action_action_type(approve).
+}).
+
+#pos(eg(id197)@1, {accept}, {}, {  subject_user_id(acct__4).
+  subject_role(accountant).
+  subject_projects(proj__4__1).
+  resource_resource_id(task__4__1__1).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__4__1).
+  resource_dept_id(dept__4).
+  resource_expertises(tech__area__0).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id198)@1, {accept}, {}, {  subject_user_id(pjl6__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__6__0).
+  resource_resource_id(sc__6__0).
+  resource_type(schedule).
+  resource_project_id(proj__6__0).
+  resource_dept_id(dept__6).
+  action_action_type(write).
+}).
+
+#pos(eg(id199)@1, {accept}, {}, {  subject_user_id(acct__17).
+  subject_role(accountant).
+  subject_projects(proj__17__1).
+  resource_resource_id(bg__17__1).
+  resource_type(budget).
+  resource_project_id(proj__17__1).
+  resource_dept_id(dept__17).
+  action_action_type(write).
+}).
+
+#pos(eg(id200)@1, {accept}, {}, {  subject_user_id(employee__6__0).
+  subject_role(employee).
+  subject_projects(proj__6__1).
+  subject_tasks(task__6__0__5).
+  resource_resource_id(task__6__1__0).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__6__1).
+  resource_dept_id(dept__6).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id201)@1, {accept}, {}, {  subject_user_id(auditor__19).
+  subject_role(auditor).
+  subject_projects(proj__19__0).
+  resource_resource_id(bg__19__0).
+  resource_type(budget).
+  resource_project_id(proj__19__0).
+  resource_dept_id(dept__19).
+  action_action_type(read).
+}).
+
+#pos(eg(id202)@1, {accept}, {}, {  subject_user_id(pjl16__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__16__1).
+  resource_resource_id(sc__16__0).
+  resource_type(schedule).
+  resource_project_id(proj__16__0).
+  resource_dept_id(dept__16).
+  action_action_type(write).
+}).
+
+#pos(eg(id203)@1, {accept}, {}, {  subject_user_id(manager__9).
+  subject_role(manager).
+  subject_dept_id(dept__9).
+  resource_resource_id(bg__9__1).
+  resource_type(budget).
+  resource_project_id(proj__9__1).
+  resource_dept_id(dept__9).
+  action_action_type(read).
+}).
+
+#pos(eg(id204)@1, {accept}, {}, {  subject_user_id(contractor__2__0).
+  subject_role(contractor).
+  subject_projects(proj__2__1).
+  subject_tasks(task__2__1__5).
+  action_action_type(read).
+}).
+
+#pos(eg(id205)@1, {accept}, {}, {  subject_user_id(acct__1).
+  subject_role(accountant).
+  subject_projects(proj__1__0).
+  resource_resource_id(task__1__0__3).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__1__0).
+  resource_dept_id(dept__1).
+  resource_expertises(tech__area__0).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id206)@1, {accept}, {}, {  subject_user_id(planner__11).
+  subject_role(planner).
+  subject_projects(proj__11__3).
+  resource_resource_id(task__11__3__0).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__11__3).
+  resource_dept_id(dept__11).
+  resource_expertises(tech__area__2).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id207)@1, {accept}, {}, {  subject_user_id(employee__18__0).
+  subject_role(employee).
+  subject_projects(proj__18__1).
+  subject_tasks(task__18__0__3).
+  resource_resource_id(task__18__1__3).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__18__1).
+  resource_dept_id(dept__18).
+  resource_expertises(tech__area__3).
+  action_action_type(request).
+}).
+
+#pos(eg(id208)@1, {accept}, {}, {  subject_user_id(employee__14__0).
+  subject_role(employee).
+  subject_projects(proj__14__2).
+  subject_tasks(task__14__0__4).
+  resource_resource_id(task__14__2__5).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__14__2).
+  resource_dept_id(dept__14).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id209)@1, {accept}, {}, {  subject_user_id(contractor__6__0).
+  subject_role(contractor).
+  subject_projects(proj__6__0).
+  subject_tasks(task__6__0__0).
+  resource_resource_id(task__6__0__5).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__6__0).
+  resource_dept_id(dept__6).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id210)@1, {accept}, {}, {  subject_user_id(planner__10).
+  subject_role(planner).
+  subject_projects(proj__10__1).
+  resource_resource_id(sc__10__1).
+  resource_type(schedule).
+  resource_project_id(proj__10__1).
+  resource_dept_id(dept__10).
+  action_action_type(read).
+}).
+
+#pos(eg(id211)@1, {accept}, {}, {  subject_user_id(planner__10).
+  subject_role(planner).
+  subject_projects(proj__10__1).
+  resource_resource_id(task__10__1__3).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__10__1).
+  resource_dept_id(dept__10).
+  resource_expertises(tech__area__0).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id212)@1, {accept}, {}, {  subject_user_id(pjl11__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__11__2).
+  resource_resource_id(bg__11__2).
+  resource_type(budget).
+  resource_project_id(proj__11__2).
+  resource_dept_id(dept__11).
+  action_action_type(write).
+}).
+
+#pos(eg(id213)@1, {accept}, {}, {  subject_user_id(contractor__13__1).
+  subject_role(contractor).
+  subject_projects(proj__13__2).
+  subject_tasks(task__13__2__3).
+  resource_resource_id(task__13__2__3).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__13__2).
+  resource_dept_id(dept__13).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id214)@1, {accept}, {}, {  subject_user_id(acct__15).
+  subject_role(accountant).
+  subject_projects(proj__15__1).
+  resource_resource_id(task__15__1__3).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__15__1).
+  resource_dept_id(dept__15).
+  resource_expertises(tech__area__4).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id215)@1, {accept}, {}, {  subject_user_id(contractor__18__0).
+  subject_role(contractor).
+  subject_projects(proj__18__0).
+  subject_tasks(task__18__0__5).
+  resource_resource_id(task__18__0__5).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__18__0).
+  resource_dept_id(dept__18).
+  resource_expertises(tech__area__2).
+  action_action_type(read).
+}).
+
+#pos(eg(id216)@1, {accept}, {}, {  subject_user_id(pjl10__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__10__1).
+  resource_resource_id(bg__10__1).
+  resource_type(budget).
+  resource_project_id(proj__10__1).
+  resource_dept_id(dept__10).
+  action_action_type(write).
+}).
+
+#pos(eg(id217)@1, {accept}, {}, {  subject_user_id(employee__7__0).
+  subject_role(employee).
+  subject_projects(proj__7__2).
+  subject_tasks(task__7__2__2).
+  resource_resource_id(task__7__1__4).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__7__1).
+  resource_dept_id(dept__7).
+  resource_expertises(tech__area__1).
+  action_action_type(read).
+}).
+
+#pos(eg(id218)@1, {accept}, {}, {  subject_user_id(employee__5__0).
+  subject_role(employee).
+  subject_projects(proj__5__3).
+  subject_tasks(task__5__1__5).
+  resource_resource_id(task__5__3__3).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__5__3).
+  resource_dept_id(dept__5).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id219)@1, {accept}, {}, {  subject_user_id(pjl1__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__1__0).
+  resource_resource_id(bg__1__0).
+  resource_type(budget).
+  resource_project_id(proj__1__0).
+  resource_dept_id(dept__1).
+  action_action_type(read).
+}).
+
+#pos(eg(id220)@1, {accept}, {}, {  subject_user_id(employee__1__0).
+  subject_role(employee).
+  subject_projects(proj__1__0).
+  subject_tasks(task__1__0__3).
+  resource_resource_id(task__1__1__2).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__1__1).
+  resource_dept_id(dept__1).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id221)@1, {accept}, {}, {  subject_user_id(contractor__5__1).
+  subject_role(contractor).
+  subject_projects(proj__5__0).
+  subject_tasks(task__5__0__2).
+  resource_resource_id(task__5__0__2).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__5__0).
+  resource_dept_id(dept__5).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id222)@1, {accept}, {}, {  subject_user_id(pjl5__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__5__3).
+  resource_resource_id(sc__5__0).
+  resource_type(schedule).
+  resource_project_id(proj__5__0).
+  resource_dept_id(dept__5).
+  action_action_type(read).
+}).
+
+#pos(eg(id223)@1, {accept}, {}, {  subject_user_id(pjl3__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__3__0).
+  resource_resource_id(bg__3__1).
+  resource_type(budget).
+  resource_project_id(proj__3__1).
+  resource_dept_id(dept__3).
+  action_action_type(read).
+}).
+
+#pos(eg(id224)@1, {accept}, {}, {  subject_user_id(employee__6__0).
+  subject_role(employee).
+  subject_projects(proj__6__1).
+  subject_tasks(task__6__0__5).
+  resource_resource_id(task__6__1__4).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__6__1).
+  resource_dept_id(dept__6).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id225)@1, {accept}, {}, {  subject_user_id(auditor__4).
+  subject_role(auditor).
+  subject_projects(proj__4__1).
+  resource_resource_id(sc__4__1).
+  resource_type(schedule).
+  resource_project_id(proj__4__1).
+  resource_dept_id(dept__4).
+  action_action_type(read).
+}).
+
+#pos(eg(id226)@1, {accept}, {}, {  subject_user_id(employee__9__0).
+  subject_role(employee).
+  subject_projects(proj__9__0).
+  subject_tasks(task__9__0__1).
+  resource_resource_id(task__9__0__1).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__9__0).
+  resource_dept_id(dept__9).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id227)@1, {accept}, {}, {  subject_user_id(planner__4).
+  subject_role(planner).
+  subject_projects(proj__4__0).
+  resource_resource_id(task__4__0__3).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__4__0).
+  resource_dept_id(dept__4).
+  resource_expertises(tech__area__0).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id228)@1, {accept}, {}, {  subject_user_id(pjl4__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__4__1).
+  resource_resource_id(bg__4__1).
+  resource_type(budget).
+  resource_project_id(proj__4__1).
+  resource_dept_id(dept__4).
+  action_action_type(write).
+}).
+
+#pos(eg(id229)@1, {accept}, {}, {  subject_user_id(employee__14__0).
+  subject_role(employee).
+  subject_projects(proj__14__2).
+  subject_tasks(task__14__0__4).
+  resource_resource_id(task__14__0__0).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__14__0).
+  resource_dept_id(dept__14).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id230)@1, {accept}, {}, {  subject_user_id(pjl3__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__3__0).
+  resource_resource_id(sc__3__1).
+  resource_type(schedule).
+  resource_project_id(proj__3__1).
+  resource_dept_id(dept__3).
+  action_action_type(read).
+}).
+
+#pos(eg(id231)@1, {accept}, {}, {  subject_user_id(pjl8__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__8__1).
+  resource_resource_id(sc__8__1).
+  resource_type(schedule).
+  resource_project_id(proj__8__1).
+  resource_dept_id(dept__8).
+  action_action_type(read).
+}).
+
+#pos(eg(id232)@1, {accept}, {}, {  subject_user_id(pjl7__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__7__2).
+  resource_resource_id(bg__7__0).
+  resource_type(budget).
+  resource_project_id(proj__7__0).
+  resource_dept_id(dept__7).
+  action_action_type(write).
+}).
+
+#pos(eg(id233)@1, {accept}, {}, {  subject_user_id(pjl1__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__1__0).
+  resource_resource_id(bg__1__1).
+  resource_type(budget).
+  resource_project_id(proj__1__1).
+  resource_dept_id(dept__1).
+  action_action_type(write).
+}).
+
+#pos(eg(id234)@1, {accept}, {}, {  subject_user_id(employee__11__0).
+  subject_role(employee).
+  subject_projects(proj__11__2).
+  subject_tasks(task__11__2__3).
+  resource_resource_id(task__11__2__0).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__11__2).
+  resource_dept_id(dept__11).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id235)@1, {accept}, {}, {  subject_user_id(acct__4).
+  subject_role(accountant).
+  subject_projects(proj__4__1).
+  resource_resource_id(task__4__1__3).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__4__1).
+  resource_dept_id(dept__4).
+  resource_expertises(tech__area__1).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id236)@1, {accept}, {}, {  subject_user_id(employee__7__1).
+  subject_role(employee).
+  subject_projects(proj__7__2).
+  subject_tasks(task__7__1__5).
+  resource_resource_id(task__7__1__5).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__7__1).
+  resource_dept_id(dept__7).
+  resource_expertises(tech__area__1).
+  action_action_type(request).
+}).
+
+#pos(eg(id237)@1, {accept}, {}, {  subject_user_id(employee__7__1).
+  subject_role(employee).
+  subject_projects(proj__7__2).
+  subject_tasks(task__7__1__5).
+  resource_resource_id(task__7__1__1).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__7__1).
+  resource_dept_id(dept__7).
+  resource_expertises(tech__area__1).
+  action_action_type(request).
+}).
+
+#pos(eg(id238)@1, {accept}, {}, {  subject_user_id(employee__5__1).
+  subject_role(employee).
+  subject_projects(proj__5__3).
+  subject_tasks(task__5__0__1).
+  resource_resource_id(task__5__0__2).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__5__0).
+  resource_dept_id(dept__5).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id239)@1, {accept}, {}, {  subject_user_id(pjl9__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__9__0).
+  resource_resource_id(bg__9__0).
+  resource_type(budget).
+  resource_project_id(proj__9__0).
+  resource_dept_id(dept__9).
+  action_action_type(write).
+}).
+
+#pos(eg(id240)@1, {accept}, {}, {  subject_user_id(pjl13__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__13__3).
+  resource_resource_id(bg__13__2).
+  resource_type(budget).
+  resource_project_id(proj__13__2).
+  resource_dept_id(dept__13).
+  action_action_type(read).
+}).
+
+#pos(eg(id241)@1, {accept}, {}, {  subject_user_id(acct__13).
+  subject_role(accountant).
+  subject_projects(proj__13__3).
+  resource_resource_id(task__13__3__2).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__13__3).
+  resource_dept_id(dept__13).
+  resource_expertises(tech__area__4).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id242)@1, {accept}, {}, {  subject_user_id(contractor__7__0).
+  subject_role(contractor).
+  subject_projects(proj__7__2).
+  subject_tasks(task__7__2__5).
+  resource_resource_id(task__7__2__2).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__7__2).
+  resource_dept_id(dept__7).
+  resource_expertises(tech__area__1).
+  action_action_type(request).
+}).
+
+#pos(eg(id243)@1, {accept}, {}, {  subject_user_id(planner__18).
+  subject_role(planner).
+  subject_projects(proj__18__0).
+  resource_resource_id(sc__18__0).
+  resource_type(schedule).
+  resource_project_id(proj__18__0).
+  resource_dept_id(dept__18).
+  action_action_type(write).
+}).
+
+#pos(eg(id244)@1, {accept}, {}, {  subject_user_id(employee__17__1).
+  subject_role(employee).
+  subject_projects(proj__17__3).
+  subject_tasks(task__17__2__1).
+  resource_resource_id(task__17__2__1).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__17__2).
+  resource_dept_id(dept__17).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id245)@1, {accept}, {}, {  subject_user_id(employee__13__0).
+  subject_role(employee).
+  subject_projects(proj__13__3).
+  subject_tasks(task__13__2__1).
+  resource_resource_id(task__13__2__1).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__13__2).
+  resource_dept_id(dept__13).
+  resource_expertises(tech__area__0).
+  action_action_type(setstatus).
+}).
+
+#pos(eg(id246)@1, {accept}, {}, {  subject_user_id(acct__16).
+  subject_role(accountant).
+  subject_projects(proj__16__0).
+  resource_resource_id(sc__16__0).
+  resource_type(schedule).
+  resource_project_id(proj__16__0).
+  resource_dept_id(dept__16).
+  action_action_type(read).
+}).
+
+#pos(eg(id247)@1, {accept}, {}, {  subject_user_id(acct__7).
+  subject_role(accountant).
+  subject_projects(proj__7__2).
+  resource_resource_id(task__7__2__3).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__7__2).
+  resource_dept_id(dept__7).
+  resource_expertises(tech__area__0).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id248)@1, {accept}, {}, {  subject_user_id(pjl9__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__9__0).
+  resource_resource_id(bg__9__0).
+  resource_type(budget).
+  resource_project_id(proj__9__0).
+  resource_dept_id(dept__9).
+  action_action_type(read).
+}).
+
+#pos(eg(id249)@1, {accept}, {}, {  subject_user_id(employee__17__1).
+  subject_role(employee).
+  subject_projects(proj__17__3).
+  subject_tasks(task__17__2__1).
+  resource_resource_id(task__17__3__5).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__17__3).
+  resource_dept_id(dept__17).
+  resource_expertises(tech__area__3).
+  action_action_type(request).
+}).
+
+#pos(eg(id250)@1, {accept}, {}, {  subject_user_id(acct__9).
+  subject_role(accountant).
+  subject_projects(proj__9__1).
+  resource_resource_id(task__9__1__2).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__9__1).
+  resource_dept_id(dept__9).
+  resource_expertises(tech__area__2).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id251)@1, {accept}, {}, {  subject_user_id(planner__3).
+  subject_role(planner).
+  subject_projects(proj__3__0).
+  resource_resource_id(task__3__0__3).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__3__0).
+  resource_dept_id(dept__3).
+  resource_expertises(tech__area__0).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id252)@1, {accept}, {}, {  subject_user_id(employee__14__0).
+  subject_role(employee).
+  subject_projects(proj__14__2).
+  subject_tasks(task__14__0__4).
+  resource_resource_id(task__14__2__3).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__14__2).
+  resource_dept_id(dept__14).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id253)@1, {accept}, {}, {  subject_user_id(acct__14).
+  subject_role(accountant).
+  subject_projects(proj__14__1).
+  resource_resource_id(bg__14__1).
+  resource_type(budget).
+  resource_project_id(proj__14__1).
+  resource_dept_id(dept__14).
+  action_action_type(read).
+}).
+
+#pos(eg(id254)@1, {accept}, {}, {  subject_user_id(acct__13).
+  subject_role(accountant).
+  subject_projects(proj__13__3).
+  resource_resource_id(sc__13__3).
+  resource_type(schedule).
+  resource_project_id(proj__13__3).
+  resource_dept_id(dept__13).
+  action_action_type(read).
+}).
+
+#pos(eg(id255)@1, {accept}, {}, {  subject_user_id(pjl4__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__4__0).
+  resource_resource_id(sc__4__0).
+  resource_type(schedule).
+  resource_project_id(proj__4__0).
+  resource_dept_id(dept__4).
+  action_action_type(write).
+}).
+
+#pos(eg(id256)@1, {accept}, {}, {  subject_user_id(pjl3__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__3__0).
+  resource_resource_id(sc__3__1).
+  resource_type(schedule).
+  resource_project_id(proj__3__1).
+  resource_dept_id(dept__3).
+  action_action_type(write).
+}).
+
+#pos(eg(id257)@1, {accept}, {}, {  subject_user_id(acct__9).
+  subject_role(accountant).
+  subject_projects(proj__9__1).
+  resource_resource_id(task__9__1__4).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__9__1).
+  resource_dept_id(dept__9).
+  resource_expertises(tech__area__0).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id258)@1, {accept}, {}, {  subject_user_id(contractor__17__1).
+  subject_role(contractor).
+  subject_projects(proj__17__1).
+  subject_tasks(task__17__1__2).
+  resource_resource_id(task__17__1__1).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__17__1).
+  resource_dept_id(dept__17).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id259)@1, {accept}, {}, {  subject_user_id(pjl9__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__9__0).
+  resource_resource_id(sc__9__0).
+  resource_type(schedule).
+  resource_project_id(proj__9__0).
+  resource_dept_id(dept__9).
+  action_action_type(read).
+}).
+
+#pos(eg(id260)@1, {accept}, {}, {  subject_user_id(employee__13__0).
+  subject_role(employee).
+  subject_projects(proj__13__3).
+  subject_tasks(task__13__2__1).
+  resource_resource_id(task__13__2__3).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__13__2).
+  resource_dept_id(dept__13).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id261)@1, {accept}, {}, {  subject_user_id(employee__5__1).
+  subject_role(employee).
+  subject_projects(proj__5__3).
+  subject_tasks(task__5__0__1).
+  resource_resource_id(task__5__0__0).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__5__0).
+  resource_dept_id(dept__5).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id262)@1, {accept}, {}, {  subject_user_id(contractor__1__0).
+  subject_role(contractor).
+  subject_projects(proj__1__1).
+  subject_tasks(task__1__1__4).
+  resource_resource_id(task__1__1__0).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__1__1).
+  resource_dept_id(dept__1).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id263)@1, {accept}, {}, {  subject_user_id(employee__4__0).
+  subject_role(employee).
+  subject_projects(proj__4__1).
+  subject_tasks(task__4__1__3).
+  resource_resource_id(task__4__1__5).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__4__1).
+  resource_dept_id(dept__4).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id264)@1, {accept}, {}, {  subject_user_id(manager__5).
+  subject_role(manager).
+  subject_dept_id(dept__5).
+  resource_resource_id(bg__5__2).
+  resource_type(budget).
+  resource_project_id(proj__5__2).
+  resource_dept_id(dept__5).
+  action_action_type(approve).
+}).
+
+#pos(eg(id265)@1, {accept}, {}, {  subject_user_id(employee__18__0).
+  subject_role(employee).
+  subject_projects(proj__18__1).
+  subject_tasks(task__18__0__3).
+  resource_resource_id(task__18__0__2).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__18__0).
+  resource_dept_id(dept__18).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id266)@1, {accept}, {}, {  subject_user_id(employee__15__0).
+  subject_role(employee).
+  subject_projects(proj__15__1).
+  subject_tasks(task__15__1__1).
+  resource_resource_id(task__15__1__0).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__15__1).
+  resource_dept_id(dept__15).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id267)@1, {accept}, {}, {  subject_user_id(contractor__8__0).
+  subject_role(contractor).
+  subject_projects(proj__8__1).
+  subject_tasks(task__8__1__5).
+  resource_resource_id(task__8__1__2).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__8__1).
+  resource_dept_id(dept__8).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id268)@1, {accept}, {}, {  subject_user_id(employee__3__0).
+  subject_role(employee).
+  subject_projects(proj__3__0).
+  subject_tasks(task__3__0__3).
+  resource_resource_id(task__3__0__5).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__3__0).
+  resource_dept_id(dept__3).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id269)@1, {accept}, {}, {  subject_user_id(planner__12).
+  subject_role(planner).
+  subject_projects(proj__12__0).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id270)@1, {accept}, {}, {  subject_user_id(planner__11).
+  subject_role(planner).
+  subject_projects(proj__11__3).
+  resource_resource_id(task__11__3__1).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__11__3).
+  resource_dept_id(dept__11).
+  resource_expertises(tech__area__2).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id271)@1, {accept}, {}, {  subject_user_id(pjl12__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__12__1).
+  resource_resource_id(bg__12__0).
+  resource_type(budget).
+  resource_project_id(proj__12__0).
+  resource_dept_id(dept__12).
+  action_action_type(write).
+}).
+
+#pos(eg(id272)@1, {accept}, {}, {  subject_user_id(contractor__8__0).
+  subject_role(contractor).
+  subject_projects(proj__8__1).
+  subject_tasks(task__8__1__5).
+  action_action_type(request).
+}).
+
+#pos(eg(id273)@1, {accept}, {}, {  subject_user_id(acct__1).
+  subject_role(accountant).
+  subject_projects(proj__1__0).
+  resource_resource_id(sc__1__0).
+  resource_type(schedule).
+  resource_project_id(proj__1__0).
+  resource_dept_id(dept__1).
+  action_action_type(read).
+}).
+
+#pos(eg(id274)@1, {accept}, {}, {  subject_user_id(employee__13__0).
+  subject_role(employee).
+  subject_projects(proj__13__3).
+  subject_tasks(task__13__2__1).
+  resource_resource_id(task__13__2__1).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__13__2).
+  resource_dept_id(dept__13).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id275)@1, {accept}, {}, {  subject_user_id(manager__8).
+  subject_role(manager).
+  subject_dept_id(dept__8).
+  resource_resource_id(bg__8__1).
+  resource_type(budget).
+  resource_project_id(proj__8__1).
+  resource_dept_id(dept__8).
+  action_action_type(approve).
+}).
+
+#pos(eg(id276)@1, {accept}, {}, {  subject_user_id(employee__13__1).
+  subject_role(employee).
+  subject_projects(proj__13__3).
+  subject_tasks(task__13__0__1).
+  resource_resource_id(task__13__3__2).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__13__3).
+  resource_dept_id(dept__13).
+  resource_expertises(tech__area__4).
+  action_action_type(request).
+}).
+
+#pos(eg(id277)@1, {accept}, {}, {  subject_user_id(contractor__15__0).
+  subject_role(contractor).
+  subject_projects(proj__15__0).
+  subject_tasks(task__15__0__1).
+  action_action_type(request).
+}).
+
+#pos(eg(id278)@1, {accept}, {}, {  subject_user_id(manager__11).
+  subject_role(manager).
+  subject_dept_id(dept__11).
+  resource_resource_id(bg__11__3).
+  resource_type(budget).
+  resource_project_id(proj__11__3).
+  resource_dept_id(dept__11).
+  action_action_type(approve).
+}).
+
+#pos(eg(id279)@1, {accept}, {}, {  subject_user_id(contractor__10__0).
+  subject_role(contractor).
+  subject_projects(proj__10__0).
+  subject_tasks(task__10__0__1).
+  resource_resource_id(task__10__0__1).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__10__0).
+  resource_dept_id(dept__10).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id280)@1, {accept}, {}, {  subject_user_id(acct__16).
+  subject_role(accountant).
+  subject_projects(proj__16__0).
+  resource_resource_id(task__16__0__0).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__16__0).
+  resource_dept_id(dept__16).
+  resource_expertises(tech__area__3).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id281)@1, {accept}, {}, {  subject_user_id(employee__6__0).
+  subject_role(employee).
+  subject_projects(proj__6__1).
+  subject_tasks(task__6__0__5).
+  action_action_type(request).
+}).
+
+#pos(eg(id282)@1, {accept}, {}, {  subject_user_id(pjl6__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__6__1).
+  resource_resource_id(bg__6__1).
+  resource_type(budget).
+  resource_project_id(proj__6__1).
+  resource_dept_id(dept__6).
+  action_action_type(read).
+}).
+
+#pos(eg(id283)@1, {accept}, {}, {  subject_user_id(manager__11).
+  subject_role(manager).
+  subject_dept_id(dept__11).
+  resource_resource_id(bg__11__0).
+  resource_type(budget).
+  resource_project_id(proj__11__0).
+  resource_dept_id(dept__11).
+  action_action_type(read).
+}).
+
+#pos(eg(id284)@1, {accept}, {}, {  subject_user_id(manager__15).
+  subject_role(manager).
+  subject_dept_id(dept__15).
+  resource_resource_id(bg__15__1).
+  resource_type(budget).
+  resource_project_id(proj__15__1).
+  resource_dept_id(dept__15).
+  action_action_type(read).
+}).
+
+#pos(eg(id285)@1, {accept}, {}, {  subject_user_id(acct__3).
+  subject_role(accountant).
+  subject_projects(proj__3__0).
+  resource_resource_id(bg__3__0).
+  resource_type(budget).
+  resource_project_id(proj__3__0).
+  resource_dept_id(dept__3).
+  action_action_type(read).
+}).
+
+#pos(eg(id286)@1, {accept}, {}, {  subject_user_id(acct__10).
+  subject_role(accountant).
+  subject_projects(proj__10__0).
+  resource_resource_id(task__10__0__1).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__10__0).
+  resource_dept_id(dept__10).
+  resource_expertises(tech__area__0).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id287)@1, {accept}, {}, {  subject_user_id(planner__17).
+  subject_role(planner).
+  subject_projects(proj__17__3).
+  resource_resource_id(task__17__3__2).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__17__3).
+  resource_dept_id(dept__17).
+  resource_expertises(tech__area__0).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id288)@1, {accept}, {}, {  subject_user_id(employee__14__0).
+  subject_role(employee).
+  subject_projects(proj__14__2).
+  subject_tasks(task__14__0__4).
+  resource_resource_id(task__14__0__5).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__14__0).
+  resource_dept_id(dept__14).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id289)@1, {accept}, {}, {  subject_user_id(planner__8).
+  subject_role(planner).
+  subject_projects(proj__8__1).
+  resource_resource_id(task__8__1__0).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__8__1).
+  resource_dept_id(dept__8).
+  resource_expertises(tech__area__0).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id290)@1, {accept}, {}, {  subject_user_id(contractor__9__0).
+  subject_role(contractor).
+  subject_projects(proj__9__1).
+  subject_tasks(task__9__1__3).
+  resource_resource_id(task__9__1__3).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__9__1).
+  resource_dept_id(dept__9).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id291)@1, {accept}, {}, {  subject_user_id(employee__11__1).
+  subject_role(employee).
+  subject_projects(proj__11__2).
+  subject_tasks(task__11__3__5).
+  resource_resource_id(task__11__2__1).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__11__2).
+  resource_dept_id(dept__11).
+  resource_expertises(tech__area__1).
+  action_action_type(request).
+}).
+
+#pos(eg(id292)@1, {accept}, {}, {  subject_user_id(employee__9__0).
+  subject_role(employee).
+  subject_projects(proj__9__0).
+  subject_tasks(task__9__0__1).
+  resource_resource_id(task__9__0__4).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__9__0).
+  resource_dept_id(dept__9).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id293)@1, {accept}, {}, {  subject_user_id(pjl14__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__14__1).
+  resource_resource_id(bg__14__1).
+  resource_type(budget).
+  resource_project_id(proj__14__1).
+  resource_dept_id(dept__14).
+  action_action_type(read).
+}).
+
+#pos(eg(id294)@1, {accept}, {}, {  subject_user_id(acct__6).
+  subject_role(accountant).
+  subject_projects(proj__6__1).
+  resource_resource_id(sc__6__1).
+  resource_type(schedule).
+  resource_project_id(proj__6__1).
+  resource_dept_id(dept__6).
+  action_action_type(read).
+}).
+
+#pos(eg(id295)@1, {accept}, {}, {  subject_user_id(pjl0__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__0__1).
+  resource_resource_id(bg__0__0).
+  resource_type(budget).
+  resource_project_id(proj__0__0).
+  resource_dept_id(dept__0).
+  action_action_type(write).
+}).
+
+#pos(eg(id296)@1, {accept}, {}, {  subject_user_id(employee__17__0).
+  subject_role(employee).
+  subject_projects(proj__17__3).
+  subject_tasks(task__17__3__3).
+  resource_resource_id(task__17__3__0).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__17__3).
+  resource_dept_id(dept__17).
+  resource_expertises(tech__area__1).
+  action_action_type(read).
+}).
+
+#pos(eg(id297)@1, {accept}, {}, {  subject_user_id(employee__3__0).
+  subject_role(employee).
+  subject_projects(proj__3__0).
+  subject_tasks(task__3__0__3).
+  resource_resource_id(task__3__1__4).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__3__1).
+  resource_dept_id(dept__3).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id298)@1, {accept}, {}, {  subject_user_id(planner__0).
+  subject_role(planner).
+  subject_projects(proj__0__0).
+  resource_resource_id(sc__0__0).
+  resource_type(schedule).
+  resource_project_id(proj__0__0).
+  resource_dept_id(dept__0).
+  action_action_type(write).
+}).
+
+#pos(eg(id299)@1, {accept}, {}, {  subject_user_id(pjl5__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__5__2).
+  resource_resource_id(bg__5__1).
+  resource_type(budget).
+  resource_project_id(proj__5__1).
+  resource_dept_id(dept__5).
+  action_action_type(read).
+}).
+
+#pos(eg(id300)@1, {accept}, {}, {  subject_user_id(employee__5__1).
+  subject_role(employee).
+  subject_projects(proj__5__3).
+  subject_tasks(task__5__0__1).
+  resource_resource_id(task__5__3__0).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__5__3).
+  resource_dept_id(dept__5).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id301)@1, {accept}, {}, {  subject_user_id(pjl7__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__7__3).
+  resource_resource_id(bg__7__1).
+  resource_type(budget).
+  resource_project_id(proj__7__1).
+  resource_dept_id(dept__7).
+  action_action_type(read).
+}).
+
+#pos(eg(id302)@1, {accept}, {}, {  subject_user_id(pjl5__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__5__2).
+  resource_resource_id(sc__5__2).
+  resource_type(schedule).
+  resource_project_id(proj__5__2).
+  resource_dept_id(dept__5).
+  action_action_type(read).
+}).
+
+#pos(eg(id303)@1, {accept}, {}, {  subject_user_id(employee__8__0).
+  subject_role(employee).
+  subject_projects(proj__8__1).
+  subject_tasks(task__8__0__5).
+  resource_resource_id(task__8__0__5).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__8__0).
+  resource_dept_id(dept__8).
+  resource_expertises(tech__area__4).
+  action_action_type(request).
+}).
+
+#pos(eg(id304)@1, {accept}, {}, {  subject_user_id(planner__3).
+  subject_role(planner).
+  subject_projects(proj__3__0).
+  resource_resource_id(task__3__0__1).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__3__0).
+  resource_dept_id(dept__3).
+  resource_expertises(tech__area__0).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id305)@1, {accept}, {}, {  subject_user_id(employee__15__0).
+  subject_role(employee).
+  subject_projects(proj__15__1).
+  subject_tasks(task__15__1__1).
+  resource_resource_id(task__15__1__0).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__15__1).
+  resource_dept_id(dept__15).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id306)@1, {accept}, {}, {  subject_user_id(employee__12__0).
+  subject_role(employee).
+  subject_projects(proj__12__1).
+  subject_tasks(task__12__0__3).
+  resource_resource_id(task__12__1__5).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__12__1).
+  resource_dept_id(dept__12).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id307)@1, {accept}, {}, {  subject_user_id(employee__1__0).
+  subject_role(employee).
+  subject_projects(proj__1__0).
+  subject_tasks(task__1__0__3).
+  resource_resource_id(task__1__0__1).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__1__0).
+  resource_dept_id(dept__1).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id308)@1, {accept}, {}, {  subject_user_id(planner__17).
+  subject_role(planner).
+  subject_projects(proj__17__3).
+  resource_resource_id(task__17__3__4).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__17__3).
+  resource_dept_id(dept__17).
+  resource_expertises(tech__area__0).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id309)@1, {accept}, {}, {  subject_user_id(acct__9).
+  subject_role(accountant).
+  subject_projects(proj__9__1).
+  resource_resource_id(task__9__1__0).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__9__1).
+  resource_dept_id(dept__9).
+  resource_expertises(tech__area__0).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id310)@1, {accept}, {}, {  subject_user_id(acct__19).
+  subject_role(accountant).
+  subject_projects(proj__19__0).
+  resource_resource_id(task__19__0__1).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__19__0).
+  resource_dept_id(dept__19).
+  resource_expertises(tech__area__1).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id311)@1, {accept}, {}, {  subject_user_id(planner__18).
+  subject_role(planner).
+  subject_projects(proj__18__0).
+  resource_resource_id(task__18__0__0).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__18__0).
+  resource_dept_id(dept__18).
+  resource_expertises(tech__area__2).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id312)@1, {accept}, {}, {  subject_user_id(acct__13).
+  subject_role(accountant).
+  subject_projects(proj__13__3).
+  resource_resource_id(task__13__3__4).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__13__3).
+  resource_dept_id(dept__13).
+  resource_expertises(tech__area__0).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id313)@1, {accept}, {}, {  subject_user_id(contractor__17__0).
+  subject_role(contractor).
+  subject_projects(proj__17__1).
+  subject_tasks(task__17__1__0).
+  resource_resource_id(task__17__1__1).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__17__1).
+  resource_dept_id(dept__17).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id314)@1, {accept}, {}, {  subject_user_id(contractor__13__0).
+  subject_role(contractor).
+  subject_projects(proj__13__0).
+  subject_tasks(task__13__0__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id315)@1, {accept}, {}, {  subject_user_id(planner__16).
+  subject_role(planner).
+  subject_projects(proj__16__0).
+  resource_resource_id(task__16__0__0).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__16__0).
+  resource_dept_id(dept__16).
+  resource_expertises(tech__area__3).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id316)@1, {accept}, {}, {  subject_user_id(pjl12__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__12__1).
+  resource_resource_id(sc__12__0).
+  resource_type(schedule).
+  resource_project_id(proj__12__0).
+  resource_dept_id(dept__12).
+  action_action_type(read).
+}).
+
+#pos(eg(id317)@1, {accept}, {}, {  subject_user_id(contractor__2__0).
+  subject_role(contractor).
+  subject_projects(proj__2__1).
+  subject_tasks(task__2__1__5).
+  resource_resource_id(task__2__1__5).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__2__1).
+  resource_dept_id(dept__2).
+  resource_expertises(tech__area__4).
+  action_action_type(setstatus).
+}).
+
+#pos(eg(id318)@1, {accept}, {}, {  subject_user_id(acct__7).
+  subject_role(accountant).
+  subject_projects(proj__7__2).
+  resource_resource_id(bg__7__2).
+  resource_type(budget).
+  resource_project_id(proj__7__2).
+  resource_dept_id(dept__7).
+  action_action_type(write).
+}).
+
+#pos(eg(id319)@1, {accept}, {}, {  subject_user_id(contractor__18__0).
+  subject_role(contractor).
+  subject_projects(proj__18__0).
+  subject_tasks(task__18__0__5).
+  action_action_type(request).
+}).
+
+#pos(eg(id320)@1, {accept}, {}, {  subject_user_id(contractor__19__0).
+  subject_role(contractor).
+  subject_projects(proj__19__0).
+  subject_tasks(task__19__0__5).
+  action_action_type(read).
+}).
+
+#pos(eg(id321)@1, {accept}, {}, {  subject_user_id(contractor__8__0).
+  subject_role(contractor).
+  subject_projects(proj__8__1).
+  subject_tasks(task__8__1__5).
+  resource_resource_id(task__8__1__2).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__8__1).
+  resource_dept_id(dept__8).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id322)@1, {accept}, {}, {  subject_user_id(acct__8).
+  subject_role(accountant).
+  subject_projects(proj__8__0).
+  resource_resource_id(task__8__0__5).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__8__0).
+  resource_dept_id(dept__8).
+  resource_expertises(tech__area__4).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id323)@1, {accept}, {}, {  subject_user_id(auditor__14).
+  subject_role(auditor).
+  subject_projects(proj__14__3).
+  resource_resource_id(sc__14__3).
+  resource_type(schedule).
+  resource_project_id(proj__14__3).
+  resource_dept_id(dept__14).
+  action_action_type(read).
+}).
+
+#pos(eg(id324)@1, {accept}, {}, {  subject_user_id(employee__11__1).
+  subject_role(employee).
+  subject_projects(proj__11__2).
+  subject_tasks(task__11__3__5).
+  resource_resource_id(task__11__3__2).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__11__3).
+  resource_dept_id(dept__11).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id325)@1, {accept}, {}, {  subject_user_id(acct__5).
+  subject_role(accountant).
+  subject_projects(proj__5__2).
+  resource_resource_id(bg__5__2).
+  resource_type(budget).
+  resource_project_id(proj__5__2).
+  resource_dept_id(dept__5).
+  action_action_type(write).
+}).
+
+#pos(eg(id326)@1, {accept}, {}, {  subject_user_id(employee__2__0).
+  subject_role(employee).
+  subject_projects(proj__2__1).
+  subject_tasks(task__2__1__4).
+  resource_resource_id(task__2__1__0).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__2__1).
+  resource_dept_id(dept__2).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id327)@1, {accept}, {}, {  subject_user_id(pjl17__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__17__1).
+  resource_resource_id(sc__17__1).
+  resource_type(schedule).
+  resource_project_id(proj__17__1).
+  resource_dept_id(dept__17).
+  action_action_type(write).
+}).
+
+#pos(eg(id328)@1, {accept}, {}, {  subject_user_id(acct__6).
+  subject_role(accountant).
+  subject_projects(proj__6__1).
+  resource_resource_id(task__6__1__5).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__6__1).
+  resource_dept_id(dept__6).
+  resource_expertises(tech__area__0).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id329)@1, {accept}, {}, {  subject_user_id(employee__12__0).
+  subject_role(employee).
+  subject_projects(proj__12__1).
+  subject_tasks(task__12__0__3).
+  resource_resource_id(task__12__1__3).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__12__1).
+  resource_dept_id(dept__12).
+  resource_expertises(tech__area__0).
+  action_action_type(setstatus).
+}).
+
+#pos(eg(id330)@1, {accept}, {}, {  subject_user_id(manager__10).
+  subject_role(manager).
+  subject_dept_id(dept__10).
+  resource_resource_id(bg__10__0).
+  resource_type(budget).
+  resource_project_id(proj__10__0).
+  resource_dept_id(dept__10).
+  action_action_type(read).
+}).
+
+#pos(eg(id331)@1, {accept}, {}, {  subject_user_id(manager__12).
+  subject_role(manager).
+  subject_dept_id(dept__12).
+  resource_resource_id(bg__12__1).
+  resource_type(budget).
+  resource_project_id(proj__12__1).
+  resource_dept_id(dept__12).
+  action_action_type(approve).
+}).
+
+#pos(eg(id332)@1, {accept}, {}, {  subject_user_id(pjl16__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__16__1).
+  resource_resource_id(sc__16__1).
+  resource_type(schedule).
+  resource_project_id(proj__16__1).
+  resource_dept_id(dept__16).
+  action_action_type(read).
+}).
+
+#pos(eg(id333)@1, {accept}, {}, {  subject_user_id(employee__7__0).
+  subject_role(employee).
+  subject_projects(proj__7__2).
+  subject_tasks(task__7__2__2).
+  action_action_type(request).
+}).
+
+#pos(eg(id334)@1, {accept}, {}, {  subject_user_id(acct__13).
+  subject_role(accountant).
+  subject_projects(proj__13__3).
+  resource_resource_id(task__13__3__1).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__13__3).
+  resource_dept_id(dept__13).
+  resource_expertises(tech__area__0).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id335)@1, {accept}, {}, {  subject_user_id(employee__6__0).
+  subject_role(employee).
+  subject_projects(proj__6__1).
+  subject_tasks(task__6__0__5).
+  resource_resource_id(task__6__0__4).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__6__0).
+  resource_dept_id(dept__6).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id336)@1, {accept}, {}, {  subject_user_id(pjl0__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__0__1).
+  resource_resource_id(sc__0__1).
+  resource_type(schedule).
+  resource_project_id(proj__0__1).
+  resource_dept_id(dept__0).
+  action_action_type(write).
+}).
+
+#pos(eg(id337)@1, {accept}, {}, {  subject_user_id(auditor__12).
+  subject_role(auditor).
+  subject_projects(proj__12__0).
+  resource_resource_id(sc__12__0).
+  resource_type(schedule).
+  resource_project_id(proj__12__0).
+  resource_dept_id(dept__12).
+  action_action_type(read).
+}).
+
+#pos(eg(id338)@1, {accept}, {}, {  subject_user_id(manager__11).
+  subject_role(manager).
+  subject_dept_id(dept__11).
+  resource_resource_id(bg__11__2).
+  resource_type(budget).
+  resource_project_id(proj__11__2).
+  resource_dept_id(dept__11).
+  action_action_type(read).
+}).
+
+#pos(eg(id339)@1, {accept}, {}, {  subject_user_id(employee__6__0).
+  subject_role(employee).
+  subject_projects(proj__6__1).
+  subject_tasks(task__6__0__5).
+  action_action_type(read).
+}).
+
+#pos(eg(id340)@1, {accept}, {}, {  subject_user_id(employee__17__1).
+  subject_role(employee).
+  subject_projects(proj__17__3).
+  subject_tasks(task__17__2__1).
+  resource_resource_id(task__17__3__5).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__17__3).
+  resource_dept_id(dept__17).
+  resource_expertises(tech__area__3).
+  action_action_type(setstatus).
+}).
+
+#pos(eg(id341)@1, {accept}, {}, {  subject_user_id(employee__3__0).
+  subject_role(employee).
+  subject_projects(proj__3__0).
+  subject_tasks(task__3__0__3).
+  resource_resource_id(task__3__0__0).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__3__0).
+  resource_dept_id(dept__3).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id342)@1, {accept}, {}, {  subject_user_id(acct__10).
+  subject_role(accountant).
+  subject_projects(proj__10__0).
+  resource_resource_id(task__10__0__2).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__10__0).
+  resource_dept_id(dept__10).
+  resource_expertises(tech__area__0).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id343)@1, {accept}, {}, {  subject_user_id(employee__5__0).
+  subject_role(employee).
+  subject_projects(proj__5__3).
+  subject_tasks(task__5__1__5).
+  resource_resource_id(task__5__3__2).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__5__3).
+  resource_dept_id(dept__5).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id344)@1, {accept}, {}, {  subject_user_id(contractor__8__0).
+  subject_role(contractor).
+  subject_projects(proj__8__1).
+  subject_tasks(task__8__1__5).
+  resource_resource_id(task__8__1__5).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__8__1).
+  resource_dept_id(dept__8).
+  resource_expertises(tech__area__0).
+  action_action_type(setstatus).
+}).
+
+#pos(eg(id345)@1, {accept}, {}, {  subject_user_id(planner__4).
+  subject_role(planner).
+  subject_projects(proj__4__0).
+  resource_resource_id(task__4__0__2).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__4__0).
+  resource_dept_id(dept__4).
+  resource_expertises(tech__area__2).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id346)@1, {accept}, {}, {  subject_user_id(pjl18__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__18__1).
+  resource_resource_id(sc__18__1).
+  resource_type(schedule).
+  resource_project_id(proj__18__1).
+  resource_dept_id(dept__18).
+  action_action_type(write).
+}).
+
+#pos(eg(id347)@1, {accept}, {}, {  subject_user_id(employee__8__0).
+  subject_role(employee).
+  subject_projects(proj__8__1).
+  subject_tasks(task__8__0__5).
+  resource_resource_id(task__8__0__5).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__8__0).
+  resource_dept_id(dept__8).
+  resource_expertises(tech__area__4).
+  action_action_type(read).
+}).
+
+#pos(eg(id348)@1, {accept}, {}, {  subject_user_id(employee__14__0).
+  subject_role(employee).
+  subject_projects(proj__14__2).
+  subject_tasks(task__14__0__4).
+  action_action_type(read).
+}).
+
+#pos(eg(id349)@1, {accept}, {}, {  subject_user_id(contractor__7__1).
+  subject_role(contractor).
+  subject_projects(proj__7__2).
+  subject_tasks(task__7__2__4).
+  action_action_type(request).
+}).
+
+#pos(eg(id350)@1, {accept}, {}, {  subject_user_id(planner__6).
+  subject_role(planner).
+  subject_projects(proj__6__1).
+  resource_resource_id(task__6__1__0).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__6__1).
+  resource_dept_id(dept__6).
+  resource_expertises(tech__area__0).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id351)@1, {accept}, {}, {  subject_user_id(employee__9__0).
+  subject_role(employee).
+  subject_projects(proj__9__0).
+  subject_tasks(task__9__0__1).
+  resource_resource_id(task__9__0__4).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__9__0).
+  resource_dept_id(dept__9).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id352)@1, {accept}, {}, {  subject_user_id(employee__9__0).
+  subject_role(employee).
+  subject_projects(proj__9__0).
+  subject_tasks(task__9__0__1).
+  resource_resource_id(task__9__0__2).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__9__0).
+  resource_dept_id(dept__9).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id353)@1, {accept}, {}, {  subject_user_id(pjl3__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__3__0).
+  resource_resource_id(bg__3__0).
+  resource_type(budget).
+  resource_project_id(proj__3__0).
+  resource_dept_id(dept__3).
+  action_action_type(read).
+}).
+
+#pos(eg(id354)@1, {accept}, {}, {  subject_user_id(acct__4).
+  subject_role(accountant).
+  subject_projects(proj__4__1).
+  resource_resource_id(task__4__1__2).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__4__1).
+  resource_dept_id(dept__4).
+  resource_expertises(tech__area__2).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id355)@1, {accept}, {}, {  subject_user_id(pjl7__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__7__2).
+  resource_resource_id(bg__7__2).
+  resource_type(budget).
+  resource_project_id(proj__7__2).
+  resource_dept_id(dept__7).
+  action_action_type(write).
+}).
+
+#pos(eg(id356)@1, {accept}, {}, {  subject_user_id(pjl18__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__18__1).
+  resource_resource_id(sc__18__1).
+  resource_type(schedule).
+  resource_project_id(proj__18__1).
+  resource_dept_id(dept__18).
+  action_action_type(read).
+}).
+
+#pos(eg(id357)@1, {accept}, {}, {  subject_user_id(contractor__5__0).
+  subject_role(contractor).
+  subject_projects(proj__5__0).
+  subject_tasks(task__5__0__3).
+  resource_resource_id(task__5__0__2).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__5__0).
+  resource_dept_id(dept__5).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id358)@1, {accept}, {}, {  subject_user_id(pjl3__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__3__0).
+  resource_resource_id(bg__3__1).
+  resource_type(budget).
+  resource_project_id(proj__3__1).
+  resource_dept_id(dept__3).
+  action_action_type(write).
+}).
+
+#pos(eg(id359)@1, {accept}, {}, {  subject_user_id(contractor__14__1).
+  subject_role(contractor).
+  subject_projects(proj__14__2).
+  subject_tasks(task__14__2__4).
+  resource_resource_id(task__14__2__4).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__14__2).
+  resource_dept_id(dept__14).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id360)@1, {accept}, {}, {  subject_user_id(contractor__14__1).
+  subject_role(contractor).
+  subject_projects(proj__14__2).
+  subject_tasks(task__14__2__4).
+  resource_resource_id(task__14__2__0).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__14__2).
+  resource_dept_id(dept__14).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id361)@1, {accept}, {}, {  subject_user_id(pjl11__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__11__2).
+  resource_resource_id(bg__11__1).
+  resource_type(budget).
+  resource_project_id(proj__11__1).
+  resource_dept_id(dept__11).
+  action_action_type(read).
+}).
+
+#pos(eg(id362)@1, {accept}, {}, {  subject_user_id(acct__13).
+  subject_role(accountant).
+  subject_projects(proj__13__3).
+  resource_resource_id(bg__13__3).
+  resource_type(budget).
+  resource_project_id(proj__13__3).
+  resource_dept_id(dept__13).
+  action_action_type(write).
+}).
+
+#pos(eg(id363)@1, {accept}, {}, {  subject_user_id(auditor__2).
+  subject_role(auditor).
+  subject_projects(proj__2__0).
+  resource_resource_id(bg__2__0).
+  resource_type(budget).
+  resource_project_id(proj__2__0).
+  resource_dept_id(dept__2).
+  action_action_type(read).
+}).
+
+#pos(eg(id364)@1, {accept}, {}, {  subject_user_id(acct__12).
+  subject_role(accountant).
+  subject_projects(proj__12__0).
+  resource_resource_id(bg__12__0).
+  resource_type(budget).
+  resource_project_id(proj__12__0).
+  resource_dept_id(dept__12).
+  action_action_type(write).
+}).
+
+#pos(eg(id365)@1, {accept}, {}, {  subject_user_id(employee__15__0).
+  subject_role(employee).
+  subject_projects(proj__15__1).
+  subject_tasks(task__15__1__1).
+  resource_resource_id(task__15__1__4).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__15__1).
+  resource_dept_id(dept__15).
+  resource_expertises(tech__area__4).
+  action_action_type(read).
+}).
+
+#pos(eg(id366)@1, {accept}, {}, {  subject_user_id(acct__12).
+  subject_role(accountant).
+  subject_projects(proj__12__0).
+  resource_resource_id(bg__12__0).
+  resource_type(budget).
+  resource_project_id(proj__12__0).
+  resource_dept_id(dept__12).
+  action_action_type(read).
+}).
+
+#pos(eg(id367)@1, {accept}, {}, {  subject_user_id(contractor__18__0).
+  subject_role(contractor).
+  subject_projects(proj__18__0).
+  subject_tasks(task__18__0__5).
+  resource_resource_id(task__18__0__4).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__18__0).
+  resource_dept_id(dept__18).
+  resource_expertises(tech__area__2).
+  action_action_type(read).
+}).
+
+#pos(eg(id368)@1, {accept}, {}, {  subject_user_id(contractor__16__0).
+  subject_role(contractor).
+  subject_projects(proj__16__1).
+  subject_tasks(task__16__1__3).
+  resource_resource_id(task__16__1__4).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__16__1).
+  resource_dept_id(dept__16).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id369)@1, {accept}, {}, {  subject_user_id(employee__17__1).
+  subject_role(employee).
+  subject_projects(proj__17__3).
+  subject_tasks(task__17__2__1).
+  resource_resource_id(task__17__2__5).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__17__2).
+  resource_dept_id(dept__17).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id370)@1, {accept}, {}, {  subject_user_id(employee__3__0).
+  subject_role(employee).
+  subject_projects(proj__3__0).
+  subject_tasks(task__3__0__3).
+  resource_resource_id(task__3__0__3).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__3__0).
+  resource_dept_id(dept__3).
+  resource_expertises(tech__area__0).
+  action_action_type(setstatus).
+}).
+
+#pos(eg(id371)@1, {accept}, {}, {  subject_user_id(planner__18).
+  subject_role(planner).
+  subject_projects(proj__18__0).
+  resource_resource_id(task__18__0__3).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__18__0).
+  resource_dept_id(dept__18).
+  resource_expertises(tech__area__0).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id372)@1, {accept}, {}, {  subject_user_id(manager__14).
+  subject_role(manager).
+  subject_dept_id(dept__14).
+  resource_resource_id(bg__14__0).
+  resource_type(budget).
+  resource_project_id(proj__14__0).
+  resource_dept_id(dept__14).
+  action_action_type(read).
+}).
+
+#pos(eg(id373)@1, {accept}, {}, {  subject_user_id(employee__13__0).
+  subject_role(employee).
+  subject_projects(proj__13__3).
+  subject_tasks(task__13__2__1).
+  resource_resource_id(task__13__3__1).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__13__3).
+  resource_dept_id(dept__13).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id374)@1, {accept}, {}, {  subject_user_id(pjl10__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__10__1).
+  resource_resource_id(sc__10__0).
+  resource_type(schedule).
+  resource_project_id(proj__10__0).
+  resource_dept_id(dept__10).
+  action_action_type(write).
+}).
+
+#pos(eg(id375)@1, {accept}, {}, {  subject_user_id(acct__4).
+  subject_role(accountant).
+  subject_projects(proj__4__1).
+  resource_resource_id(bg__4__1).
+  resource_type(budget).
+  resource_project_id(proj__4__1).
+  resource_dept_id(dept__4).
+  action_action_type(read).
+}).
+
+#pos(eg(id376)@1, {accept}, {}, {  subject_user_id(employee__13__0).
+  subject_role(employee).
+  subject_projects(proj__13__3).
+  subject_tasks(task__13__2__1).
+  resource_resource_id(task__13__2__3).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__13__2).
+  resource_dept_id(dept__13).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id377)@1, {accept}, {}, {  subject_user_id(planner__14).
+  subject_role(planner).
+  subject_projects(proj__14__1).
+  resource_resource_id(task__14__1__3).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__14__1).
+  resource_dept_id(dept__14).
+  resource_expertises(tech__area__0).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id378)@1, {accept}, {}, {  subject_user_id(planner__1).
+  subject_role(planner).
+  subject_projects(proj__1__0).
+  resource_resource_id(sc__1__0).
+  resource_type(schedule).
+  resource_project_id(proj__1__0).
+  resource_dept_id(dept__1).
+  action_action_type(read).
+}).
+
+#pos(eg(id379)@1, {accept}, {}, {  subject_user_id(employee__3__0).
+  subject_role(employee).
+  subject_projects(proj__3__0).
+  subject_tasks(task__3__0__3).
+  resource_resource_id(task__3__0__5).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__3__0).
+  resource_dept_id(dept__3).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id380)@1, {accept}, {}, {  subject_user_id(contractor__12__0).
+  subject_role(contractor).
+  subject_projects(proj__12__0).
+  subject_tasks(task__12__0__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id381)@1, {accept}, {}, {  subject_user_id(contractor__4__0).
+  subject_role(contractor).
+  subject_projects(proj__4__1).
+  subject_tasks(task__4__1__2).
+  action_action_type(request).
+}).
+
+#pos(eg(id382)@1, {accept}, {}, {  subject_user_id(pjl5__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__5__3).
+  resource_resource_id(sc__5__3).
+  resource_type(schedule).
+  resource_project_id(proj__5__3).
+  resource_dept_id(dept__5).
+  action_action_type(read).
+}).
+
+#pos(eg(id383)@1, {accept}, {}, {  subject_user_id(pjl19__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__19__1).
+  resource_resource_id(bg__19__0).
+  resource_type(budget).
+  resource_project_id(proj__19__0).
+  resource_dept_id(dept__19).
+  action_action_type(write).
+}).
+
+#pos(eg(id384)@1, {accept}, {}, {  subject_user_id(acct__15).
+  subject_role(accountant).
+  subject_projects(proj__15__1).
+  resource_resource_id(task__15__1__2).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__15__1).
+  resource_dept_id(dept__15).
+  resource_expertises(tech__area__0).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id385)@1, {accept}, {}, {  subject_user_id(pjl8__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__8__1).
+  resource_resource_id(bg__8__0).
+  resource_type(budget).
+  resource_project_id(proj__8__0).
+  resource_dept_id(dept__8).
+  action_action_type(write).
+}).
+
+#pos(eg(id386)@1, {accept}, {}, {  subject_user_id(employee__12__0).
+  subject_role(employee).
+  subject_projects(proj__12__1).
+  subject_tasks(task__12__0__3).
+  resource_resource_id(task__12__0__3).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__12__0).
+  resource_dept_id(dept__12).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id387)@1, {accept}, {}, {  subject_user_id(employee__3__0).
+  subject_role(employee).
+  subject_projects(proj__3__0).
+  subject_tasks(task__3__0__3).
+  resource_resource_id(task__3__0__1).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__3__0).
+  resource_dept_id(dept__3).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id388)@1, {accept}, {}, {  subject_user_id(contractor__6__0).
+  subject_role(contractor).
+  subject_projects(proj__6__0).
+  subject_tasks(task__6__0__0).
+  resource_resource_id(task__6__0__5).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__6__0).
+  resource_dept_id(dept__6).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id389)@1, {accept}, {}, {  subject_user_id(planner__9).
+  subject_role(planner).
+  subject_projects(proj__9__1).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id390)@1, {accept}, {}, {  subject_user_id(acct__6).
+  subject_role(accountant).
+  subject_projects(proj__6__1).
+  resource_resource_id(task__6__1__0).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__6__1).
+  resource_dept_id(dept__6).
+  resource_expertises(tech__area__0).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id391)@1, {accept}, {}, {  subject_user_id(employee__7__1).
+  subject_role(employee).
+  subject_projects(proj__7__2).
+  subject_tasks(task__7__1__5).
+  resource_resource_id(task__7__1__1).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__7__1).
+  resource_dept_id(dept__7).
+  resource_expertises(tech__area__1).
+  action_action_type(read).
+}).
+
+#pos(eg(id392)@1, {accept}, {}, {  subject_user_id(employee__7__1).
+  subject_role(employee).
+  subject_projects(proj__7__2).
+  subject_tasks(task__7__1__5).
+  resource_resource_id(task__7__1__0).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__7__1).
+  resource_dept_id(dept__7).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id393)@1, {accept}, {}, {  subject_user_id(planner__12).
+  subject_role(planner).
+  subject_projects(proj__12__0).
+  resource_resource_id(task__12__0__4).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__12__0).
+  resource_dept_id(dept__12).
+  resource_expertises(tech__area__0).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id394)@1, {accept}, {}, {  subject_user_id(manager__13).
+  subject_role(manager).
+  subject_dept_id(dept__13).
+  resource_resource_id(bg__13__0).
+  resource_type(budget).
+  resource_project_id(proj__13__0).
+  resource_dept_id(dept__13).
+  action_action_type(approve).
+}).
+
+#pos(eg(id395)@1, {accept}, {}, {  subject_user_id(pjl0__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__0__1).
+  resource_resource_id(bg__0__0).
+  resource_type(budget).
+  resource_project_id(proj__0__0).
+  resource_dept_id(dept__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id396)@1, {accept}, {}, {  subject_user_id(acct__14).
+  subject_role(accountant).
+  subject_projects(proj__14__1).
+  resource_resource_id(sc__14__1).
+  resource_type(schedule).
+  resource_project_id(proj__14__1).
+  resource_dept_id(dept__14).
+  action_action_type(read).
+}).
+
+#pos(eg(id397)@1, {accept}, {}, {  subject_user_id(contractor__9__0).
+  subject_role(contractor).
+  subject_projects(proj__9__1).
+  subject_tasks(task__9__1__3).
+  resource_resource_id(task__9__1__0).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__9__1).
+  resource_dept_id(dept__9).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id398)@1, {accept}, {}, {  subject_user_id(contractor__17__0).
+  subject_role(contractor).
+  subject_projects(proj__17__1).
+  subject_tasks(task__17__1__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id399)@1, {accept}, {}, {  subject_user_id(acct__2).
+  subject_role(accountant).
+  subject_projects(proj__2__1).
+  resource_resource_id(task__2__1__2).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__2__1).
+  resource_dept_id(dept__2).
+  resource_expertises(tech__area__0).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id400)@1, {accept}, {}, {  subject_user_id(acct__9).
+  subject_role(accountant).
+  subject_projects(proj__9__1).
+  resource_resource_id(task__9__1__5).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__9__1).
+  resource_dept_id(dept__9).
+  resource_expertises(tech__area__0).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id401)@1, {accept}, {}, {  subject_user_id(manager__3).
+  subject_role(manager).
+  subject_dept_id(dept__3).
+  resource_resource_id(bg__3__1).
+  resource_type(budget).
+  resource_project_id(proj__3__1).
+  resource_dept_id(dept__3).
+  action_action_type(approve).
+}).
+
+#pos(eg(id402)@1, {accept}, {}, {  subject_user_id(manager__19).
+  subject_role(manager).
+  subject_dept_id(dept__19).
+  resource_resource_id(bg__19__0).
+  resource_type(budget).
+  resource_project_id(proj__19__0).
+  resource_dept_id(dept__19).
+  action_action_type(read).
+}).
+
+#pos(eg(id403)@1, {accept}, {}, {  subject_user_id(acct__5).
+  subject_role(accountant).
+  subject_projects(proj__5__2).
+  resource_resource_id(task__5__2__0).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__5__2).
+  resource_dept_id(dept__5).
+  resource_expertises(tech__area__0).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id404)@1, {accept}, {}, {  subject_user_id(pjl6__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__6__1).
+  resource_resource_id(sc__6__1).
+  resource_type(schedule).
+  resource_project_id(proj__6__1).
+  resource_dept_id(dept__6).
+  action_action_type(write).
+}).
+
+#pos(eg(id405)@1, {accept}, {}, {  subject_user_id(auditor__2).
+  subject_role(auditor).
+  subject_projects(proj__2__0).
+  resource_resource_id(sc__2__0).
+  resource_type(schedule).
+  resource_project_id(proj__2__0).
+  resource_dept_id(dept__2).
+  action_action_type(read).
+}).
+
+#pos(eg(id406)@1, {accept}, {}, {  subject_user_id(acct__11).
+  subject_role(accountant).
+  subject_projects(proj__11__3).
+  resource_resource_id(task__11__3__3).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__11__3).
+  resource_dept_id(dept__11).
+  resource_expertises(tech__area__0).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id407)@1, {accept}, {}, {  subject_user_id(employee__1__0).
+  subject_role(employee).
+  subject_projects(proj__1__0).
+  subject_tasks(task__1__0__3).
+  resource_resource_id(task__1__1__2).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__1__1).
+  resource_dept_id(dept__1).
+  resource_expertises(tech__area__0).
+  action_action_type(setstatus).
+}).
+
+#pos(eg(id408)@1, {accept}, {}, {  subject_user_id(acct__0).
+  subject_role(accountant).
+  subject_projects(proj__0__0).
+  resource_resource_id(bg__0__0).
+  resource_type(budget).
+  resource_project_id(proj__0__0).
+  resource_dept_id(dept__0).
+  action_action_type(write).
+}).
+
+#pos(eg(id409)@1, {}, {accept}, {  subject_user_id(pjl6__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__6__0).
+  resource_resource_id(task__7__3__1).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__7__3).
+  resource_dept_id(dept__7).
+  resource_expertises(tech__area__0).
+  action_action_type(approve).
+}).
+
+#pos(eg(id410)@1, {}, {accept}, {  subject_user_id(contractor__14__1).
+  subject_role(contractor).
+  subject_projects(proj__14__2).
+  subject_tasks(task__14__2__4).
+  action_action_type(write).
+}).
+
+#pos(eg(id411)@1, {}, {accept}, {  subject_user_id(contractor__9__0).
+  subject_role(contractor).
+  subject_projects(proj__9__1).
+  subject_tasks(task__9__1__3).
+  resource_resource_id(task__5__3__4).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__5__3).
+  resource_dept_id(dept__5).
+  resource_expertises(tech__area__0).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id412)@1, {}, {accept}, {  subject_user_id(pjl14__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__14__1).
+  resource_resource_id(task__17__3__1).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__17__3).
+  resource_dept_id(dept__17).
+  resource_expertises(tech__area__1).
+  action_action_type(read).
+}).
+
+#pos(eg(id413)@1, {}, {accept}, {  subject_user_id(contractor__14__0).
+  subject_role(contractor).
+  subject_projects(proj__14__0).
+  subject_tasks(task__14__0__0).
+  resource_resource_id(task__9__1__3).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__9__1).
+  resource_dept_id(dept__9).
+  resource_expertises(tech__area__0).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id414)@1, {}, {accept}, {  subject_user_id(pjl6__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__6__1).
+  resource_resource_id(sc__7__2).
+  resource_type(schedule).
+  resource_project_id(proj__7__2).
+  resource_dept_id(dept__7).
+  action_action_type(read).
+}).
+
+#pos(eg(id415)@1, {}, {accept}, {  subject_user_id(acct__6).
+  subject_role(accountant).
+  subject_projects(proj__6__1).
+  resource_resource_id(task__14__0__0).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__14__0).
+  resource_dept_id(dept__14).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id416)@1, {}, {accept}, {  subject_user_id(auditor__1).
+  subject_role(auditor).
+  subject_projects(proj__1__1).
+  resource_resource_id(bg__17__3).
+  resource_type(budget).
+  resource_project_id(proj__17__3).
+  resource_dept_id(dept__17).
+  action_action_type(request).
+}).
+
+#pos(eg(id417)@1, {}, {accept}, {  subject_user_id(planner__1).
+  subject_role(planner).
+  subject_projects(proj__1__0).
+  resource_resource_id(task__11__2__5).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__11__2).
+  resource_dept_id(dept__11).
+  resource_expertises(tech__area__4).
+  action_action_type(write).
+}).
+
+#pos(eg(id418)@1, {}, {accept}, {  subject_user_id(planner__5).
+  subject_role(planner).
+  subject_projects(proj__5__1).
+  resource_resource_id(task__3__0__5).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__3__0).
+  resource_dept_id(dept__3).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id419)@1, {}, {accept}, {  subject_user_id(employee__17__0).
+  subject_role(employee).
+  subject_projects(proj__17__3).
+  subject_tasks(task__17__3__3).
+  resource_resource_id(task__8__0__3).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__8__0).
+  resource_dept_id(dept__8).
+  resource_expertises(tech__area__4).
+  action_action_type(approve).
+}).
+
+#pos(eg(id420)@1, {}, {accept}, {  subject_user_id(planner__12).
+  subject_role(planner).
+  subject_projects(proj__12__0).
+  resource_resource_id(task__12__1__3).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__12__1).
+  resource_dept_id(dept__12).
+  resource_expertises(tech__area__0).
+  action_action_type(setstatus).
+}).
+
+#pos(eg(id421)@1, {}, {accept}, {  subject_user_id(auditor__9).
+  subject_role(auditor).
+  subject_projects(proj__9__0).
+  resource_resource_id(task__7__2__4).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__7__2).
+  resource_dept_id(dept__7).
+  resource_expertises(tech__area__4).
+  action_action_type(approve).
+}).
+
+#pos(eg(id422)@1, {}, {accept}, {  subject_user_id(auditor__3).
+  subject_role(auditor).
+  subject_projects(proj__3__0).
+  resource_resource_id(task__5__0__4).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__5__0).
+  resource_dept_id(dept__5).
+  resource_expertises(tech__area__1).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id423)@1, {}, {accept}, {  subject_user_id(acct__8).
+  subject_role(accountant).
+  subject_projects(proj__8__0).
+  resource_resource_id(task__17__1__2).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__17__1).
+  resource_dept_id(dept__17).
+  resource_expertises(tech__area__0).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id424)@1, {}, {accept}, {  subject_user_id(manager__7).
+  subject_role(manager).
+  subject_dept_id(dept__7).
+  resource_resource_id(sc__8__0).
+  resource_type(schedule).
+  resource_project_id(proj__8__0).
+  resource_dept_id(dept__8).
+  action_action_type(setstatus).
+}).
+
+#pos(eg(id425)@1, {}, {accept}, {  subject_user_id(auditor__9).
+  subject_role(auditor).
+  subject_projects(proj__9__0).
+  resource_resource_id(sc__12__0).
+  resource_type(schedule).
+  resource_project_id(proj__12__0).
+  resource_dept_id(dept__12).
+  action_action_type(write).
+}).
+
+#pos(eg(id426)@1, {}, {accept}, {  subject_user_id(auditor__15).
+  subject_role(auditor).
+  subject_projects(proj__15__1).
+  resource_resource_id(bg__10__1).
+  resource_type(budget).
+  resource_project_id(proj__10__1).
+  resource_dept_id(dept__10).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id427)@1, {}, {accept}, {  subject_user_id(planner__4).
+  subject_role(planner).
+  subject_projects(proj__4__0).
+  action_action_type(setcost).
+}).
+
+#pos(eg(id428)@1, {}, {accept}, {  subject_user_id(employee__14__1).
+  subject_role(employee).
+  subject_projects(proj__14__0).
+  subject_tasks(task__14__0__3).
+  resource_resource_id(task__5__3__5).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__5__3).
+  resource_dept_id(dept__5).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id429)@1, {}, {accept}, {  subject_user_id(auditor__13).
+  subject_role(auditor).
+  subject_projects(proj__13__3).
+  resource_resource_id(task__17__2__5).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__17__2).
+  resource_dept_id(dept__17).
+  resource_expertises(tech__area__0).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id430)@1, {}, {accept}, {  subject_user_id(contractor__13__0).
+  subject_role(contractor).
+  subject_projects(proj__13__0).
+  subject_tasks(task__13__0__0).
+  resource_resource_id(task__7__1__4).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__7__1).
+  resource_dept_id(dept__7).
+  resource_expertises(tech__area__1).
+  action_action_type(approve).
+}).
+
+#pos(eg(id431)@1, {}, {accept}, {  subject_user_id(acct__1).
+  subject_role(accountant).
+  subject_projects(proj__1__0).
+  resource_resource_id(task__10__1__3).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__10__1).
+  resource_dept_id(dept__10).
+  resource_expertises(tech__area__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id432)@1, {}, {accept}, {  subject_user_id(planner__8).
+  subject_role(planner).
+  subject_projects(proj__8__1).
+  action_action_type(approve).
+}).
+
+#pos(eg(id433)@1, {}, {accept}, {  subject_user_id(pjl18__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__18__1).
+  resource_resource_id(bg__9__0).
+  resource_type(budget).
+  resource_project_id(proj__9__0).
+  resource_dept_id(dept__9).
+  action_action_type(write).
+}).
+
+#pos(eg(id434)@1, {}, {accept}, {  subject_user_id(contractor__17__0).
+  subject_role(contractor).
+  subject_projects(proj__17__1).
+  subject_tasks(task__17__1__0).
+  resource_resource_id(task__19__0__0).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__19__0).
+  resource_dept_id(dept__19).
+  resource_expertises(tech__area__4).
+  action_action_type(write).
+}).
+
+#pos(eg(id435)@1, {}, {accept}, {  subject_user_id(auditor__13).
+  subject_role(auditor).
+  subject_projects(proj__13__3).
+  resource_resource_id(task__7__3__5).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__7__3).
+  resource_dept_id(dept__7).
+  resource_expertises(tech__area__3).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id436)@1, {}, {accept}, {  subject_user_id(manager__0).
+  subject_role(manager).
+  subject_dept_id(dept__0).
+  resource_resource_id(task__9__1__2).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__9__1).
+  resource_dept_id(dept__9).
+  resource_expertises(tech__area__2).
+  action_action_type(read).
+}).
+
+#pos(eg(id437)@1, {}, {accept}, {  subject_user_id(pjl14__0).
+  subject_role(projectleader).
+  subject_project_leds(proj__14__1).
+  resource_resource_id(bg__18__1).
+  resource_type(budget).
+  resource_project_id(proj__18__1).
+  resource_dept_id(dept__18).
+  action_action_type(request).
+}).
+
+#pos(eg(id438)@1, {}, {accept}, {  subject_user_id(planner__12).
+  subject_role(planner).
+  subject_projects(proj__12__0).
+  resource_resource_id(task__17__2__5).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__17__2).
+  resource_dept_id(dept__17).
+  resource_expertises(tech__area__0).
+  action_action_type(write).
+}).
+
+#pos(eg(id439)@1, {}, {accept}, {  subject_user_id(auditor__16).
+  subject_role(auditor).
+  subject_projects(proj__16__0).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id440)@1, {}, {accept}, {  subject_user_id(pjl9__1).
+  subject_role(projectleader).
+  subject_project_leds(proj__9__0).
+  resource_resource_id(bg__0__0).
+  resource_type(budget).
+  resource_project_id(proj__0__0).
+  resource_dept_id(dept__0).
+  action_action_type(request).
+}).
+
+#pos(eg(id441)@1, {}, {accept}, {  subject_user_id(auditor__12).
+  subject_role(auditor).
+  subject_projects(proj__12__0).
+  resource_resource_id(bg__18__1).
+  resource_type(budget).
+  resource_project_id(proj__18__1).
+  resource_dept_id(dept__18).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id442)@1, {}, {accept}, {  subject_user_id(acct__16).
+  subject_role(accountant).
+  subject_projects(proj__16__0).
+  resource_resource_id(bg__19__0).
+  resource_type(budget).
+  resource_project_id(proj__19__0).
+  resource_dept_id(dept__19).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id443)@1, {}, {accept}, {  subject_user_id(manager__6).
+  subject_role(manager).
+  subject_dept_id(dept__6).
+  resource_resource_id(task__3__0__1).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__3__0).
+  resource_dept_id(dept__3).
+  resource_expertises(tech__area__0).
+  action_action_type(setschedule).
+}).
+
+#pos(eg(id444)@1, {}, {accept}, {  subject_user_id(contractor__15__0).
+  subject_role(contractor).
+  subject_projects(proj__15__0).
+  subject_tasks(task__15__0__1).
+  resource_resource_id(task__13__3__4).
+  resource_type(task).
+  resource_is_properietary(false).
+  resource_project_id(proj__13__3).
+  resource_dept_id(dept__13).
+  resource_expertises(tech__area__0).
+  action_action_type(read).
+}).
+
+#pos(eg(id445)@1, {}, {accept}, {  subject_user_id(acct__8).
+  subject_role(accountant).
+  subject_projects(proj__8__0).
+  resource_resource_id(bg__14__2).
+  resource_type(budget).
+  resource_project_id(proj__14__2).
+  resource_dept_id(dept__14).
+  action_action_type(request).
+}).
+
+#pos(eg(id446)@1, {}, {accept}, {  subject_user_id(acct__9).
+  subject_role(accountant).
+  subject_projects(proj__9__1).
+  action_action_type(request).
+}).
+
+#pos(eg(id447)@1, {}, {accept}, {  subject_user_id(auditor__12).
+  subject_role(auditor).
+  subject_projects(proj__12__0).
+  resource_resource_id(task__19__0__0).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__19__0).
+  resource_dept_id(dept__19).
+  resource_expertises(tech__area__4).
+  action_action_type(request).
+}).
+
+#pos(eg(id448)@1, {}, {accept}, {  subject_user_id(contractor__11__1).
+  subject_role(contractor).
+  subject_projects(proj__11__2).
+  subject_tasks(task__11__2__5).
+  resource_resource_id(task__3__1__2).
+  resource_type(task).
+  resource_is_properietary(true).
+  resource_project_id(proj__3__1).
+  resource_dept_id(dept__3).
+  resource_expertises(tech__area__0).
+  action_action_type(setcost).
+}).
+
+#modeh(accept).
+#modeb(1, subject_user_id(const(subject_user_id_t))).
+subject_user_id_t(employee__5__0).
+subject_user_id_t(pjl13__1).
+subject_user_id_t(pjl14__0).
+subject_user_id_t(planner__17).
+subject_user_id_t(manager__17).
+subject_user_id_t(pjl7__1).
+subject_user_id_t(pjl12__0).
+subject_user_id_t(pjl16__1).
+subject_user_id_t(pjl16__1).
+subject_user_id_t(employee__5__0).
+subject_user_id_t(auditor__13).
+subject_user_id_t(pjl7__0).
+subject_user_id_t(manager__0).
+subject_user_id_t(acct__4).
+subject_user_id_t(pjl4__1).
+subject_user_id_t(pjl16__1).
+subject_user_id_t(pjl13__0).
+subject_user_id_t(auditor__18).
+subject_user_id_t(employee__5__0).
+subject_user_id_t(employee__11__0).
+subject_user_id_t(pjl17__1).
+subject_user_id_t(pjl11__0).
+subject_user_id_t(auditor__17).
+subject_user_id_t(employee__5__1).
+subject_user_id_t(employee__15__0).
+subject_user_id_t(employee__1__0).
+subject_user_id_t(planner__9).
+subject_user_id_t(contractor__7__0).
+subject_user_id_t(employee__8__0).
+subject_user_id_t(employee__1__0).
+subject_user_id_t(contractor__17__1).
+subject_user_id_t(contractor__11__1).
+subject_user_id_t(employee__14__0).
+subject_user_id_t(pjl5__0).
+subject_user_id_t(pjl5__0).
+subject_user_id_t(employee__3__0).
+subject_user_id_t(planner__8).
+subject_user_id_t(employee__7__0).
+subject_user_id_t(pjl4__1).
+subject_user_id_t(pjl7__0).
+subject_user_id_t(pjl11__0).
+subject_user_id_t(planner__7).
+subject_user_id_t(manager__12).
+subject_user_id_t(planner__16).
+subject_user_id_t(contractor__10__0).
+subject_user_id_t(contractor__11__1).
+subject_user_id_t(acct__17).
+subject_user_id_t(employee__14__0).
+subject_user_id_t(employee__2__0).
+subject_user_id_t(acct__1).
+subject_user_id_t(employee__3__0).
+subject_user_id_t(employee__11__0).
+subject_user_id_t(employee__1__0).
+subject_user_id_t(contractor__3__0).
+subject_user_id_t(manager__3).
+subject_user_id_t(employee__2__0).
+subject_user_id_t(pjl11__0).
+subject_user_id_t(acct__11).
+subject_user_id_t(employee__2__0).
+subject_user_id_t(pjl14__0).
+subject_user_id_t(employee__5__0).
+subject_user_id_t(pjl8__1).
+subject_user_id_t(contractor__0__0).
+subject_user_id_t(employee__2__0).
+subject_user_id_t(contractor__7__1).
+subject_user_id_t(manager__9).
+subject_user_id_t(acct__4).
+subject_user_id_t(employee__6__0).
+subject_user_id_t(employee__12__0).
+subject_user_id_t(employee__14__0).
+subject_user_id_t(acct__6).
+subject_user_id_t(acct__11).
+subject_user_id_t(employee__12__0).
+subject_user_id_t(employee__8__0).
+subject_user_id_t(employee__13__0).
+subject_user_id_t(acct__16).
+subject_user_id_t(planner__4).
+subject_user_id_t(contractor__5__1).
+subject_user_id_t(contractor__12__0).
+subject_user_id_t(employee__5__1).
+subject_user_id_t(acct__14).
+subject_user_id_t(planner__11).
+subject_user_id_t(employee__18__0).
+subject_user_id_t(contractor__5__1).
+subject_user_id_t(planner__10).
+subject_user_id_t(acct__7).
+subject_user_id_t(acct__8).
+subject_user_id_t(employee__7__1).
+subject_user_id_t(contractor__7__0).
+subject_user_id_t(employee__9__0).
+subject_user_id_t(contractor__4__0).
+subject_user_id_t(employee__5__0).
+subject_user_id_t(employee__19__0).
+subject_user_id_t(pjl2__1).
+subject_user_id_t(contractor__17__1).
+subject_user_id_t(planner__8).
+subject_user_id_t(pjl0__1).
+subject_user_id_t(contractor__8__0).
+subject_user_id_t(auditor__1).
+subject_user_id_t(manager__13).
+subject_user_id_t(pjl17__1).
+subject_user_id_t(employee__5__1).
+subject_user_id_t(acct__15).
+subject_user_id_t(employee__7__0).
+subject_user_id_t(auditor__16).
+subject_user_id_t(employee__15__0).
+subject_user_id_t(employee__2__0).
+subject_user_id_t(manager__7).
+subject_user_id_t(acct__11).
+subject_user_id_t(pjl15__1).
+subject_user_id_t(employee__18__0).
+subject_user_id_t(employee__5__0).
+subject_user_id_t(acct__8).
+subject_user_id_t(employee__18__0).
+subject_user_id_t(pjl13__0).
+subject_user_id_t(auditor__8).
+subject_user_id_t(acct__5).
+subject_user_id_t(acct__15).
+subject_user_id_t(planner__14).
+subject_user_id_t(contractor__7__1).
+subject_user_id_t(planner__15).
+subject_user_id_t(contractor__9__0).
+subject_user_id_t(pjl14__1).
+subject_user_id_t(employee__1__0).
+subject_user_id_t(contractor__7__0).
+subject_user_id_t(acct__4).
+subject_user_id_t(contractor__4__0).
+subject_user_id_t(employee__14__0).
+subject_user_id_t(contractor__15__0).
+subject_user_id_t(employee__17__1).
+subject_user_id_t(pjl19__0).
+subject_user_id_t(contractor__1__0).
+subject_user_id_t(acct__13).
+subject_user_id_t(acct__11).
+subject_user_id_t(employee__4__0).
+subject_user_id_t(employee__8__0).
+subject_user_id_t(pjl1__1).
+subject_user_id_t(manager__17).
+subject_user_id_t(employee__4__0).
+subject_user_id_t(pjl5__0).
+subject_user_id_t(planner__2).
+subject_user_id_t(pjl17__1).
+subject_user_id_t(employee__11__1).
+subject_user_id_t(acct__12).
+subject_user_id_t(pjl18__0).
+subject_user_id_t(planner__7).
+subject_user_id_t(employee__5__1).
+subject_user_id_t(manager__6).
+subject_user_id_t(acct__10).
+subject_user_id_t(planner__10).
+subject_user_id_t(employee__13__1).
+subject_user_id_t(contractor__9__0).
+subject_user_id_t(acct__18).
+subject_user_id_t(employee__14__0).
+subject_user_id_t(planner__1).
+subject_user_id_t(contractor__18__0).
+subject_user_id_t(employee__2__0).
+subject_user_id_t(pjl18__0).
+subject_user_id_t(pjl17__1).
+subject_user_id_t(employee__14__0).
+subject_user_id_t(pjl1__1).
+subject_user_id_t(auditor__15).
+subject_user_id_t(manager__10).
+subject_user_id_t(manager__2).
+subject_user_id_t(employee__11__1).
+subject_user_id_t(contractor__11__0).
+subject_user_id_t(pjl4__0).
+subject_user_id_t(employee__18__0).
+subject_user_id_t(auditor__11).
+subject_user_id_t(pjl5__1).
+subject_user_id_t(pjl6__0).
+subject_user_id_t(pjl13__0).
+subject_user_id_t(contractor__0__0).
+subject_user_id_t(acct__18).
+subject_user_id_t(employee__13__0).
+subject_user_id_t(employee__1__0).
+subject_user_id_t(contractor__3__0).
+subject_user_id_t(manager__15).
+subject_user_id_t(pjl15__1).
+subject_user_id_t(employee__14__1).
+subject_user_id_t(pjl14__0).
+subject_user_id_t(employee__6__0).
+subject_user_id_t(employee__7__1).
+subject_user_id_t(employee__5__0).
+subject_user_id_t(contractor__17__1).
+subject_user_id_t(contractor__19__0).
+subject_user_id_t(planner__7).
+subject_user_id_t(pjl2__1).
+subject_user_id_t(planner__14).
+subject_user_id_t(acct__7).
+subject_user_id_t(employee__17__1).
+subject_user_id_t(acct__6).
+subject_user_id_t(planner__16).
+subject_user_id_t(contractor__17__0).
+subject_user_id_t(contractor__11__1).
+subject_user_id_t(planner__13).
+subject_user_id_t(manager__19).
+subject_user_id_t(acct__4).
+subject_user_id_t(pjl6__0).
+subject_user_id_t(acct__17).
+subject_user_id_t(employee__6__0).
+subject_user_id_t(auditor__19).
+subject_user_id_t(pjl16__1).
+subject_user_id_t(manager__9).
+subject_user_id_t(contractor__2__0).
+subject_user_id_t(acct__1).
+subject_user_id_t(planner__11).
+subject_user_id_t(employee__18__0).
+subject_user_id_t(employee__14__0).
+subject_user_id_t(contractor__6__0).
+subject_user_id_t(planner__10).
+subject_user_id_t(planner__10).
+subject_user_id_t(pjl11__0).
+subject_user_id_t(contractor__13__1).
+subject_user_id_t(acct__15).
+subject_user_id_t(contractor__18__0).
+subject_user_id_t(pjl10__1).
+subject_user_id_t(employee__7__0).
+subject_user_id_t(employee__5__0).
+subject_user_id_t(pjl1__1).
+subject_user_id_t(employee__1__0).
+subject_user_id_t(contractor__5__1).
+subject_user_id_t(pjl5__1).
+subject_user_id_t(pjl3__0).
+subject_user_id_t(employee__6__0).
+subject_user_id_t(auditor__4).
+subject_user_id_t(employee__9__0).
+subject_user_id_t(planner__4).
+subject_user_id_t(pjl4__0).
+subject_user_id_t(employee__14__0).
+subject_user_id_t(pjl3__0).
+subject_user_id_t(pjl8__1).
+subject_user_id_t(pjl7__1).
+subject_user_id_t(pjl1__1).
+subject_user_id_t(employee__11__0).
+subject_user_id_t(acct__4).
+subject_user_id_t(employee__7__1).
+subject_user_id_t(employee__7__1).
+subject_user_id_t(employee__5__1).
+subject_user_id_t(pjl9__1).
+subject_user_id_t(pjl13__0).
+subject_user_id_t(acct__13).
+subject_user_id_t(contractor__7__0).
+subject_user_id_t(planner__18).
+subject_user_id_t(employee__17__1).
+subject_user_id_t(employee__13__0).
+subject_user_id_t(acct__16).
+subject_user_id_t(acct__7).
+subject_user_id_t(pjl9__1).
+subject_user_id_t(employee__17__1).
+subject_user_id_t(acct__9).
+subject_user_id_t(planner__3).
+subject_user_id_t(employee__14__0).
+subject_user_id_t(acct__14).
+subject_user_id_t(acct__13).
+subject_user_id_t(pjl4__1).
+subject_user_id_t(pjl3__0).
+subject_user_id_t(acct__9).
+subject_user_id_t(contractor__17__1).
+subject_user_id_t(pjl9__1).
+subject_user_id_t(employee__13__0).
+subject_user_id_t(employee__5__1).
+subject_user_id_t(contractor__1__0).
+subject_user_id_t(employee__4__0).
+subject_user_id_t(manager__5).
+subject_user_id_t(employee__18__0).
+subject_user_id_t(employee__15__0).
+subject_user_id_t(contractor__8__0).
+subject_user_id_t(employee__3__0).
+subject_user_id_t(planner__12).
+subject_user_id_t(planner__11).
+subject_user_id_t(pjl12__0).
+subject_user_id_t(contractor__8__0).
+subject_user_id_t(acct__1).
+subject_user_id_t(employee__13__0).
+subject_user_id_t(manager__8).
+subject_user_id_t(employee__13__1).
+subject_user_id_t(contractor__15__0).
+subject_user_id_t(manager__11).
+subject_user_id_t(contractor__10__0).
+subject_user_id_t(acct__16).
+subject_user_id_t(employee__6__0).
+subject_user_id_t(pjl6__1).
+subject_user_id_t(manager__11).
+subject_user_id_t(manager__15).
+subject_user_id_t(acct__3).
+subject_user_id_t(acct__10).
+subject_user_id_t(planner__17).
+subject_user_id_t(employee__14__0).
+subject_user_id_t(planner__8).
+subject_user_id_t(contractor__9__0).
+subject_user_id_t(employee__11__1).
+subject_user_id_t(employee__9__0).
+subject_user_id_t(pjl14__0).
+subject_user_id_t(acct__6).
+subject_user_id_t(pjl0__1).
+subject_user_id_t(employee__17__0).
+subject_user_id_t(employee__3__0).
+subject_user_id_t(planner__0).
+subject_user_id_t(pjl5__0).
+subject_user_id_t(employee__5__1).
+subject_user_id_t(pjl7__0).
+subject_user_id_t(pjl5__0).
+subject_user_id_t(employee__8__0).
+subject_user_id_t(planner__3).
+subject_user_id_t(employee__15__0).
+subject_user_id_t(employee__12__0).
+subject_user_id_t(employee__1__0).
+subject_user_id_t(planner__17).
+subject_user_id_t(acct__9).
+subject_user_id_t(acct__19).
+subject_user_id_t(planner__18).
+subject_user_id_t(acct__13).
+subject_user_id_t(contractor__17__0).
+subject_user_id_t(contractor__13__0).
+subject_user_id_t(planner__16).
+subject_user_id_t(pjl12__0).
+subject_user_id_t(contractor__2__0).
+subject_user_id_t(acct__7).
+subject_user_id_t(contractor__18__0).
+subject_user_id_t(contractor__19__0).
+subject_user_id_t(contractor__8__0).
+subject_user_id_t(acct__8).
+subject_user_id_t(auditor__14).
+subject_user_id_t(employee__11__1).
+subject_user_id_t(acct__5).
+subject_user_id_t(employee__2__0).
+subject_user_id_t(pjl17__0).
+subject_user_id_t(acct__6).
+subject_user_id_t(employee__12__0).
+subject_user_id_t(manager__10).
+subject_user_id_t(manager__12).
+subject_user_id_t(pjl16__1).
+subject_user_id_t(employee__7__0).
+subject_user_id_t(acct__13).
+subject_user_id_t(employee__6__0).
+subject_user_id_t(pjl0__1).
+subject_user_id_t(auditor__12).
+subject_user_id_t(manager__11).
+subject_user_id_t(employee__6__0).
+subject_user_id_t(employee__17__1).
+subject_user_id_t(employee__3__0).
+subject_user_id_t(acct__10).
+subject_user_id_t(employee__5__0).
+subject_user_id_t(contractor__8__0).
+subject_user_id_t(planner__4).
+subject_user_id_t(pjl18__0).
+subject_user_id_t(employee__8__0).
+subject_user_id_t(employee__14__0).
+subject_user_id_t(contractor__7__1).
+subject_user_id_t(planner__6).
+subject_user_id_t(employee__9__0).
+subject_user_id_t(employee__9__0).
+subject_user_id_t(pjl3__0).
+subject_user_id_t(acct__4).
+subject_user_id_t(pjl7__1).
+subject_user_id_t(pjl18__0).
+subject_user_id_t(contractor__5__0).
+subject_user_id_t(pjl3__0).
+subject_user_id_t(contractor__14__1).
+subject_user_id_t(contractor__14__1).
+subject_user_id_t(pjl11__0).
+subject_user_id_t(acct__13).
+subject_user_id_t(auditor__2).
+subject_user_id_t(acct__12).
+subject_user_id_t(employee__15__0).
+subject_user_id_t(acct__12).
+subject_user_id_t(contractor__18__0).
+subject_user_id_t(contractor__16__0).
+subject_user_id_t(employee__17__1).
+subject_user_id_t(employee__3__0).
+subject_user_id_t(planner__18).
+subject_user_id_t(manager__14).
+subject_user_id_t(employee__13__0).
+subject_user_id_t(pjl10__1).
+subject_user_id_t(acct__4).
+subject_user_id_t(employee__13__0).
+subject_user_id_t(planner__14).
+subject_user_id_t(planner__1).
+subject_user_id_t(employee__3__0).
+subject_user_id_t(contractor__12__0).
+subject_user_id_t(contractor__4__0).
+subject_user_id_t(pjl5__1).
+subject_user_id_t(pjl19__0).
+subject_user_id_t(acct__15).
+subject_user_id_t(pjl8__1).
+subject_user_id_t(employee__12__0).
+subject_user_id_t(employee__3__0).
+subject_user_id_t(contractor__6__0).
+subject_user_id_t(planner__9).
+subject_user_id_t(acct__6).
+subject_user_id_t(employee__7__1).
+subject_user_id_t(employee__7__1).
+subject_user_id_t(planner__12).
+subject_user_id_t(manager__13).
+subject_user_id_t(pjl0__1).
+subject_user_id_t(acct__14).
+subject_user_id_t(contractor__9__0).
+subject_user_id_t(contractor__17__0).
+subject_user_id_t(acct__2).
+subject_user_id_t(acct__9).
+subject_user_id_t(manager__3).
+subject_user_id_t(manager__19).
+subject_user_id_t(acct__5).
+subject_user_id_t(pjl6__1).
+subject_user_id_t(auditor__2).
+subject_user_id_t(acct__11).
+subject_user_id_t(employee__1__0).
+subject_user_id_t(acct__0).
+subject_user_id_t(pjl6__0).
+subject_user_id_t(contractor__14__1).
+subject_user_id_t(contractor__9__0).
+subject_user_id_t(pjl14__0).
+subject_user_id_t(contractor__14__0).
+subject_user_id_t(pjl6__1).
+subject_user_id_t(acct__6).
+subject_user_id_t(auditor__1).
+subject_user_id_t(planner__1).
+subject_user_id_t(planner__5).
+subject_user_id_t(employee__17__0).
+subject_user_id_t(planner__12).
+subject_user_id_t(auditor__9).
+subject_user_id_t(auditor__3).
+subject_user_id_t(acct__8).
+subject_user_id_t(manager__7).
+subject_user_id_t(auditor__9).
+subject_user_id_t(auditor__15).
+subject_user_id_t(planner__4).
+subject_user_id_t(employee__14__1).
+subject_user_id_t(auditor__13).
+subject_user_id_t(contractor__13__0).
+subject_user_id_t(acct__1).
+subject_user_id_t(planner__8).
+subject_user_id_t(pjl18__0).
+subject_user_id_t(contractor__17__0).
+subject_user_id_t(auditor__13).
+subject_user_id_t(manager__0).
+subject_user_id_t(pjl14__0).
+subject_user_id_t(planner__12).
+subject_user_id_t(auditor__16).
+subject_user_id_t(pjl9__1).
+subject_user_id_t(auditor__12).
+subject_user_id_t(acct__16).
+subject_user_id_t(manager__6).
+subject_user_id_t(contractor__15__0).
+subject_user_id_t(acct__8).
+subject_user_id_t(acct__9).
+subject_user_id_t(auditor__12).
+subject_user_id_t(contractor__11__1).
+#modeb(1, subject_role(const(subject_role_t))).
+subject_role_t(employee).
+subject_role_t(projectleader).
+subject_role_t(projectleader).
+subject_role_t(planner).
+subject_role_t(manager).
+subject_role_t(projectleader).
+subject_role_t(projectleader).
+subject_role_t(projectleader).
+subject_role_t(projectleader).
+subject_role_t(employee).
+subject_role_t(auditor).
+subject_role_t(projectleader).
+subject_role_t(manager).
+subject_role_t(accountant).
+subject_role_t(projectleader).
+subject_role_t(projectleader).
+subject_role_t(projectleader).
+subject_role_t(auditor).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(projectleader).
+subject_role_t(projectleader).
+subject_role_t(auditor).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(planner).
+subject_role_t(contractor).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(contractor).
+subject_role_t(contractor).
+subject_role_t(employee).
+subject_role_t(projectleader).
+subject_role_t(projectleader).
+subject_role_t(employee).
+subject_role_t(planner).
+subject_role_t(employee).
+subject_role_t(projectleader).
+subject_role_t(projectleader).
+subject_role_t(projectleader).
+subject_role_t(planner).
+subject_role_t(manager).
+subject_role_t(planner).
+subject_role_t(contractor).
+subject_role_t(contractor).
+subject_role_t(accountant).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(accountant).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(contractor).
+subject_role_t(manager).
+subject_role_t(employee).
+subject_role_t(projectleader).
+subject_role_t(accountant).
+subject_role_t(employee).
+subject_role_t(projectleader).
+subject_role_t(employee).
+subject_role_t(projectleader).
+subject_role_t(contractor).
+subject_role_t(employee).
+subject_role_t(contractor).
+subject_role_t(manager).
+subject_role_t(accountant).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(accountant).
+subject_role_t(accountant).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(accountant).
+subject_role_t(planner).
+subject_role_t(contractor).
+subject_role_t(contractor).
+subject_role_t(employee).
+subject_role_t(accountant).
+subject_role_t(planner).
+subject_role_t(employee).
+subject_role_t(contractor).
+subject_role_t(planner).
+subject_role_t(accountant).
+subject_role_t(accountant).
+subject_role_t(employee).
+subject_role_t(contractor).
+subject_role_t(employee).
+subject_role_t(contractor).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(projectleader).
+subject_role_t(contractor).
+subject_role_t(planner).
+subject_role_t(projectleader).
+subject_role_t(contractor).
+subject_role_t(auditor).
+subject_role_t(manager).
+subject_role_t(projectleader).
+subject_role_t(employee).
+subject_role_t(accountant).
+subject_role_t(employee).
+subject_role_t(auditor).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(manager).
+subject_role_t(accountant).
+subject_role_t(projectleader).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(accountant).
+subject_role_t(employee).
+subject_role_t(projectleader).
+subject_role_t(auditor).
+subject_role_t(accountant).
+subject_role_t(accountant).
+subject_role_t(planner).
+subject_role_t(contractor).
+subject_role_t(planner).
+subject_role_t(contractor).
+subject_role_t(projectleader).
+subject_role_t(employee).
+subject_role_t(contractor).
+subject_role_t(accountant).
+subject_role_t(contractor).
+subject_role_t(employee).
+subject_role_t(contractor).
+subject_role_t(employee).
+subject_role_t(projectleader).
+subject_role_t(contractor).
+subject_role_t(accountant).
+subject_role_t(accountant).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(projectleader).
+subject_role_t(manager).
+subject_role_t(employee).
+subject_role_t(projectleader).
+subject_role_t(planner).
+subject_role_t(projectleader).
+subject_role_t(employee).
+subject_role_t(accountant).
+subject_role_t(projectleader).
+subject_role_t(planner).
+subject_role_t(employee).
+subject_role_t(manager).
+subject_role_t(accountant).
+subject_role_t(planner).
+subject_role_t(employee).
+subject_role_t(contractor).
+subject_role_t(accountant).
+subject_role_t(employee).
+subject_role_t(planner).
+subject_role_t(contractor).
+subject_role_t(employee).
+subject_role_t(projectleader).
+subject_role_t(projectleader).
+subject_role_t(employee).
+subject_role_t(projectleader).
+subject_role_t(auditor).
+subject_role_t(manager).
+subject_role_t(manager).
+subject_role_t(employee).
+subject_role_t(contractor).
+subject_role_t(projectleader).
+subject_role_t(employee).
+subject_role_t(auditor).
+subject_role_t(projectleader).
+subject_role_t(projectleader).
+subject_role_t(projectleader).
+subject_role_t(contractor).
+subject_role_t(accountant).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(contractor).
+subject_role_t(manager).
+subject_role_t(projectleader).
+subject_role_t(employee).
+subject_role_t(projectleader).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(contractor).
+subject_role_t(contractor).
+subject_role_t(planner).
+subject_role_t(projectleader).
+subject_role_t(planner).
+subject_role_t(accountant).
+subject_role_t(employee).
+subject_role_t(accountant).
+subject_role_t(planner).
+subject_role_t(contractor).
+subject_role_t(contractor).
+subject_role_t(planner).
+subject_role_t(manager).
+subject_role_t(accountant).
+subject_role_t(projectleader).
+subject_role_t(accountant).
+subject_role_t(employee).
+subject_role_t(auditor).
+subject_role_t(projectleader).
+subject_role_t(manager).
+subject_role_t(contractor).
+subject_role_t(accountant).
+subject_role_t(planner).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(contractor).
+subject_role_t(planner).
+subject_role_t(planner).
+subject_role_t(projectleader).
+subject_role_t(contractor).
+subject_role_t(accountant).
+subject_role_t(contractor).
+subject_role_t(projectleader).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(projectleader).
+subject_role_t(employee).
+subject_role_t(contractor).
+subject_role_t(projectleader).
+subject_role_t(projectleader).
+subject_role_t(employee).
+subject_role_t(auditor).
+subject_role_t(employee).
+subject_role_t(planner).
+subject_role_t(projectleader).
+subject_role_t(employee).
+subject_role_t(projectleader).
+subject_role_t(projectleader).
+subject_role_t(projectleader).
+subject_role_t(projectleader).
+subject_role_t(employee).
+subject_role_t(accountant).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(projectleader).
+subject_role_t(projectleader).
+subject_role_t(accountant).
+subject_role_t(contractor).
+subject_role_t(planner).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(accountant).
+subject_role_t(accountant).
+subject_role_t(projectleader).
+subject_role_t(employee).
+subject_role_t(accountant).
+subject_role_t(planner).
+subject_role_t(employee).
+subject_role_t(accountant).
+subject_role_t(accountant).
+subject_role_t(projectleader).
+subject_role_t(projectleader).
+subject_role_t(accountant).
+subject_role_t(contractor).
+subject_role_t(projectleader).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(contractor).
+subject_role_t(employee).
+subject_role_t(manager).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(contractor).
+subject_role_t(employee).
+subject_role_t(planner).
+subject_role_t(planner).
+subject_role_t(projectleader).
+subject_role_t(contractor).
+subject_role_t(accountant).
+subject_role_t(employee).
+subject_role_t(manager).
+subject_role_t(employee).
+subject_role_t(contractor).
+subject_role_t(manager).
+subject_role_t(contractor).
+subject_role_t(accountant).
+subject_role_t(employee).
+subject_role_t(projectleader).
+subject_role_t(manager).
+subject_role_t(manager).
+subject_role_t(accountant).
+subject_role_t(accountant).
+subject_role_t(planner).
+subject_role_t(employee).
+subject_role_t(planner).
+subject_role_t(contractor).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(projectleader).
+subject_role_t(accountant).
+subject_role_t(projectleader).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(planner).
+subject_role_t(projectleader).
+subject_role_t(employee).
+subject_role_t(projectleader).
+subject_role_t(projectleader).
+subject_role_t(employee).
+subject_role_t(planner).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(planner).
+subject_role_t(accountant).
+subject_role_t(accountant).
+subject_role_t(planner).
+subject_role_t(accountant).
+subject_role_t(contractor).
+subject_role_t(contractor).
+subject_role_t(planner).
+subject_role_t(projectleader).
+subject_role_t(contractor).
+subject_role_t(accountant).
+subject_role_t(contractor).
+subject_role_t(contractor).
+subject_role_t(contractor).
+subject_role_t(accountant).
+subject_role_t(auditor).
+subject_role_t(employee).
+subject_role_t(accountant).
+subject_role_t(employee).
+subject_role_t(projectleader).
+subject_role_t(accountant).
+subject_role_t(employee).
+subject_role_t(manager).
+subject_role_t(manager).
+subject_role_t(projectleader).
+subject_role_t(employee).
+subject_role_t(accountant).
+subject_role_t(employee).
+subject_role_t(projectleader).
+subject_role_t(auditor).
+subject_role_t(manager).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(accountant).
+subject_role_t(employee).
+subject_role_t(contractor).
+subject_role_t(planner).
+subject_role_t(projectleader).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(contractor).
+subject_role_t(planner).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(projectleader).
+subject_role_t(accountant).
+subject_role_t(projectleader).
+subject_role_t(projectleader).
+subject_role_t(contractor).
+subject_role_t(projectleader).
+subject_role_t(contractor).
+subject_role_t(contractor).
+subject_role_t(projectleader).
+subject_role_t(accountant).
+subject_role_t(auditor).
+subject_role_t(accountant).
+subject_role_t(employee).
+subject_role_t(accountant).
+subject_role_t(contractor).
+subject_role_t(contractor).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(planner).
+subject_role_t(manager).
+subject_role_t(employee).
+subject_role_t(projectleader).
+subject_role_t(accountant).
+subject_role_t(employee).
+subject_role_t(planner).
+subject_role_t(planner).
+subject_role_t(employee).
+subject_role_t(contractor).
+subject_role_t(contractor).
+subject_role_t(projectleader).
+subject_role_t(projectleader).
+subject_role_t(accountant).
+subject_role_t(projectleader).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(contractor).
+subject_role_t(planner).
+subject_role_t(accountant).
+subject_role_t(employee).
+subject_role_t(employee).
+subject_role_t(planner).
+subject_role_t(manager).
+subject_role_t(projectleader).
+subject_role_t(accountant).
+subject_role_t(contractor).
+subject_role_t(contractor).
+subject_role_t(accountant).
+subject_role_t(accountant).
+subject_role_t(manager).
+subject_role_t(manager).
+subject_role_t(accountant).
+subject_role_t(projectleader).
+subject_role_t(auditor).
+subject_role_t(accountant).
+subject_role_t(employee).
+subject_role_t(accountant).
+subject_role_t(projectleader).
+subject_role_t(contractor).
+subject_role_t(contractor).
+subject_role_t(projectleader).
+subject_role_t(contractor).
+subject_role_t(projectleader).
+subject_role_t(accountant).
+subject_role_t(auditor).
+subject_role_t(planner).
+subject_role_t(planner).
+subject_role_t(employee).
+subject_role_t(planner).
+subject_role_t(auditor).
+subject_role_t(auditor).
+subject_role_t(accountant).
+subject_role_t(manager).
+subject_role_t(auditor).
+subject_role_t(auditor).
+subject_role_t(planner).
+subject_role_t(employee).
+subject_role_t(auditor).
+subject_role_t(contractor).
+subject_role_t(accountant).
+subject_role_t(planner).
+subject_role_t(projectleader).
+subject_role_t(contractor).
+subject_role_t(auditor).
+subject_role_t(manager).
+subject_role_t(projectleader).
+subject_role_t(planner).
+subject_role_t(auditor).
+subject_role_t(projectleader).
+subject_role_t(auditor).
+subject_role_t(accountant).
+subject_role_t(manager).
+subject_role_t(contractor).
+subject_role_t(accountant).
+subject_role_t(accountant).
+subject_role_t(auditor).
+subject_role_t(contractor).
+#modeb(1, subject_projects(const(subject_projects_t))).
+subject_projects_t(proj__5__3).
+subject_projects_t(proj__17__3).
+subject_projects_t(proj__5__3).
+subject_projects_t(proj__13__3).
+subject_projects_t(proj__4__1).
+subject_projects_t(proj__18__0).
+subject_projects_t(proj__5__3).
+subject_projects_t(proj__11__2).
+subject_projects_t(proj__17__1).
+subject_projects_t(proj__5__3).
+subject_projects_t(proj__15__1).
+subject_projects_t(proj__1__0).
+subject_projects_t(proj__9__1).
+subject_projects_t(proj__7__2).
+subject_projects_t(proj__8__1).
+subject_projects_t(proj__1__0).
+subject_projects_t(proj__17__1).
+subject_projects_t(proj__11__2).
+subject_projects_t(proj__14__2).
+subject_projects_t(proj__3__0).
+subject_projects_t(proj__8__1).
+subject_projects_t(proj__7__2).
+subject_projects_t(proj__7__3).
+subject_projects_t(proj__16__0).
+subject_projects_t(proj__10__0).
+subject_projects_t(proj__11__2).
+subject_projects_t(proj__17__1).
+subject_projects_t(proj__14__2).
+subject_projects_t(proj__2__1).
+subject_projects_t(proj__1__0).
+subject_projects_t(proj__3__0).
+subject_projects_t(proj__11__2).
+subject_projects_t(proj__1__0).
+subject_projects_t(proj__3__0).
+subject_projects_t(proj__2__1).
+subject_projects_t(proj__11__3).
+subject_projects_t(proj__2__1).
+subject_projects_t(proj__5__3).
+subject_projects_t(proj__0__1).
+subject_projects_t(proj__2__1).
+subject_projects_t(proj__7__2).
+subject_projects_t(proj__4__1).
+subject_projects_t(proj__6__1).
+subject_projects_t(proj__12__1).
+subject_projects_t(proj__14__2).
+subject_projects_t(proj__6__1).
+subject_projects_t(proj__11__3).
+subject_projects_t(proj__12__1).
+subject_projects_t(proj__8__1).
+subject_projects_t(proj__13__3).
+subject_projects_t(proj__16__0).
+subject_projects_t(proj__4__0).
+subject_projects_t(proj__5__0).
+subject_projects_t(proj__12__0).
+subject_projects_t(proj__5__3).
+subject_projects_t(proj__14__1).
+subject_projects_t(proj__11__3).
+subject_projects_t(proj__18__1).
+subject_projects_t(proj__5__0).
+subject_projects_t(proj__10__1).
+subject_projects_t(proj__7__2).
+subject_projects_t(proj__8__0).
+subject_projects_t(proj__7__2).
+subject_projects_t(proj__7__2).
+subject_projects_t(proj__9__0).
+subject_projects_t(proj__4__1).
+subject_projects_t(proj__5__3).
+subject_projects_t(proj__19__0).
+subject_projects_t(proj__17__1).
+subject_projects_t(proj__8__1).
+subject_projects_t(proj__8__1).
+subject_projects_t(proj__1__1).
+subject_projects_t(proj__5__3).
+subject_projects_t(proj__15__1).
+subject_projects_t(proj__7__2).
+subject_projects_t(proj__16__0).
+subject_projects_t(proj__15__1).
+subject_projects_t(proj__2__1).
+subject_projects_t(proj__11__3).
+subject_projects_t(proj__18__1).
+subject_projects_t(proj__5__3).
+subject_projects_t(proj__8__0).
+subject_projects_t(proj__18__1).
+subject_projects_t(proj__8__1).
+subject_projects_t(proj__5__2).
+subject_projects_t(proj__15__1).
+subject_projects_t(proj__14__1).
+subject_projects_t(proj__7__2).
+subject_projects_t(proj__15__1).
+subject_projects_t(proj__9__1).
+subject_projects_t(proj__1__0).
+subject_projects_t(proj__7__2).
+subject_projects_t(proj__4__1).
+subject_projects_t(proj__4__1).
+subject_projects_t(proj__14__2).
+subject_projects_t(proj__15__0).
+subject_projects_t(proj__17__3).
+subject_projects_t(proj__1__1).
+subject_projects_t(proj__13__3).
+subject_projects_t(proj__11__3).
+subject_projects_t(proj__4__1).
+subject_projects_t(proj__8__1).
+subject_projects_t(proj__4__1).
+subject_projects_t(proj__2__1).
+subject_projects_t(proj__11__2).
+subject_projects_t(proj__12__0).
+subject_projects_t(proj__7__3).
+subject_projects_t(proj__5__3).
+subject_projects_t(proj__10__0).
+subject_projects_t(proj__10__1).
+subject_projects_t(proj__13__3).
+subject_projects_t(proj__9__1).
+subject_projects_t(proj__18__0).
+subject_projects_t(proj__14__2).
+subject_projects_t(proj__1__0).
+subject_projects_t(proj__18__0).
+subject_projects_t(proj__2__1).
+subject_projects_t(proj__14__2).
+subject_projects_t(proj__15__1).
+subject_projects_t(proj__11__2).
+subject_projects_t(proj__11__0).
+subject_projects_t(proj__18__1).
+subject_projects_t(proj__11__1).
+subject_projects_t(proj__0__1).
+subject_projects_t(proj__18__0).
+subject_projects_t(proj__13__3).
+subject_projects_t(proj__1__0).
+subject_projects_t(proj__3__0).
+subject_projects_t(proj__14__0).
+subject_projects_t(proj__6__1).
+subject_projects_t(proj__7__2).
+subject_projects_t(proj__5__3).
+subject_projects_t(proj__17__1).
+subject_projects_t(proj__19__0).
+subject_projects_t(proj__7__3).
+subject_projects_t(proj__14__1).
+subject_projects_t(proj__7__2).
+subject_projects_t(proj__17__3).
+subject_projects_t(proj__6__1).
+subject_projects_t(proj__16__0).
+subject_projects_t(proj__17__1).
+subject_projects_t(proj__11__2).
+subject_projects_t(proj__13__3).
+subject_projects_t(proj__4__1).
+subject_projects_t(proj__17__1).
+subject_projects_t(proj__6__1).
+subject_projects_t(proj__19__0).
+subject_projects_t(proj__2__1).
+subject_projects_t(proj__1__0).
+subject_projects_t(proj__11__3).
+subject_projects_t(proj__18__1).
+subject_projects_t(proj__14__2).
+subject_projects_t(proj__6__0).
+subject_projects_t(proj__10__1).
+subject_projects_t(proj__10__1).
+subject_projects_t(proj__13__2).
+subject_projects_t(proj__15__1).
+subject_projects_t(proj__18__0).
+subject_projects_t(proj__7__2).
+subject_projects_t(proj__5__3).
+subject_projects_t(proj__1__0).
+subject_projects_t(proj__5__0).
+subject_projects_t(proj__6__1).
+subject_projects_t(proj__4__1).
+subject_projects_t(proj__9__0).
+subject_projects_t(proj__4__0).
+subject_projects_t(proj__14__2).
+subject_projects_t(proj__11__2).
+subject_projects_t(proj__4__1).
+subject_projects_t(proj__7__2).
+subject_projects_t(proj__7__2).
+subject_projects_t(proj__5__3).
+subject_projects_t(proj__13__3).
+subject_projects_t(proj__7__2).
+subject_projects_t(proj__18__0).
+subject_projects_t(proj__17__3).
+subject_projects_t(proj__13__3).
+subject_projects_t(proj__16__0).
+subject_projects_t(proj__7__2).
+subject_projects_t(proj__17__3).
+subject_projects_t(proj__9__1).
+subject_projects_t(proj__3__0).
+subject_projects_t(proj__14__2).
+subject_projects_t(proj__14__1).
+subject_projects_t(proj__13__3).
+subject_projects_t(proj__9__1).
+subject_projects_t(proj__17__1).
+subject_projects_t(proj__13__3).
+subject_projects_t(proj__5__3).
+subject_projects_t(proj__1__1).
+subject_projects_t(proj__4__1).
+subject_projects_t(proj__18__1).
+subject_projects_t(proj__15__1).
+subject_projects_t(proj__8__1).
+subject_projects_t(proj__3__0).
+subject_projects_t(proj__12__0).
+subject_projects_t(proj__11__3).
+subject_projects_t(proj__8__1).
+subject_projects_t(proj__1__0).
+subject_projects_t(proj__13__3).
+subject_projects_t(proj__13__3).
+subject_projects_t(proj__15__0).
+subject_projects_t(proj__10__0).
+subject_projects_t(proj__16__0).
+subject_projects_t(proj__6__1).
+subject_projects_t(proj__3__0).
+subject_projects_t(proj__10__0).
+subject_projects_t(proj__17__3).
+subject_projects_t(proj__14__2).
+subject_projects_t(proj__8__1).
+subject_projects_t(proj__9__1).
+subject_projects_t(proj__11__2).
+subject_projects_t(proj__9__0).
+subject_projects_t(proj__6__1).
+subject_projects_t(proj__17__3).
+subject_projects_t(proj__3__0).
+subject_projects_t(proj__0__0).
+subject_projects_t(proj__5__3).
+subject_projects_t(proj__8__1).
+subject_projects_t(proj__3__0).
+subject_projects_t(proj__15__1).
+subject_projects_t(proj__12__1).
+subject_projects_t(proj__1__0).
+subject_projects_t(proj__17__3).
+subject_projects_t(proj__9__1).
+subject_projects_t(proj__19__0).
+subject_projects_t(proj__18__0).
+subject_projects_t(proj__13__3).
+subject_projects_t(proj__17__1).
+subject_projects_t(proj__13__0).
+subject_projects_t(proj__16__0).
+subject_projects_t(proj__2__1).
+subject_projects_t(proj__7__2).
+subject_projects_t(proj__18__0).
+subject_projects_t(proj__19__0).
+subject_projects_t(proj__8__1).
+subject_projects_t(proj__8__0).
+subject_projects_t(proj__14__3).
+subject_projects_t(proj__11__2).
+subject_projects_t(proj__5__2).
+subject_projects_t(proj__2__1).
+subject_projects_t(proj__6__1).
+subject_projects_t(proj__12__1).
+subject_projects_t(proj__7__2).
+subject_projects_t(proj__13__3).
+subject_projects_t(proj__6__1).
+subject_projects_t(proj__12__0).
+subject_projects_t(proj__6__1).
+subject_projects_t(proj__17__3).
+subject_projects_t(proj__3__0).
+subject_projects_t(proj__10__0).
+subject_projects_t(proj__5__3).
+subject_projects_t(proj__8__1).
+subject_projects_t(proj__4__0).
+subject_projects_t(proj__8__1).
+subject_projects_t(proj__14__2).
+subject_projects_t(proj__7__2).
+subject_projects_t(proj__6__1).
+subject_projects_t(proj__9__0).
+subject_projects_t(proj__9__0).
+subject_projects_t(proj__4__1).
+subject_projects_t(proj__5__0).
+subject_projects_t(proj__14__2).
+subject_projects_t(proj__14__2).
+subject_projects_t(proj__13__3).
+subject_projects_t(proj__2__0).
+subject_projects_t(proj__12__0).
+subject_projects_t(proj__15__1).
+subject_projects_t(proj__12__0).
+subject_projects_t(proj__18__0).
+subject_projects_t(proj__16__1).
+subject_projects_t(proj__17__3).
+subject_projects_t(proj__3__0).
+subject_projects_t(proj__18__0).
+subject_projects_t(proj__13__3).
+subject_projects_t(proj__4__1).
+subject_projects_t(proj__13__3).
+subject_projects_t(proj__14__1).
+subject_projects_t(proj__1__0).
+subject_projects_t(proj__3__0).
+subject_projects_t(proj__12__0).
+subject_projects_t(proj__4__1).
+subject_projects_t(proj__15__1).
+subject_projects_t(proj__12__1).
+subject_projects_t(proj__3__0).
+subject_projects_t(proj__6__0).
+subject_projects_t(proj__9__1).
+subject_projects_t(proj__6__1).
+subject_projects_t(proj__7__2).
+subject_projects_t(proj__7__2).
+subject_projects_t(proj__12__0).
+subject_projects_t(proj__14__1).
+subject_projects_t(proj__9__1).
+subject_projects_t(proj__17__1).
+subject_projects_t(proj__2__1).
+subject_projects_t(proj__9__1).
+subject_projects_t(proj__5__2).
+subject_projects_t(proj__2__0).
+subject_projects_t(proj__11__3).
+subject_projects_t(proj__1__0).
+subject_projects_t(proj__0__0).
+subject_projects_t(proj__14__2).
+subject_projects_t(proj__9__1).
+subject_projects_t(proj__14__0).
+subject_projects_t(proj__6__1).
+subject_projects_t(proj__1__1).
+subject_projects_t(proj__1__0).
+subject_projects_t(proj__5__1).
+subject_projects_t(proj__17__3).
+subject_projects_t(proj__12__0).
+subject_projects_t(proj__9__0).
+subject_projects_t(proj__3__0).
+subject_projects_t(proj__8__0).
+subject_projects_t(proj__9__0).
+subject_projects_t(proj__15__1).
+subject_projects_t(proj__4__0).
+subject_projects_t(proj__14__0).
+subject_projects_t(proj__13__3).
+subject_projects_t(proj__13__0).
+subject_projects_t(proj__1__0).
+subject_projects_t(proj__8__1).
+subject_projects_t(proj__17__1).
+subject_projects_t(proj__13__3).
+subject_projects_t(proj__12__0).
+subject_projects_t(proj__16__0).
+subject_projects_t(proj__12__0).
+subject_projects_t(proj__16__0).
+subject_projects_t(proj__15__0).
+subject_projects_t(proj__8__0).
+subject_projects_t(proj__9__1).
+subject_projects_t(proj__12__0).
+subject_projects_t(proj__11__2).
+#modeb(1, subject_tasks(const(subject_tasks_t))).
+subject_tasks_t(task__5__1__5).
+subject_tasks_t(task__5__1__5).
+subject_tasks_t(task__5__1__5).
+subject_tasks_t(task__11__2__3).
+subject_tasks_t(task__5__0__1).
+subject_tasks_t(task__15__1__1).
+subject_tasks_t(task__1__0__3).
+subject_tasks_t(task__7__2__5).
+subject_tasks_t(task__8__0__5).
+subject_tasks_t(task__1__0__3).
+subject_tasks_t(task__17__1__2).
+subject_tasks_t(task__11__2__5).
+subject_tasks_t(task__14__0__4).
+subject_tasks_t(task__3__0__3).
+subject_tasks_t(task__7__2__2).
+subject_tasks_t(task__10__0__1).
+subject_tasks_t(task__11__2__5).
+subject_tasks_t(task__14__0__4).
+subject_tasks_t(task__2__1__4).
+subject_tasks_t(task__3__0__3).
+subject_tasks_t(task__11__2__3).
+subject_tasks_t(task__1__0__3).
+subject_tasks_t(task__3__0__3).
+subject_tasks_t(task__2__1__4).
+subject_tasks_t(task__2__1__4).
+subject_tasks_t(task__5__1__5).
+subject_tasks_t(task__0__1__5).
+subject_tasks_t(task__2__1__4).
+subject_tasks_t(task__7__2__4).
+subject_tasks_t(task__6__0__5).
+subject_tasks_t(task__12__0__3).
+subject_tasks_t(task__14__0__4).
+subject_tasks_t(task__12__0__3).
+subject_tasks_t(task__8__0__5).
+subject_tasks_t(task__13__2__1).
+subject_tasks_t(task__5__0__2).
+subject_tasks_t(task__12__0__0).
+subject_tasks_t(task__5__0__1).
+subject_tasks_t(task__18__0__3).
+subject_tasks_t(task__5__0__2).
+subject_tasks_t(task__7__1__5).
+subject_tasks_t(task__7__2__5).
+subject_tasks_t(task__9__0__1).
+subject_tasks_t(task__4__1__2).
+subject_tasks_t(task__5__1__5).
+subject_tasks_t(task__19__0__2).
+subject_tasks_t(task__17__1__2).
+subject_tasks_t(task__8__1__5).
+subject_tasks_t(task__5__0__1).
+subject_tasks_t(task__7__2__2).
+subject_tasks_t(task__15__1__1).
+subject_tasks_t(task__2__1__4).
+subject_tasks_t(task__18__0__3).
+subject_tasks_t(task__5__1__5).
+subject_tasks_t(task__18__0__3).
+subject_tasks_t(task__7__2__4).
+subject_tasks_t(task__9__1__3).
+subject_tasks_t(task__1__0__3).
+subject_tasks_t(task__7__2__5).
+subject_tasks_t(task__4__1__2).
+subject_tasks_t(task__14__0__4).
+subject_tasks_t(task__15__0__1).
+subject_tasks_t(task__17__2__1).
+subject_tasks_t(task__1__1__4).
+subject_tasks_t(task__4__1__3).
+subject_tasks_t(task__8__0__5).
+subject_tasks_t(task__4__1__3).
+subject_tasks_t(task__11__3__5).
+subject_tasks_t(task__5__0__1).
+subject_tasks_t(task__13__0__1).
+subject_tasks_t(task__9__1__3).
+subject_tasks_t(task__14__0__4).
+subject_tasks_t(task__18__0__5).
+subject_tasks_t(task__2__1__4).
+subject_tasks_t(task__14__0__4).
+subject_tasks_t(task__11__3__5).
+subject_tasks_t(task__11__0__0).
+subject_tasks_t(task__18__0__3).
+subject_tasks_t(task__0__1__5).
+subject_tasks_t(task__13__2__1).
+subject_tasks_t(task__1__0__3).
+subject_tasks_t(task__3__0__3).
+subject_tasks_t(task__14__0__3).
+subject_tasks_t(task__6__0__5).
+subject_tasks_t(task__7__1__5).
+subject_tasks_t(task__5__1__5).
+subject_tasks_t(task__17__1__2).
+subject_tasks_t(task__19__0__5).
+subject_tasks_t(task__17__2__1).
+subject_tasks_t(task__17__1__0).
+subject_tasks_t(task__11__2__5).
+subject_tasks_t(task__6__0__5).
+subject_tasks_t(task__2__1__5).
+subject_tasks_t(task__18__0__3).
+subject_tasks_t(task__14__0__4).
+subject_tasks_t(task__6__0__0).
+subject_tasks_t(task__13__2__3).
+subject_tasks_t(task__18__0__5).
+subject_tasks_t(task__7__2__2).
+subject_tasks_t(task__5__1__5).
+subject_tasks_t(task__1__0__3).
+subject_tasks_t(task__5__0__2).
+subject_tasks_t(task__6__0__5).
+subject_tasks_t(task__9__0__1).
+subject_tasks_t(task__14__0__4).
+subject_tasks_t(task__11__2__3).
+subject_tasks_t(task__7__1__5).
+subject_tasks_t(task__7__1__5).
+subject_tasks_t(task__5__0__1).
+subject_tasks_t(task__7__2__5).
+subject_tasks_t(task__17__2__1).
+subject_tasks_t(task__13__2__1).
+subject_tasks_t(task__17__2__1).
+subject_tasks_t(task__14__0__4).
+subject_tasks_t(task__17__1__2).
+subject_tasks_t(task__13__2__1).
+subject_tasks_t(task__5__0__1).
+subject_tasks_t(task__1__1__4).
+subject_tasks_t(task__4__1__3).
+subject_tasks_t(task__18__0__3).
+subject_tasks_t(task__15__1__1).
+subject_tasks_t(task__8__1__5).
+subject_tasks_t(task__3__0__3).
+subject_tasks_t(task__8__1__5).
+subject_tasks_t(task__13__2__1).
+subject_tasks_t(task__13__0__1).
+subject_tasks_t(task__15__0__1).
+subject_tasks_t(task__10__0__1).
+subject_tasks_t(task__6__0__5).
+subject_tasks_t(task__14__0__4).
+subject_tasks_t(task__9__1__3).
+subject_tasks_t(task__11__3__5).
+subject_tasks_t(task__9__0__1).
+subject_tasks_t(task__17__3__3).
+subject_tasks_t(task__3__0__3).
+subject_tasks_t(task__5__0__1).
+subject_tasks_t(task__8__0__5).
+subject_tasks_t(task__15__1__1).
+subject_tasks_t(task__12__0__3).
+subject_tasks_t(task__1__0__3).
+subject_tasks_t(task__17__1__0).
+subject_tasks_t(task__13__0__0).
+subject_tasks_t(task__2__1__5).
+subject_tasks_t(task__18__0__5).
+subject_tasks_t(task__19__0__5).
+subject_tasks_t(task__8__1__5).
+subject_tasks_t(task__11__3__5).
+subject_tasks_t(task__2__1__4).
+subject_tasks_t(task__12__0__3).
+subject_tasks_t(task__7__2__2).
+subject_tasks_t(task__6__0__5).
+subject_tasks_t(task__6__0__5).
+subject_tasks_t(task__17__2__1).
+subject_tasks_t(task__3__0__3).
+subject_tasks_t(task__5__1__5).
+subject_tasks_t(task__8__1__5).
+subject_tasks_t(task__8__0__5).
+subject_tasks_t(task__14__0__4).
+subject_tasks_t(task__7__2__4).
+subject_tasks_t(task__9__0__1).
+subject_tasks_t(task__9__0__1).
+subject_tasks_t(task__5__0__3).
+subject_tasks_t(task__14__2__4).
+subject_tasks_t(task__14__2__4).
+subject_tasks_t(task__15__1__1).
+subject_tasks_t(task__18__0__5).
+subject_tasks_t(task__16__1__3).
+subject_tasks_t(task__17__2__1).
+subject_tasks_t(task__3__0__3).
+subject_tasks_t(task__13__2__1).
+subject_tasks_t(task__13__2__1).
+subject_tasks_t(task__3__0__3).
+subject_tasks_t(task__12__0__0).
+subject_tasks_t(task__4__1__2).
+subject_tasks_t(task__12__0__3).
+subject_tasks_t(task__3__0__3).
+subject_tasks_t(task__6__0__0).
+subject_tasks_t(task__7__1__5).
+subject_tasks_t(task__7__1__5).
+subject_tasks_t(task__9__1__3).
+subject_tasks_t(task__17__1__0).
+subject_tasks_t(task__1__0__3).
+subject_tasks_t(task__14__2__4).
+subject_tasks_t(task__9__1__3).
+subject_tasks_t(task__14__0__0).
+subject_tasks_t(task__17__3__3).
+subject_tasks_t(task__14__0__3).
+subject_tasks_t(task__13__0__0).
+subject_tasks_t(task__17__1__0).
+subject_tasks_t(task__15__0__1).
+subject_tasks_t(task__11__2__5).
+#modeb(1, resource_resource_id(const(resource_resource_id_t))).
+resource_resource_id_t(task__5__1__2).
+resource_resource_id_t(bg__13__0).
+resource_resource_id_t(bg__14__0).
+resource_resource_id_t(task__17__3__5).
+resource_resource_id_t(bg__17__0).
+resource_resource_id_t(sc__7__2).
+resource_resource_id_t(bg__12__1).
+resource_resource_id_t(sc__16__1).
+resource_resource_id_t(sc__16__0).
+resource_resource_id_t(task__5__3__1).
+resource_resource_id_t(sc__13__3).
+resource_resource_id_t(sc__7__1).
+resource_resource_id_t(bg__0__1).
+resource_resource_id_t(task__4__1__5).
+resource_resource_id_t(bg__4__0).
+resource_resource_id_t(bg__16__0).
+resource_resource_id_t(bg__13__3).
+resource_resource_id_t(sc__18__0).
+resource_resource_id_t(task__5__3__2).
+resource_resource_id_t(task__11__2__3).
+resource_resource_id_t(bg__17__3).
+resource_resource_id_t(bg__11__2).
+resource_resource_id_t(bg__17__1).
+resource_resource_id_t(task__5__0__4).
+resource_resource_id_t(task__15__1__4).
+resource_resource_id_t(task__1__0__3).
+resource_resource_id_t(task__9__1__5).
+resource_resource_id_t(task__8__0__3).
+resource_resource_id_t(task__1__1__5).
+resource_resource_id_t(task__17__1__5).
+resource_resource_id_t(task__11__2__4).
+resource_resource_id_t(task__14__2__4).
+resource_resource_id_t(bg__5__2).
+resource_resource_id_t(sc__5__1).
+resource_resource_id_t(task__3__1__3).
+resource_resource_id_t(task__7__1__2).
+resource_resource_id_t(sc__4__0).
+resource_resource_id_t(bg__7__3).
+resource_resource_id_t(sc__11__1).
+resource_resource_id_t(task__7__3__2).
+resource_resource_id_t(bg__12__0).
+resource_resource_id_t(sc__16__0).
+resource_resource_id_t(task__10__0__1).
+resource_resource_id_t(task__11__2__5).
+resource_resource_id_t(task__17__1__5).
+resource_resource_id_t(task__14__0__5).
+resource_resource_id_t(task__2__1__3).
+resource_resource_id_t(task__1__0__4).
+resource_resource_id_t(task__3__1__3).
+resource_resource_id_t(task__11__2__3).
+resource_resource_id_t(task__1__0__1).
+resource_resource_id_t(bg__3__0).
+resource_resource_id_t(task__2__0__1).
+resource_resource_id_t(bg__11__0).
+resource_resource_id_t(task__11__3__4).
+resource_resource_id_t(task__2__1__4).
+resource_resource_id_t(bg__14__1).
+resource_resource_id_t(task__5__3__5).
+resource_resource_id_t(bg__8__0).
+resource_resource_id_t(task__2__1__0).
+resource_resource_id_t(task__7__2__4).
+resource_resource_id_t(bg__9__1).
+resource_resource_id_t(task__4__1__0).
+resource_resource_id_t(task__6__0__3).
+resource_resource_id_t(task__12__0__3).
+resource_resource_id_t(task__14__0__3).
+resource_resource_id_t(task__6__1__3).
+resource_resource_id_t(bg__11__3).
+resource_resource_id_t(task__12__1__3).
+resource_resource_id_t(task__8__1__4).
+resource_resource_id_t(task__13__3__1).
+resource_resource_id_t(task__16__0__3).
+resource_resource_id_t(task__4__0__1).
+resource_resource_id_t(task__5__0__1).
+resource_resource_id_t(task__14__1__3).
+resource_resource_id_t(sc__11__3).
+resource_resource_id_t(task__18__0__1).
+resource_resource_id_t(task__5__0__2).
+resource_resource_id_t(task__10__1__5).
+resource_resource_id_t(sc__7__2).
+resource_resource_id_t(task__8__0__0).
+resource_resource_id_t(task__7__1__5).
+resource_resource_id_t(task__7__2__5).
+resource_resource_id_t(task__9__0__4).
+resource_resource_id_t(task__4__1__2).
+resource_resource_id_t(task__5__1__5).
+resource_resource_id_t(bg__2__1).
+resource_resource_id_t(task__17__1__4).
+resource_resource_id_t(task__8__1__1).
+resource_resource_id_t(bg__0__1).
+resource_resource_id_t(task__8__1__0).
+resource_resource_id_t(bg__1__1).
+resource_resource_id_t(bg__13__3).
+resource_resource_id_t(sc__17__3).
+resource_resource_id_t(task__5__3__5).
+resource_resource_id_t(task__15__1__1).
+resource_resource_id_t(task__7__1__3).
+resource_resource_id_t(sc__16__0).
+resource_resource_id_t(task__15__1__1).
+resource_resource_id_t(task__2__0__0).
+resource_resource_id_t(bg__7__2).
+resource_resource_id_t(task__11__3__2).
+resource_resource_id_t(bg__15__1).
+resource_resource_id_t(task__18__0__3).
+resource_resource_id_t(task__5__1__5).
+resource_resource_id_t(bg__8__0).
+resource_resource_id_t(task__18__1__2).
+resource_resource_id_t(sc__13__2).
+resource_resource_id_t(sc__8__1).
+resource_resource_id_t(task__5__2__2).
+resource_resource_id_t(bg__15__1).
+resource_resource_id_t(task__14__1__4).
+resource_resource_id_t(task__7__2__4).
+resource_resource_id_t(task__15__1__1).
+resource_resource_id_t(task__9__1__0).
+resource_resource_id_t(sc__14__2).
+resource_resource_id_t(task__1__0__3).
+resource_resource_id_t(task__4__1__4).
+resource_resource_id_t(task__14__2__4).
+resource_resource_id_t(task__15__0__1).
+resource_resource_id_t(task__17__3__2).
+resource_resource_id_t(sc__19__0).
+resource_resource_id_t(task__1__1__4).
+resource_resource_id_t(task__13__3__3).
+resource_resource_id_t(sc__11__3).
+resource_resource_id_t(task__4__1__1).
+resource_resource_id_t(task__8__1__3).
+resource_resource_id_t(sc__1__0).
+resource_resource_id_t(bg__17__3).
+resource_resource_id_t(task__4__1__5).
+resource_resource_id_t(bg__5__2).
+resource_resource_id_t(sc__2__1).
+resource_resource_id_t(bg__17__0).
+resource_resource_id_t(task__11__3__3).
+resource_resource_id_t(task__12__0__3).
+resource_resource_id_t(bg__18__0).
+resource_resource_id_t(sc__7__3).
+resource_resource_id_t(task__5__3__2).
+resource_resource_id_t(bg__6__0).
+resource_resource_id_t(task__10__0__0).
+resource_resource_id_t(task__10__1__1).
+resource_resource_id_t(task__13__0__1).
+resource_resource_id_t(task__18__0__4).
+resource_resource_id_t(task__1__0__2).
+resource_resource_id_t(task__18__0__5).
+resource_resource_id_t(task__2__0__5).
+resource_resource_id_t(bg__18__1).
+resource_resource_id_t(bg__17__0).
+resource_resource_id_t(task__14__2__4).
+resource_resource_id_t(sc__1__1).
+resource_resource_id_t(bg__15__1).
+resource_resource_id_t(bg__10__1).
+resource_resource_id_t(bg__2__1).
+resource_resource_id_t(task__11__3__4).
+resource_resource_id_t(task__11__0__0).
+resource_resource_id_t(sc__4__1).
+resource_resource_id_t(task__18__1__5).
+resource_resource_id_t(sc__11__1).
+resource_resource_id_t(bg__5__3).
+resource_resource_id_t(sc__6__0).
+resource_resource_id_t(bg__13__3).
+resource_resource_id_t(task__18__0__1).
+resource_resource_id_t(task__13__3__1).
+resource_resource_id_t(task__1__1__4).
+resource_resource_id_t(task__3__0__3).
+resource_resource_id_t(bg__15__0).
+resource_resource_id_t(sc__15__1).
+resource_resource_id_t(task__14__0__4).
+resource_resource_id_t(sc__14__0).
+resource_resource_id_t(task__6__1__2).
+resource_resource_id_t(task__7__1__2).
+resource_resource_id_t(task__5__3__4).
+resource_resource_id_t(task__17__1__2).
+resource_resource_id_t(task__7__3__3).
+resource_resource_id_t(sc__2__0).
+resource_resource_id_t(task__14__1__5).
+resource_resource_id_t(task__7__2__1).
+resource_resource_id_t(task__17__2__5).
+resource_resource_id_t(task__6__1__4).
+resource_resource_id_t(task__16__0__5).
+resource_resource_id_t(task__17__1__0).
+resource_resource_id_t(task__11__2__5).
+resource_resource_id_t(sc__13__3).
+resource_resource_id_t(bg__19__1).
+resource_resource_id_t(task__4__1__1).
+resource_resource_id_t(sc__6__0).
+resource_resource_id_t(bg__17__1).
+resource_resource_id_t(task__6__1__0).
+resource_resource_id_t(bg__19__0).
+resource_resource_id_t(sc__16__0).
+resource_resource_id_t(bg__9__1).
+resource_resource_id_t(task__1__0__3).
+resource_resource_id_t(task__11__3__0).
+resource_resource_id_t(task__18__1__3).
+resource_resource_id_t(task__14__2__5).
+resource_resource_id_t(task__6__0__5).
+resource_resource_id_t(sc__10__1).
+resource_resource_id_t(task__10__1__3).
+resource_resource_id_t(bg__11__2).
+resource_resource_id_t(task__13__2__3).
+resource_resource_id_t(task__15__1__3).
+resource_resource_id_t(task__18__0__5).
+resource_resource_id_t(bg__10__1).
+resource_resource_id_t(task__7__1__4).
+resource_resource_id_t(task__5__3__3).
+resource_resource_id_t(bg__1__0).
+resource_resource_id_t(task__1__1__2).
+resource_resource_id_t(task__5__0__2).
+resource_resource_id_t(sc__5__0).
+resource_resource_id_t(bg__3__1).
+resource_resource_id_t(task__6__1__4).
+resource_resource_id_t(sc__4__1).
+resource_resource_id_t(task__9__0__1).
+resource_resource_id_t(task__4__0__3).
+resource_resource_id_t(bg__4__1).
+resource_resource_id_t(task__14__0__0).
+resource_resource_id_t(sc__3__1).
+resource_resource_id_t(sc__8__1).
+resource_resource_id_t(bg__7__0).
+resource_resource_id_t(bg__1__1).
+resource_resource_id_t(task__11__2__0).
+resource_resource_id_t(task__4__1__3).
+resource_resource_id_t(task__7__1__5).
+resource_resource_id_t(task__7__1__1).
+resource_resource_id_t(task__5__0__2).
+resource_resource_id_t(bg__9__0).
+resource_resource_id_t(bg__13__2).
+resource_resource_id_t(task__13__3__2).
+resource_resource_id_t(task__7__2__2).
+resource_resource_id_t(sc__18__0).
+resource_resource_id_t(task__17__2__1).
+resource_resource_id_t(task__13__2__1).
+resource_resource_id_t(sc__16__0).
+resource_resource_id_t(task__7__2__3).
+resource_resource_id_t(bg__9__0).
+resource_resource_id_t(task__17__3__5).
+resource_resource_id_t(task__9__1__2).
+resource_resource_id_t(task__3__0__3).
+resource_resource_id_t(task__14__2__3).
+resource_resource_id_t(bg__14__1).
+resource_resource_id_t(sc__13__3).
+resource_resource_id_t(sc__4__0).
+resource_resource_id_t(sc__3__1).
+resource_resource_id_t(task__9__1__4).
+resource_resource_id_t(task__17__1__1).
+resource_resource_id_t(sc__9__0).
+resource_resource_id_t(task__13__2__3).
+resource_resource_id_t(task__5__0__0).
+resource_resource_id_t(task__1__1__0).
+resource_resource_id_t(task__4__1__5).
+resource_resource_id_t(bg__5__2).
+resource_resource_id_t(task__18__0__2).
+resource_resource_id_t(task__15__1__0).
+resource_resource_id_t(task__8__1__2).
+resource_resource_id_t(task__3__0__5).
+resource_resource_id_t(task__11__3__1).
+resource_resource_id_t(bg__12__0).
+resource_resource_id_t(sc__1__0).
+resource_resource_id_t(task__13__2__1).
+resource_resource_id_t(bg__8__1).
+resource_resource_id_t(task__13__3__2).
+resource_resource_id_t(bg__11__3).
+resource_resource_id_t(task__10__0__1).
+resource_resource_id_t(task__16__0__0).
+resource_resource_id_t(bg__6__1).
+resource_resource_id_t(bg__11__0).
+resource_resource_id_t(bg__15__1).
+resource_resource_id_t(bg__3__0).
+resource_resource_id_t(task__10__0__1).
+resource_resource_id_t(task__17__3__2).
+resource_resource_id_t(task__14__0__5).
+resource_resource_id_t(task__8__1__0).
+resource_resource_id_t(task__9__1__3).
+resource_resource_id_t(task__11__2__1).
+resource_resource_id_t(task__9__0__4).
+resource_resource_id_t(bg__14__1).
+resource_resource_id_t(sc__6__1).
+resource_resource_id_t(bg__0__0).
+resource_resource_id_t(task__17__3__0).
+resource_resource_id_t(task__3__1__4).
+resource_resource_id_t(sc__0__0).
+resource_resource_id_t(bg__5__1).
+resource_resource_id_t(task__5__3__0).
+resource_resource_id_t(bg__7__1).
+resource_resource_id_t(sc__5__2).
+resource_resource_id_t(task__8__0__5).
+resource_resource_id_t(task__3__0__1).
+resource_resource_id_t(task__15__1__0).
+resource_resource_id_t(task__12__1__5).
+resource_resource_id_t(task__1__0__1).
+resource_resource_id_t(task__17__3__4).
+resource_resource_id_t(task__9__1__0).
+resource_resource_id_t(task__19__0__1).
+resource_resource_id_t(task__18__0__0).
+resource_resource_id_t(task__13__3__4).
+resource_resource_id_t(task__17__1__1).
+resource_resource_id_t(task__16__0__0).
+resource_resource_id_t(sc__12__0).
+resource_resource_id_t(task__2__1__5).
+resource_resource_id_t(bg__7__2).
+resource_resource_id_t(task__8__1__2).
+resource_resource_id_t(task__8__0__5).
+resource_resource_id_t(sc__14__3).
+resource_resource_id_t(task__11__3__2).
+resource_resource_id_t(bg__5__2).
+resource_resource_id_t(task__2__1__0).
+resource_resource_id_t(sc__17__1).
+resource_resource_id_t(task__6__1__5).
+resource_resource_id_t(task__12__1__3).
+resource_resource_id_t(bg__10__0).
+resource_resource_id_t(bg__12__1).
+resource_resource_id_t(sc__16__1).
+resource_resource_id_t(task__13__3__1).
+resource_resource_id_t(task__6__0__4).
+resource_resource_id_t(sc__0__1).
+resource_resource_id_t(sc__12__0).
+resource_resource_id_t(bg__11__2).
+resource_resource_id_t(task__17__3__5).
+resource_resource_id_t(task__3__0__0).
+resource_resource_id_t(task__10__0__2).
+resource_resource_id_t(task__5__3__2).
+resource_resource_id_t(task__8__1__5).
+resource_resource_id_t(task__4__0__2).
+resource_resource_id_t(sc__18__1).
+resource_resource_id_t(task__8__0__5).
+resource_resource_id_t(task__6__1__0).
+resource_resource_id_t(task__9__0__4).
+resource_resource_id_t(task__9__0__2).
+resource_resource_id_t(bg__3__0).
+resource_resource_id_t(task__4__1__2).
+resource_resource_id_t(bg__7__2).
+resource_resource_id_t(sc__18__1).
+resource_resource_id_t(task__5__0__2).
+resource_resource_id_t(bg__3__1).
+resource_resource_id_t(task__14__2__4).
+resource_resource_id_t(task__14__2__0).
+resource_resource_id_t(bg__11__1).
+resource_resource_id_t(bg__13__3).
+resource_resource_id_t(bg__2__0).
+resource_resource_id_t(bg__12__0).
+resource_resource_id_t(task__15__1__4).
+resource_resource_id_t(bg__12__0).
+resource_resource_id_t(task__18__0__4).
+resource_resource_id_t(task__16__1__4).
+resource_resource_id_t(task__17__2__5).
+resource_resource_id_t(task__3__0__3).
+resource_resource_id_t(task__18__0__3).
+resource_resource_id_t(bg__14__0).
+resource_resource_id_t(task__13__3__1).
+resource_resource_id_t(sc__10__0).
+resource_resource_id_t(bg__4__1).
+resource_resource_id_t(task__13__2__3).
+resource_resource_id_t(task__14__1__3).
+resource_resource_id_t(sc__1__0).
+resource_resource_id_t(task__3__0__5).
+resource_resource_id_t(sc__5__3).
+resource_resource_id_t(bg__19__0).
+resource_resource_id_t(task__15__1__2).
+resource_resource_id_t(bg__8__0).
+resource_resource_id_t(task__12__0__3).
+resource_resource_id_t(task__3__0__1).
+resource_resource_id_t(task__6__0__5).
+resource_resource_id_t(task__6__1__0).
+resource_resource_id_t(task__7__1__1).
+resource_resource_id_t(task__7__1__0).
+resource_resource_id_t(task__12__0__4).
+resource_resource_id_t(bg__13__0).
+resource_resource_id_t(bg__0__0).
+resource_resource_id_t(sc__14__1).
+resource_resource_id_t(task__9__1__0).
+resource_resource_id_t(task__2__1__2).
+resource_resource_id_t(task__9__1__5).
+resource_resource_id_t(bg__3__1).
+resource_resource_id_t(bg__19__0).
+resource_resource_id_t(task__5__2__0).
+resource_resource_id_t(sc__6__1).
+resource_resource_id_t(sc__2__0).
+resource_resource_id_t(task__11__3__3).
+resource_resource_id_t(task__1__1__2).
+resource_resource_id_t(bg__0__0).
+resource_resource_id_t(task__7__3__1).
+resource_resource_id_t(task__5__3__4).
+resource_resource_id_t(task__17__3__1).
+resource_resource_id_t(task__9__1__3).
+resource_resource_id_t(sc__7__2).
+resource_resource_id_t(task__14__0__0).
+resource_resource_id_t(bg__17__3).
+resource_resource_id_t(task__11__2__5).
+resource_resource_id_t(task__3__0__5).
+resource_resource_id_t(task__8__0__3).
+resource_resource_id_t(task__12__1__3).
+resource_resource_id_t(task__7__2__4).
+resource_resource_id_t(task__5__0__4).
+resource_resource_id_t(task__17__1__2).
+resource_resource_id_t(sc__8__0).
+resource_resource_id_t(sc__12__0).
+resource_resource_id_t(bg__10__1).
+resource_resource_id_t(task__5__3__5).
+resource_resource_id_t(task__17__2__5).
+resource_resource_id_t(task__7__1__4).
+resource_resource_id_t(task__10__1__3).
+resource_resource_id_t(bg__9__0).
+resource_resource_id_t(task__19__0__0).
+resource_resource_id_t(task__7__3__5).
+resource_resource_id_t(task__9__1__2).
+resource_resource_id_t(bg__18__1).
+resource_resource_id_t(task__17__2__5).
+resource_resource_id_t(bg__0__0).
+resource_resource_id_t(bg__18__1).
+resource_resource_id_t(bg__19__0).
+resource_resource_id_t(task__3__0__1).
+resource_resource_id_t(task__13__3__4).
+resource_resource_id_t(bg__14__2).
+resource_resource_id_t(task__19__0__0).
+resource_resource_id_t(task__3__1__2).
+#modeb(1, resource_type(const(resource_type_t))).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(schedule).
+resource_type_t(budget).
+resource_type_t(schedule).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(schedule).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(budget).
+resource_type_t(budget).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(budget).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(budget).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(budget).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(schedule).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(budget).
+resource_type_t(budget).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(budget).
+resource_type_t(schedule).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(schedule).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(schedule).
+resource_type_t(budget).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(schedule).
+resource_type_t(schedule).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(budget).
+resource_type_t(budget).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(schedule).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(budget).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(schedule).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(budget).
+resource_type_t(budget).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(budget).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(schedule).
+resource_type_t(schedule).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(budget).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+resource_type_t(budget).
+resource_type_t(task).
+resource_type_t(task).
+#modeb(1, resource_is_properietary(const(resource_is_properietary_t))).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+resource_is_properietary_t(false).
+resource_is_properietary_t(false).
+resource_is_properietary_t(true).
+resource_is_properietary_t(true).
+#modeb(1, resource_project_id(const(resource_project_id_t))).
+resource_project_id_t(proj__5__1).
+resource_project_id_t(proj__13__0).
+resource_project_id_t(proj__14__0).
+resource_project_id_t(proj__17__3).
+resource_project_id_t(proj__17__0).
+resource_project_id_t(proj__7__2).
+resource_project_id_t(proj__12__1).
+resource_project_id_t(proj__16__1).
+resource_project_id_t(proj__16__0).
+resource_project_id_t(proj__5__3).
+resource_project_id_t(proj__13__3).
+resource_project_id_t(proj__7__1).
+resource_project_id_t(proj__0__1).
+resource_project_id_t(proj__4__1).
+resource_project_id_t(proj__4__0).
+resource_project_id_t(proj__16__0).
+resource_project_id_t(proj__13__3).
+resource_project_id_t(proj__18__0).
+resource_project_id_t(proj__5__3).
+resource_project_id_t(proj__11__2).
+resource_project_id_t(proj__17__3).
+resource_project_id_t(proj__11__2).
+resource_project_id_t(proj__17__1).
+resource_project_id_t(proj__5__0).
+resource_project_id_t(proj__15__1).
+resource_project_id_t(proj__1__0).
+resource_project_id_t(proj__9__1).
+resource_project_id_t(proj__8__0).
+resource_project_id_t(proj__1__1).
+resource_project_id_t(proj__17__1).
+resource_project_id_t(proj__11__2).
+resource_project_id_t(proj__14__2).
+resource_project_id_t(proj__5__2).
+resource_project_id_t(proj__5__1).
+resource_project_id_t(proj__3__1).
+resource_project_id_t(proj__7__1).
+resource_project_id_t(proj__4__0).
+resource_project_id_t(proj__7__3).
+resource_project_id_t(proj__11__1).
+resource_project_id_t(proj__7__3).
+resource_project_id_t(proj__12__0).
+resource_project_id_t(proj__16__0).
+resource_project_id_t(proj__10__0).
+resource_project_id_t(proj__11__2).
+resource_project_id_t(proj__17__1).
+resource_project_id_t(proj__14__0).
+resource_project_id_t(proj__2__1).
+resource_project_id_t(proj__1__0).
+resource_project_id_t(proj__3__1).
+resource_project_id_t(proj__11__2).
+resource_project_id_t(proj__1__0).
+resource_project_id_t(proj__3__0).
+resource_project_id_t(proj__2__0).
+resource_project_id_t(proj__11__0).
+resource_project_id_t(proj__11__3).
+resource_project_id_t(proj__2__1).
+resource_project_id_t(proj__14__1).
+resource_project_id_t(proj__5__3).
+resource_project_id_t(proj__8__0).
+resource_project_id_t(proj__2__1).
+resource_project_id_t(proj__7__2).
+resource_project_id_t(proj__9__1).
+resource_project_id_t(proj__4__1).
+resource_project_id_t(proj__6__0).
+resource_project_id_t(proj__12__0).
+resource_project_id_t(proj__14__0).
+resource_project_id_t(proj__6__1).
+resource_project_id_t(proj__11__3).
+resource_project_id_t(proj__12__1).
+resource_project_id_t(proj__8__1).
+resource_project_id_t(proj__13__3).
+resource_project_id_t(proj__16__0).
+resource_project_id_t(proj__4__0).
+resource_project_id_t(proj__5__0).
+resource_project_id_t(proj__14__1).
+resource_project_id_t(proj__11__3).
+resource_project_id_t(proj__18__0).
+resource_project_id_t(proj__5__0).
+resource_project_id_t(proj__10__1).
+resource_project_id_t(proj__7__2).
+resource_project_id_t(proj__8__0).
+resource_project_id_t(proj__7__1).
+resource_project_id_t(proj__7__2).
+resource_project_id_t(proj__9__0).
+resource_project_id_t(proj__4__1).
+resource_project_id_t(proj__5__1).
+resource_project_id_t(proj__2__1).
+resource_project_id_t(proj__17__1).
+resource_project_id_t(proj__8__1).
+resource_project_id_t(proj__0__1).
+resource_project_id_t(proj__8__1).
+resource_project_id_t(proj__1__1).
+resource_project_id_t(proj__13__3).
+resource_project_id_t(proj__17__3).
+resource_project_id_t(proj__5__3).
+resource_project_id_t(proj__15__1).
+resource_project_id_t(proj__7__1).
+resource_project_id_t(proj__16__0).
+resource_project_id_t(proj__15__1).
+resource_project_id_t(proj__2__0).
+resource_project_id_t(proj__7__2).
+resource_project_id_t(proj__11__3).
+resource_project_id_t(proj__15__1).
+resource_project_id_t(proj__18__0).
+resource_project_id_t(proj__5__1).
+resource_project_id_t(proj__8__0).
+resource_project_id_t(proj__18__1).
+resource_project_id_t(proj__13__2).
+resource_project_id_t(proj__8__1).
+resource_project_id_t(proj__5__2).
+resource_project_id_t(proj__15__1).
+resource_project_id_t(proj__14__1).
+resource_project_id_t(proj__7__2).
+resource_project_id_t(proj__15__1).
+resource_project_id_t(proj__9__1).
+resource_project_id_t(proj__14__2).
+resource_project_id_t(proj__1__0).
+resource_project_id_t(proj__4__1).
+resource_project_id_t(proj__14__2).
+resource_project_id_t(proj__15__0).
+resource_project_id_t(proj__17__3).
+resource_project_id_t(proj__19__0).
+resource_project_id_t(proj__1__1).
+resource_project_id_t(proj__13__3).
+resource_project_id_t(proj__11__3).
+resource_project_id_t(proj__4__1).
+resource_project_id_t(proj__8__1).
+resource_project_id_t(proj__1__0).
+resource_project_id_t(proj__17__3).
+resource_project_id_t(proj__4__1).
+resource_project_id_t(proj__5__2).
+resource_project_id_t(proj__2__1).
+resource_project_id_t(proj__17__0).
+resource_project_id_t(proj__11__3).
+resource_project_id_t(proj__12__0).
+resource_project_id_t(proj__18__0).
+resource_project_id_t(proj__7__3).
+resource_project_id_t(proj__5__3).
+resource_project_id_t(proj__6__0).
+resource_project_id_t(proj__10__0).
+resource_project_id_t(proj__10__1).
+resource_project_id_t(proj__13__0).
+resource_project_id_t(proj__18__0).
+resource_project_id_t(proj__1__0).
+resource_project_id_t(proj__18__0).
+resource_project_id_t(proj__2__0).
+resource_project_id_t(proj__18__1).
+resource_project_id_t(proj__17__0).
+resource_project_id_t(proj__14__2).
+resource_project_id_t(proj__1__1).
+resource_project_id_t(proj__15__1).
+resource_project_id_t(proj__10__1).
+resource_project_id_t(proj__2__1).
+resource_project_id_t(proj__11__3).
+resource_project_id_t(proj__11__0).
+resource_project_id_t(proj__4__1).
+resource_project_id_t(proj__18__1).
+resource_project_id_t(proj__11__1).
+resource_project_id_t(proj__5__3).
+resource_project_id_t(proj__6__0).
+resource_project_id_t(proj__13__3).
+resource_project_id_t(proj__18__0).
+resource_project_id_t(proj__13__3).
+resource_project_id_t(proj__1__1).
+resource_project_id_t(proj__3__0).
+resource_project_id_t(proj__15__0).
+resource_project_id_t(proj__15__1).
+resource_project_id_t(proj__14__0).
+resource_project_id_t(proj__14__0).
+resource_project_id_t(proj__6__1).
+resource_project_id_t(proj__7__1).
+resource_project_id_t(proj__5__3).
+resource_project_id_t(proj__17__1).
+resource_project_id_t(proj__7__3).
+resource_project_id_t(proj__2__0).
+resource_project_id_t(proj__14__1).
+resource_project_id_t(proj__7__2).
+resource_project_id_t(proj__17__2).
+resource_project_id_t(proj__6__1).
+resource_project_id_t(proj__16__0).
+resource_project_id_t(proj__17__1).
+resource_project_id_t(proj__11__2).
+resource_project_id_t(proj__13__3).
+resource_project_id_t(proj__19__1).
+resource_project_id_t(proj__4__1).
+resource_project_id_t(proj__6__0).
+resource_project_id_t(proj__17__1).
+resource_project_id_t(proj__6__1).
+resource_project_id_t(proj__19__0).
+resource_project_id_t(proj__16__0).
+resource_project_id_t(proj__9__1).
+resource_project_id_t(proj__1__0).
+resource_project_id_t(proj__11__3).
+resource_project_id_t(proj__18__1).
+resource_project_id_t(proj__14__2).
+resource_project_id_t(proj__6__0).
+resource_project_id_t(proj__10__1).
+resource_project_id_t(proj__10__1).
+resource_project_id_t(proj__11__2).
+resource_project_id_t(proj__13__2).
+resource_project_id_t(proj__15__1).
+resource_project_id_t(proj__18__0).
+resource_project_id_t(proj__10__1).
+resource_project_id_t(proj__7__1).
+resource_project_id_t(proj__5__3).
+resource_project_id_t(proj__1__0).
+resource_project_id_t(proj__1__1).
+resource_project_id_t(proj__5__0).
+resource_project_id_t(proj__5__0).
+resource_project_id_t(proj__3__1).
+resource_project_id_t(proj__6__1).
+resource_project_id_t(proj__4__1).
+resource_project_id_t(proj__9__0).
+resource_project_id_t(proj__4__0).
+resource_project_id_t(proj__4__1).
+resource_project_id_t(proj__14__0).
+resource_project_id_t(proj__3__1).
+resource_project_id_t(proj__8__1).
+resource_project_id_t(proj__7__0).
+resource_project_id_t(proj__1__1).
+resource_project_id_t(proj__11__2).
+resource_project_id_t(proj__4__1).
+resource_project_id_t(proj__7__1).
+resource_project_id_t(proj__7__1).
+resource_project_id_t(proj__5__0).
+resource_project_id_t(proj__9__0).
+resource_project_id_t(proj__13__2).
+resource_project_id_t(proj__13__3).
+resource_project_id_t(proj__7__2).
+resource_project_id_t(proj__18__0).
+resource_project_id_t(proj__17__2).
+resource_project_id_t(proj__13__2).
+resource_project_id_t(proj__16__0).
+resource_project_id_t(proj__7__2).
+resource_project_id_t(proj__9__0).
+resource_project_id_t(proj__17__3).
+resource_project_id_t(proj__9__1).
+resource_project_id_t(proj__3__0).
+resource_project_id_t(proj__14__2).
+resource_project_id_t(proj__14__1).
+resource_project_id_t(proj__13__3).
+resource_project_id_t(proj__4__0).
+resource_project_id_t(proj__3__1).
+resource_project_id_t(proj__9__1).
+resource_project_id_t(proj__17__1).
+resource_project_id_t(proj__9__0).
+resource_project_id_t(proj__13__2).
+resource_project_id_t(proj__5__0).
+resource_project_id_t(proj__1__1).
+resource_project_id_t(proj__4__1).
+resource_project_id_t(proj__5__2).
+resource_project_id_t(proj__18__0).
+resource_project_id_t(proj__15__1).
+resource_project_id_t(proj__8__1).
+resource_project_id_t(proj__3__0).
+resource_project_id_t(proj__11__3).
+resource_project_id_t(proj__12__0).
+resource_project_id_t(proj__1__0).
+resource_project_id_t(proj__13__2).
+resource_project_id_t(proj__8__1).
+resource_project_id_t(proj__13__3).
+resource_project_id_t(proj__11__3).
+resource_project_id_t(proj__10__0).
+resource_project_id_t(proj__16__0).
+resource_project_id_t(proj__6__1).
+resource_project_id_t(proj__11__0).
+resource_project_id_t(proj__15__1).
+resource_project_id_t(proj__3__0).
+resource_project_id_t(proj__10__0).
+resource_project_id_t(proj__17__3).
+resource_project_id_t(proj__14__0).
+resource_project_id_t(proj__8__1).
+resource_project_id_t(proj__9__1).
+resource_project_id_t(proj__11__2).
+resource_project_id_t(proj__9__0).
+resource_project_id_t(proj__14__1).
+resource_project_id_t(proj__6__1).
+resource_project_id_t(proj__0__0).
+resource_project_id_t(proj__17__3).
+resource_project_id_t(proj__3__1).
+resource_project_id_t(proj__0__0).
+resource_project_id_t(proj__5__1).
+resource_project_id_t(proj__5__3).
+resource_project_id_t(proj__7__1).
+resource_project_id_t(proj__5__2).
+resource_project_id_t(proj__8__0).
+resource_project_id_t(proj__3__0).
+resource_project_id_t(proj__15__1).
+resource_project_id_t(proj__12__1).
+resource_project_id_t(proj__1__0).
+resource_project_id_t(proj__17__3).
+resource_project_id_t(proj__9__1).
+resource_project_id_t(proj__19__0).
+resource_project_id_t(proj__18__0).
+resource_project_id_t(proj__13__3).
+resource_project_id_t(proj__17__1).
+resource_project_id_t(proj__16__0).
+resource_project_id_t(proj__12__0).
+resource_project_id_t(proj__2__1).
+resource_project_id_t(proj__7__2).
+resource_project_id_t(proj__8__1).
+resource_project_id_t(proj__8__0).
+resource_project_id_t(proj__14__3).
+resource_project_id_t(proj__11__3).
+resource_project_id_t(proj__5__2).
+resource_project_id_t(proj__2__1).
+resource_project_id_t(proj__17__1).
+resource_project_id_t(proj__6__1).
+resource_project_id_t(proj__12__1).
+resource_project_id_t(proj__10__0).
+resource_project_id_t(proj__12__1).
+resource_project_id_t(proj__16__1).
+resource_project_id_t(proj__13__3).
+resource_project_id_t(proj__6__0).
+resource_project_id_t(proj__0__1).
+resource_project_id_t(proj__12__0).
+resource_project_id_t(proj__11__2).
+resource_project_id_t(proj__17__3).
+resource_project_id_t(proj__3__0).
+resource_project_id_t(proj__10__0).
+resource_project_id_t(proj__5__3).
+resource_project_id_t(proj__8__1).
+resource_project_id_t(proj__4__0).
+resource_project_id_t(proj__18__1).
+resource_project_id_t(proj__8__0).
+resource_project_id_t(proj__6__1).
+resource_project_id_t(proj__9__0).
+resource_project_id_t(proj__9__0).
+resource_project_id_t(proj__3__0).
+resource_project_id_t(proj__4__1).
+resource_project_id_t(proj__7__2).
+resource_project_id_t(proj__18__1).
+resource_project_id_t(proj__5__0).
+resource_project_id_t(proj__3__1).
+resource_project_id_t(proj__14__2).
+resource_project_id_t(proj__14__2).
+resource_project_id_t(proj__11__1).
+resource_project_id_t(proj__13__3).
+resource_project_id_t(proj__2__0).
+resource_project_id_t(proj__12__0).
+resource_project_id_t(proj__15__1).
+resource_project_id_t(proj__12__0).
+resource_project_id_t(proj__18__0).
+resource_project_id_t(proj__16__1).
+resource_project_id_t(proj__17__2).
+resource_project_id_t(proj__3__0).
+resource_project_id_t(proj__18__0).
+resource_project_id_t(proj__14__0).
+resource_project_id_t(proj__13__3).
+resource_project_id_t(proj__10__0).
+resource_project_id_t(proj__4__1).
+resource_project_id_t(proj__13__2).
+resource_project_id_t(proj__14__1).
+resource_project_id_t(proj__1__0).
+resource_project_id_t(proj__3__0).
+resource_project_id_t(proj__5__3).
+resource_project_id_t(proj__19__0).
+resource_project_id_t(proj__15__1).
+resource_project_id_t(proj__8__0).
+resource_project_id_t(proj__12__0).
+resource_project_id_t(proj__3__0).
+resource_project_id_t(proj__6__0).
+resource_project_id_t(proj__6__1).
+resource_project_id_t(proj__7__1).
+resource_project_id_t(proj__7__1).
+resource_project_id_t(proj__12__0).
+resource_project_id_t(proj__13__0).
+resource_project_id_t(proj__0__0).
+resource_project_id_t(proj__14__1).
+resource_project_id_t(proj__9__1).
+resource_project_id_t(proj__2__1).
+resource_project_id_t(proj__9__1).
+resource_project_id_t(proj__3__1).
+resource_project_id_t(proj__19__0).
+resource_project_id_t(proj__5__2).
+resource_project_id_t(proj__6__1).
+resource_project_id_t(proj__2__0).
+resource_project_id_t(proj__11__3).
+resource_project_id_t(proj__1__1).
+resource_project_id_t(proj__0__0).
+resource_project_id_t(proj__7__3).
+resource_project_id_t(proj__5__3).
+resource_project_id_t(proj__17__3).
+resource_project_id_t(proj__9__1).
+resource_project_id_t(proj__7__2).
+resource_project_id_t(proj__14__0).
+resource_project_id_t(proj__17__3).
+resource_project_id_t(proj__11__2).
+resource_project_id_t(proj__3__0).
+resource_project_id_t(proj__8__0).
+resource_project_id_t(proj__12__1).
+resource_project_id_t(proj__7__2).
+resource_project_id_t(proj__5__0).
+resource_project_id_t(proj__17__1).
+resource_project_id_t(proj__8__0).
+resource_project_id_t(proj__12__0).
+resource_project_id_t(proj__10__1).
+resource_project_id_t(proj__5__3).
+resource_project_id_t(proj__17__2).
+resource_project_id_t(proj__7__1).
+resource_project_id_t(proj__10__1).
+resource_project_id_t(proj__9__0).
+resource_project_id_t(proj__19__0).
+resource_project_id_t(proj__7__3).
+resource_project_id_t(proj__9__1).
+resource_project_id_t(proj__18__1).
+resource_project_id_t(proj__17__2).
+resource_project_id_t(proj__0__0).
+resource_project_id_t(proj__18__1).
+resource_project_id_t(proj__19__0).
+resource_project_id_t(proj__3__0).
+resource_project_id_t(proj__13__3).
+resource_project_id_t(proj__14__2).
+resource_project_id_t(proj__19__0).
+resource_project_id_t(proj__3__1).
+#modeb(1, resource_dept_id(const(resource_dept_id_t))).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__13).
+resource_dept_id_t(dept__14).
+resource_dept_id_t(dept__17).
+resource_dept_id_t(dept__17).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__12).
+resource_dept_id_t(dept__16).
+resource_dept_id_t(dept__16).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__13).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__0).
+resource_dept_id_t(dept__4).
+resource_dept_id_t(dept__4).
+resource_dept_id_t(dept__16).
+resource_dept_id_t(dept__13).
+resource_dept_id_t(dept__18).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__11).
+resource_dept_id_t(dept__17).
+resource_dept_id_t(dept__11).
+resource_dept_id_t(dept__17).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__15).
+resource_dept_id_t(dept__1).
+resource_dept_id_t(dept__9).
+resource_dept_id_t(dept__8).
+resource_dept_id_t(dept__1).
+resource_dept_id_t(dept__17).
+resource_dept_id_t(dept__11).
+resource_dept_id_t(dept__14).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__3).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__4).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__11).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__12).
+resource_dept_id_t(dept__16).
+resource_dept_id_t(dept__10).
+resource_dept_id_t(dept__11).
+resource_dept_id_t(dept__17).
+resource_dept_id_t(dept__14).
+resource_dept_id_t(dept__2).
+resource_dept_id_t(dept__1).
+resource_dept_id_t(dept__3).
+resource_dept_id_t(dept__11).
+resource_dept_id_t(dept__1).
+resource_dept_id_t(dept__3).
+resource_dept_id_t(dept__2).
+resource_dept_id_t(dept__11).
+resource_dept_id_t(dept__11).
+resource_dept_id_t(dept__2).
+resource_dept_id_t(dept__14).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__8).
+resource_dept_id_t(dept__2).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__9).
+resource_dept_id_t(dept__4).
+resource_dept_id_t(dept__6).
+resource_dept_id_t(dept__12).
+resource_dept_id_t(dept__14).
+resource_dept_id_t(dept__6).
+resource_dept_id_t(dept__11).
+resource_dept_id_t(dept__12).
+resource_dept_id_t(dept__8).
+resource_dept_id_t(dept__13).
+resource_dept_id_t(dept__16).
+resource_dept_id_t(dept__4).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__14).
+resource_dept_id_t(dept__11).
+resource_dept_id_t(dept__18).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__10).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__8).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__9).
+resource_dept_id_t(dept__4).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__2).
+resource_dept_id_t(dept__17).
+resource_dept_id_t(dept__8).
+resource_dept_id_t(dept__0).
+resource_dept_id_t(dept__8).
+resource_dept_id_t(dept__1).
+resource_dept_id_t(dept__13).
+resource_dept_id_t(dept__17).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__15).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__16).
+resource_dept_id_t(dept__15).
+resource_dept_id_t(dept__2).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__11).
+resource_dept_id_t(dept__15).
+resource_dept_id_t(dept__18).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__8).
+resource_dept_id_t(dept__18).
+resource_dept_id_t(dept__13).
+resource_dept_id_t(dept__8).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__15).
+resource_dept_id_t(dept__14).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__15).
+resource_dept_id_t(dept__9).
+resource_dept_id_t(dept__14).
+resource_dept_id_t(dept__1).
+resource_dept_id_t(dept__4).
+resource_dept_id_t(dept__14).
+resource_dept_id_t(dept__15).
+resource_dept_id_t(dept__17).
+resource_dept_id_t(dept__19).
+resource_dept_id_t(dept__1).
+resource_dept_id_t(dept__13).
+resource_dept_id_t(dept__11).
+resource_dept_id_t(dept__4).
+resource_dept_id_t(dept__8).
+resource_dept_id_t(dept__1).
+resource_dept_id_t(dept__17).
+resource_dept_id_t(dept__4).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__2).
+resource_dept_id_t(dept__17).
+resource_dept_id_t(dept__11).
+resource_dept_id_t(dept__12).
+resource_dept_id_t(dept__18).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__6).
+resource_dept_id_t(dept__10).
+resource_dept_id_t(dept__10).
+resource_dept_id_t(dept__13).
+resource_dept_id_t(dept__18).
+resource_dept_id_t(dept__1).
+resource_dept_id_t(dept__18).
+resource_dept_id_t(dept__2).
+resource_dept_id_t(dept__18).
+resource_dept_id_t(dept__17).
+resource_dept_id_t(dept__14).
+resource_dept_id_t(dept__1).
+resource_dept_id_t(dept__15).
+resource_dept_id_t(dept__10).
+resource_dept_id_t(dept__2).
+resource_dept_id_t(dept__11).
+resource_dept_id_t(dept__11).
+resource_dept_id_t(dept__4).
+resource_dept_id_t(dept__18).
+resource_dept_id_t(dept__11).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__6).
+resource_dept_id_t(dept__13).
+resource_dept_id_t(dept__18).
+resource_dept_id_t(dept__13).
+resource_dept_id_t(dept__1).
+resource_dept_id_t(dept__3).
+resource_dept_id_t(dept__15).
+resource_dept_id_t(dept__15).
+resource_dept_id_t(dept__14).
+resource_dept_id_t(dept__14).
+resource_dept_id_t(dept__6).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__17).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__2).
+resource_dept_id_t(dept__14).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__17).
+resource_dept_id_t(dept__6).
+resource_dept_id_t(dept__16).
+resource_dept_id_t(dept__17).
+resource_dept_id_t(dept__11).
+resource_dept_id_t(dept__13).
+resource_dept_id_t(dept__19).
+resource_dept_id_t(dept__4).
+resource_dept_id_t(dept__6).
+resource_dept_id_t(dept__17).
+resource_dept_id_t(dept__6).
+resource_dept_id_t(dept__19).
+resource_dept_id_t(dept__16).
+resource_dept_id_t(dept__9).
+resource_dept_id_t(dept__1).
+resource_dept_id_t(dept__11).
+resource_dept_id_t(dept__18).
+resource_dept_id_t(dept__14).
+resource_dept_id_t(dept__6).
+resource_dept_id_t(dept__10).
+resource_dept_id_t(dept__10).
+resource_dept_id_t(dept__11).
+resource_dept_id_t(dept__13).
+resource_dept_id_t(dept__15).
+resource_dept_id_t(dept__18).
+resource_dept_id_t(dept__10).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__1).
+resource_dept_id_t(dept__1).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__3).
+resource_dept_id_t(dept__6).
+resource_dept_id_t(dept__4).
+resource_dept_id_t(dept__9).
+resource_dept_id_t(dept__4).
+resource_dept_id_t(dept__4).
+resource_dept_id_t(dept__14).
+resource_dept_id_t(dept__3).
+resource_dept_id_t(dept__8).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__1).
+resource_dept_id_t(dept__11).
+resource_dept_id_t(dept__4).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__9).
+resource_dept_id_t(dept__13).
+resource_dept_id_t(dept__13).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__18).
+resource_dept_id_t(dept__17).
+resource_dept_id_t(dept__13).
+resource_dept_id_t(dept__16).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__9).
+resource_dept_id_t(dept__17).
+resource_dept_id_t(dept__9).
+resource_dept_id_t(dept__3).
+resource_dept_id_t(dept__14).
+resource_dept_id_t(dept__14).
+resource_dept_id_t(dept__13).
+resource_dept_id_t(dept__4).
+resource_dept_id_t(dept__3).
+resource_dept_id_t(dept__9).
+resource_dept_id_t(dept__17).
+resource_dept_id_t(dept__9).
+resource_dept_id_t(dept__13).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__1).
+resource_dept_id_t(dept__4).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__18).
+resource_dept_id_t(dept__15).
+resource_dept_id_t(dept__8).
+resource_dept_id_t(dept__3).
+resource_dept_id_t(dept__11).
+resource_dept_id_t(dept__12).
+resource_dept_id_t(dept__1).
+resource_dept_id_t(dept__13).
+resource_dept_id_t(dept__8).
+resource_dept_id_t(dept__13).
+resource_dept_id_t(dept__11).
+resource_dept_id_t(dept__10).
+resource_dept_id_t(dept__16).
+resource_dept_id_t(dept__6).
+resource_dept_id_t(dept__11).
+resource_dept_id_t(dept__15).
+resource_dept_id_t(dept__3).
+resource_dept_id_t(dept__10).
+resource_dept_id_t(dept__17).
+resource_dept_id_t(dept__14).
+resource_dept_id_t(dept__8).
+resource_dept_id_t(dept__9).
+resource_dept_id_t(dept__11).
+resource_dept_id_t(dept__9).
+resource_dept_id_t(dept__14).
+resource_dept_id_t(dept__6).
+resource_dept_id_t(dept__0).
+resource_dept_id_t(dept__17).
+resource_dept_id_t(dept__3).
+resource_dept_id_t(dept__0).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__8).
+resource_dept_id_t(dept__3).
+resource_dept_id_t(dept__15).
+resource_dept_id_t(dept__12).
+resource_dept_id_t(dept__1).
+resource_dept_id_t(dept__17).
+resource_dept_id_t(dept__9).
+resource_dept_id_t(dept__19).
+resource_dept_id_t(dept__18).
+resource_dept_id_t(dept__13).
+resource_dept_id_t(dept__17).
+resource_dept_id_t(dept__16).
+resource_dept_id_t(dept__12).
+resource_dept_id_t(dept__2).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__8).
+resource_dept_id_t(dept__8).
+resource_dept_id_t(dept__14).
+resource_dept_id_t(dept__11).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__2).
+resource_dept_id_t(dept__17).
+resource_dept_id_t(dept__6).
+resource_dept_id_t(dept__12).
+resource_dept_id_t(dept__10).
+resource_dept_id_t(dept__12).
+resource_dept_id_t(dept__16).
+resource_dept_id_t(dept__13).
+resource_dept_id_t(dept__6).
+resource_dept_id_t(dept__0).
+resource_dept_id_t(dept__12).
+resource_dept_id_t(dept__11).
+resource_dept_id_t(dept__17).
+resource_dept_id_t(dept__3).
+resource_dept_id_t(dept__10).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__8).
+resource_dept_id_t(dept__4).
+resource_dept_id_t(dept__18).
+resource_dept_id_t(dept__8).
+resource_dept_id_t(dept__6).
+resource_dept_id_t(dept__9).
+resource_dept_id_t(dept__9).
+resource_dept_id_t(dept__3).
+resource_dept_id_t(dept__4).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__18).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__3).
+resource_dept_id_t(dept__14).
+resource_dept_id_t(dept__14).
+resource_dept_id_t(dept__11).
+resource_dept_id_t(dept__13).
+resource_dept_id_t(dept__2).
+resource_dept_id_t(dept__12).
+resource_dept_id_t(dept__15).
+resource_dept_id_t(dept__12).
+resource_dept_id_t(dept__18).
+resource_dept_id_t(dept__16).
+resource_dept_id_t(dept__17).
+resource_dept_id_t(dept__3).
+resource_dept_id_t(dept__18).
+resource_dept_id_t(dept__14).
+resource_dept_id_t(dept__13).
+resource_dept_id_t(dept__10).
+resource_dept_id_t(dept__4).
+resource_dept_id_t(dept__13).
+resource_dept_id_t(dept__14).
+resource_dept_id_t(dept__1).
+resource_dept_id_t(dept__3).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__19).
+resource_dept_id_t(dept__15).
+resource_dept_id_t(dept__8).
+resource_dept_id_t(dept__12).
+resource_dept_id_t(dept__3).
+resource_dept_id_t(dept__6).
+resource_dept_id_t(dept__6).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__12).
+resource_dept_id_t(dept__13).
+resource_dept_id_t(dept__0).
+resource_dept_id_t(dept__14).
+resource_dept_id_t(dept__9).
+resource_dept_id_t(dept__2).
+resource_dept_id_t(dept__9).
+resource_dept_id_t(dept__3).
+resource_dept_id_t(dept__19).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__6).
+resource_dept_id_t(dept__2).
+resource_dept_id_t(dept__11).
+resource_dept_id_t(dept__1).
+resource_dept_id_t(dept__0).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__17).
+resource_dept_id_t(dept__9).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__14).
+resource_dept_id_t(dept__17).
+resource_dept_id_t(dept__11).
+resource_dept_id_t(dept__3).
+resource_dept_id_t(dept__8).
+resource_dept_id_t(dept__12).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__17).
+resource_dept_id_t(dept__8).
+resource_dept_id_t(dept__12).
+resource_dept_id_t(dept__10).
+resource_dept_id_t(dept__5).
+resource_dept_id_t(dept__17).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__10).
+resource_dept_id_t(dept__9).
+resource_dept_id_t(dept__19).
+resource_dept_id_t(dept__7).
+resource_dept_id_t(dept__9).
+resource_dept_id_t(dept__18).
+resource_dept_id_t(dept__17).
+resource_dept_id_t(dept__0).
+resource_dept_id_t(dept__18).
+resource_dept_id_t(dept__19).
+resource_dept_id_t(dept__3).
+resource_dept_id_t(dept__13).
+resource_dept_id_t(dept__14).
+resource_dept_id_t(dept__19).
+resource_dept_id_t(dept__3).
+#modeb(1, resource_expertises(const(resource_expertises_t))).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__3).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__1).
+resource_expertises_t(tech__area__4).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__4).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__4).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__1).
+resource_expertises_t(tech__area__4).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__4).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__2).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__1).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__4).
+resource_expertises_t(tech__area__2).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__1).
+resource_expertises_t(tech__area__2).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__3).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__1).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__3).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__3).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__1).
+resource_expertises_t(tech__area__1).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__2).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__4).
+resource_expertises_t(tech__area__1).
+resource_expertises_t(tech__area__4).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__2).
+resource_expertises_t(tech__area__2).
+resource_expertises_t(tech__area__4).
+resource_expertises_t(tech__area__4).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__4).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__3).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__1).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__1).
+resource_expertises_t(tech__area__4).
+resource_expertises_t(tech__area__2).
+resource_expertises_t(tech__area__3).
+resource_expertises_t(tech__area__2).
+resource_expertises_t(tech__area__1).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__2).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__3).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__1).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__1).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__1).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__4).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__2).
+resource_expertises_t(tech__area__3).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__4).
+resource_expertises_t(tech__area__2).
+resource_expertises_t(tech__area__1).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__1).
+resource_expertises_t(tech__area__1).
+resource_expertises_t(tech__area__1).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__4).
+resource_expertises_t(tech__area__1).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__3).
+resource_expertises_t(tech__area__2).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__2).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__4).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__3).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__1).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__1).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__4).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__1).
+resource_expertises_t(tech__area__2).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__3).
+resource_expertises_t(tech__area__4).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__4).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__3).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__2).
+resource_expertises_t(tech__area__4).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__2).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__4).
+resource_expertises_t(tech__area__2).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__1).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__1).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__4).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__4).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__4).
+resource_expertises_t(tech__area__1).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__1).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__4).
+resource_expertises_t(tech__area__3).
+resource_expertises_t(tech__area__2).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__0).
+resource_expertises_t(tech__area__4).
+resource_expertises_t(tech__area__0).
+#modeb(1, action_action_type(const(action_action_type_t))).
+action_action_type_t(read).
+action_action_type_t(write).
+action_action_type_t(write).
+action_action_type_t(setschedule).
+action_action_type_t(approve).
+action_action_type_t(write).
+action_action_type_t(write).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(read).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(setcost).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(setstatus).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(request).
+action_action_type_t(setschedule).
+action_action_type_t(request).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(read).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(setschedule).
+action_action_type_t(request).
+action_action_type_t(read).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(setschedule).
+action_action_type_t(approve).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(setcost).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(setcost).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(request).
+action_action_type_t(request).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(read).
+action_action_type_t(setcost).
+action_action_type_t(setstatus).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(setstatus).
+action_action_type_t(approve).
+action_action_type_t(setcost).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(setcost).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(setcost).
+action_action_type_t(setschedule).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(setcost).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(setschedule).
+action_action_type_t(read).
+action_action_type_t(setcost).
+action_action_type_t(setstatus).
+action_action_type_t(read).
+action_action_type_t(setstatus).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(setschedule).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(approve).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(setcost).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(setstatus).
+action_action_type_t(request).
+action_action_type_t(approve).
+action_action_type_t(setcost).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(setcost).
+action_action_type_t(read).
+action_action_type_t(setschedule).
+action_action_type_t(read).
+action_action_type_t(setschedule).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(setstatus).
+action_action_type_t(read).
+action_action_type_t(setcost).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(setcost).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(request).
+action_action_type_t(read).
+action_action_type_t(approve).
+action_action_type_t(setstatus).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(setcost).
+action_action_type_t(write).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(setcost).
+action_action_type_t(setschedule).
+action_action_type_t(setstatus).
+action_action_type_t(request).
+action_action_type_t(setcost).
+action_action_type_t(read).
+action_action_type_t(setschedule).
+action_action_type_t(request).
+action_action_type_t(request).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(setstatus).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(approve).
+action_action_type_t(approve).
+action_action_type_t(read).
+action_action_type_t(setstatus).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(setcost).
+action_action_type_t(setstatus).
+action_action_type_t(request).
+action_action_type_t(request).
+action_action_type_t(read).
+action_action_type_t(write).
+action_action_type_t(request).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(setschedule).
+action_action_type_t(read).
+action_action_type_t(setschedule).
+action_action_type_t(setcost).
+action_action_type_t(read).
+action_action_type_t(setcost).
+action_action_type_t(setschedule).
+action_action_type_t(request).
+action_action_type_t(request).
+action_action_type_t(read).
+action_action_type_t(approve).
+action_action_type_t(setcost).
+action_action_type_t(write).
+action_action_type_t(write).
+action_action_type_t(request).
+action_action_type_t(read).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(setcost).
+action_action_type_t(setschedule).
+action_action_type_t(request).
+action_action_type_t(request).
+action_action_type_t(request).
+action_action_type_t(read).
+action_action_type_t(setschedule).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(setcost).
+action_action_type_t(read).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(setschedule).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(write).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(setcost).
+action_action_type_t(request).
+action_action_type_t(request).
+action_action_type_t(request).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(setcost).
+action_action_type_t(request).
+action_action_type_t(write).
+action_action_type_t(request).
+action_action_type_t(setstatus).
+action_action_type_t(read).
+action_action_type_t(setcost).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(setcost).
+action_action_type_t(setschedule).
+action_action_type_t(request).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(write).
+action_action_type_t(write).
+action_action_type_t(setcost).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(request).
+action_action_type_t(request).
+action_action_type_t(approve).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(setschedule).
+action_action_type_t(setschedule).
+action_action_type_t(write).
+action_action_type_t(request).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(approve).
+action_action_type_t(request).
+action_action_type_t(request).
+action_action_type_t(approve).
+action_action_type_t(request).
+action_action_type_t(setcost).
+action_action_type_t(request).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(setcost).
+action_action_type_t(setschedule).
+action_action_type_t(request).
+action_action_type_t(setschedule).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(setschedule).
+action_action_type_t(request).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(setschedule).
+action_action_type_t(setcost).
+action_action_type_t(setcost).
+action_action_type_t(setschedule).
+action_action_type_t(setcost).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(setschedule).
+action_action_type_t(read).
+action_action_type_t(setstatus).
+action_action_type_t(write).
+action_action_type_t(request).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(setcost).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(write).
+action_action_type_t(setcost).
+action_action_type_t(setstatus).
+action_action_type_t(read).
+action_action_type_t(approve).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(setcost).
+action_action_type_t(read).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(setstatus).
+action_action_type_t(read).
+action_action_type_t(setcost).
+action_action_type_t(read).
+action_action_type_t(setstatus).
+action_action_type_t(setschedule).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(setschedule).
+action_action_type_t(request).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(setcost).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(request).
+action_action_type_t(setstatus).
+action_action_type_t(setschedule).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(setschedule).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(request).
+action_action_type_t(request).
+action_action_type_t(read).
+action_action_type_t(write).
+action_action_type_t(setcost).
+action_action_type_t(write).
+action_action_type_t(request).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(setschedule).
+action_action_type_t(setcost).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(setschedule).
+action_action_type_t(approve).
+action_action_type_t(read).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(read).
+action_action_type_t(setcost).
+action_action_type_t(setcost).
+action_action_type_t(approve).
+action_action_type_t(read).
+action_action_type_t(setcost).
+action_action_type_t(write).
+action_action_type_t(read).
+action_action_type_t(setcost).
+action_action_type_t(setstatus).
+action_action_type_t(write).
+action_action_type_t(approve).
+action_action_type_t(write).
+action_action_type_t(setcost).
+action_action_type_t(read).
+action_action_type_t(setschedule).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(request).
+action_action_type_t(write).
+action_action_type_t(request).
+action_action_type_t(approve).
+action_action_type_t(setstatus).
+action_action_type_t(approve).
+action_action_type_t(setcost).
+action_action_type_t(setcost).
+action_action_type_t(setstatus).
+action_action_type_t(write).
+action_action_type_t(setschedule).
+action_action_type_t(setcost).
+action_action_type_t(request).
+action_action_type_t(setschedule).
+action_action_type_t(approve).
+action_action_type_t(request).
+action_action_type_t(approve).
+action_action_type_t(write).
+action_action_type_t(write).
+action_action_type_t(setschedule).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(write).
+action_action_type_t(setschedule).
+action_action_type_t(request).
+action_action_type_t(setschedule).
+action_action_type_t(setschedule).
+action_action_type_t(setschedule).
+action_action_type_t(read).
+action_action_type_t(request).
+action_action_type_t(request).
+action_action_type_t(request).
+action_action_type_t(setcost).
+#modeb(1, subject_project_leds(const(subject_project_leds_t))).
+subject_project_leds_t(proj__13__0).
+subject_project_leds_t(proj__14__1).
+subject_project_leds_t(proj__7__2).
+subject_project_leds_t(proj__12__1).
+subject_project_leds_t(proj__16__1).
+subject_project_leds_t(proj__16__1).
+subject_project_leds_t(proj__7__3).
+subject_project_leds_t(proj__4__0).
+subject_project_leds_t(proj__16__1).
+subject_project_leds_t(proj__13__3).
+subject_project_leds_t(proj__17__3).
+subject_project_leds_t(proj__11__2).
+subject_project_leds_t(proj__5__2).
+subject_project_leds_t(proj__5__2).
+subject_project_leds_t(proj__4__0).
+subject_project_leds_t(proj__7__3).
+subject_project_leds_t(proj__11__2).
+subject_project_leds_t(proj__11__2).
+subject_project_leds_t(proj__14__1).
+subject_project_leds_t(proj__8__1).
+subject_project_leds_t(proj__2__1).
+subject_project_leds_t(proj__0__1).
+subject_project_leds_t(proj__17__3).
+subject_project_leds_t(proj__15__1).
+subject_project_leds_t(proj__13__3).
+subject_project_leds_t(proj__14__3).
+subject_project_leds_t(proj__19__1).
+subject_project_leds_t(proj__1__0).
+subject_project_leds_t(proj__5__2).
+subject_project_leds_t(proj__17__3).
+subject_project_leds_t(proj__18__1).
+subject_project_leds_t(proj__18__1).
+subject_project_leds_t(proj__17__3).
+subject_project_leds_t(proj__1__0).
+subject_project_leds_t(proj__4__1).
+subject_project_leds_t(proj__5__3).
+subject_project_leds_t(proj__6__0).
+subject_project_leds_t(proj__13__3).
+subject_project_leds_t(proj__15__1).
+subject_project_leds_t(proj__14__1).
+subject_project_leds_t(proj__2__1).
+subject_project_leds_t(proj__6__0).
+subject_project_leds_t(proj__16__1).
+subject_project_leds_t(proj__11__2).
+subject_project_leds_t(proj__10__1).
+subject_project_leds_t(proj__1__0).
+subject_project_leds_t(proj__5__3).
+subject_project_leds_t(proj__3__0).
+subject_project_leds_t(proj__4__1).
+subject_project_leds_t(proj__3__0).
+subject_project_leds_t(proj__8__1).
+subject_project_leds_t(proj__7__2).
+subject_project_leds_t(proj__1__0).
+subject_project_leds_t(proj__9__0).
+subject_project_leds_t(proj__13__3).
+subject_project_leds_t(proj__9__0).
+subject_project_leds_t(proj__4__0).
+subject_project_leds_t(proj__3__0).
+subject_project_leds_t(proj__9__0).
+subject_project_leds_t(proj__12__1).
+subject_project_leds_t(proj__6__1).
+subject_project_leds_t(proj__14__1).
+subject_project_leds_t(proj__0__1).
+subject_project_leds_t(proj__5__2).
+subject_project_leds_t(proj__7__3).
+subject_project_leds_t(proj__5__2).
+subject_project_leds_t(proj__12__1).
+subject_project_leds_t(proj__17__1).
+subject_project_leds_t(proj__16__1).
+subject_project_leds_t(proj__0__1).
+subject_project_leds_t(proj__18__1).
+subject_project_leds_t(proj__3__0).
+subject_project_leds_t(proj__7__2).
+subject_project_leds_t(proj__18__1).
+subject_project_leds_t(proj__3__0).
+subject_project_leds_t(proj__11__2).
+subject_project_leds_t(proj__10__1).
+subject_project_leds_t(proj__5__3).
+subject_project_leds_t(proj__19__1).
+subject_project_leds_t(proj__8__1).
+subject_project_leds_t(proj__0__1).
+subject_project_leds_t(proj__6__1).
+subject_project_leds_t(proj__6__0).
+subject_project_leds_t(proj__14__1).
+subject_project_leds_t(proj__6__1).
+subject_project_leds_t(proj__18__1).
+subject_project_leds_t(proj__14__1).
+subject_project_leds_t(proj__9__0).
+#modeb(1, subject_dept_id(const(subject_dept_id_t))).
+subject_dept_id_t(dept__17).
+subject_dept_id_t(dept__0).
+subject_dept_id_t(dept__12).
+subject_dept_id_t(dept__3).
+subject_dept_id_t(dept__9).
+subject_dept_id_t(dept__13).
+subject_dept_id_t(dept__7).
+subject_dept_id_t(dept__17).
+subject_dept_id_t(dept__6).
+subject_dept_id_t(dept__10).
+subject_dept_id_t(dept__2).
+subject_dept_id_t(dept__15).
+subject_dept_id_t(dept__19).
+subject_dept_id_t(dept__9).
+subject_dept_id_t(dept__5).
+subject_dept_id_t(dept__8).
+subject_dept_id_t(dept__11).
+subject_dept_id_t(dept__11).
+subject_dept_id_t(dept__15).
+subject_dept_id_t(dept__10).
+subject_dept_id_t(dept__12).
+subject_dept_id_t(dept__11).
+subject_dept_id_t(dept__14).
+subject_dept_id_t(dept__13).
+subject_dept_id_t(dept__3).
+subject_dept_id_t(dept__19).
+subject_dept_id_t(dept__7).
+subject_dept_id_t(dept__0).
+subject_dept_id_t(dept__6).
+#maxv(1).
+#bias("penalty(1, head(X)) :- in_head(X).").
+#bias("penalty(1, body(X)) :- in_body(X).").

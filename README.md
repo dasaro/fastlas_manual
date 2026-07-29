@@ -48,7 +48,9 @@ thresholds · `ex18` access-control policy learning · `ex19`–`ex22` the class
 tasks (vertex cover, graph colouring, pet owner, a SUSHI-style taste) · `ex23`–`ex26` the
 semantics demonstrations (#neg needing --nopl, computed inclusion/exclusion slots, brave coverage,
 noisy examples, a negative example ruling out an over-general rule, weights deciding the answer,
-and the search space seen through ILASP`s -s flag).
+and the search space seen through ILASP`s -s flag) · `pm_fold0_len` the Project Management
+policy-learning fold of the AAAI-2020 experiments, ported to FastLAS 2 syntax (`_pen` variant:
+the same fold with `@1` penalties on every example; both from the case-studies section).
 
 The `examples/asp/` programs are for [clingo](https://potassco.org/clingo/), not FastLAS:
 
