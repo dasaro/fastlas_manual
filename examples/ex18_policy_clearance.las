@@ -8,6 +8,8 @@ role(manager). role(staff).   clearance(high). clearance(low).
 #pos(d1, {}, {accept},
      { subject_role(staff). subject_clearance(low). }).
 
-% domain criterion: prefer clearance-based policies -> charge for role
-% conditions
+% the usual per-literal bias, plus a domain criterion: prefer
+% clearance-based policies by charging extra for role conditions
+#bias("penalty(1, head)    :- in_head(X).").
+#bias("penalty(1, body(X)) :- in_body(X).").
 #bias("penalty(1, prefer_clearance) :- in_body(subject_role(V)).").

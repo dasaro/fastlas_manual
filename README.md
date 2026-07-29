@@ -11,7 +11,7 @@ Nothing is pseudo-code.
 | --- | --- |
 | [`examples/`](examples) | the numbered examples from the body of the guide (`ex01`–`ex18`) |
 | [`examples/solutions/`](examples/solutions) | worked solutions to the exercises (`sol01`–`sol18`) |
-| [`examples/asp/`](examples/asp) | plain ASP programs for **clingo** (`asp01`–`asp09`): primes, clique, Hamiltonian cycles, eight queens, vertex cover, colouring, knapsack, weak constraints, paths |
+| [`examples/asp/`](examples/asp) | plain ASP programs for **clingo** (`asp01`–`asp10`): primes, clique, Hamiltonian cycles, eight queens, vertex cover, colouring, knapsack, weak constraints, paths |
 
 ## Running an example
 
