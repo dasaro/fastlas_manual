@@ -1,4 +1,4 @@
-% Graph colouring, minimising the number of colours used (LPXAI Lecture 3).
+% Graph colouring, minimising the number of colours used.
 color(blue;red;green;purple;white;black).
 edge(a,b;b,c;c,a;d,f;f,e;e,d;a,d;f,c;b,e).
 vertex(a;b;c;d;e;f).

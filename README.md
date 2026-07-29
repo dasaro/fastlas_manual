@@ -62,10 +62,10 @@ the FastLAS input dialect. The guide explains which construct goes where.
 
 ## Credits
 
-The ASP programs and the classic examples follow the *Logic Programming and Explainable AI*
-lecture notes of F. A. D'Asaro (University of Trento, 2023), which in turn draw on the textbook
-treatments of Lifschitz (*Answer Set Programming*, Springer 2019) and Gebser et al. (*Answer Set
-Solving in Practice*, 2012). The SUSHI features follow Kamishima's SUSHI preference data sets
+The ASP programs and the classic examples grew out of the author's PhD-level lectures on
+ILASP and FastLAS, which in turn draw on the textbook treatments of Lifschitz (*Answer Set
+Programming*, Springer 2019) and Gebser et al. (*Answer Set Solving in Practice*, 2012). The
+SUSHI features follow Kamishima's SUSHI preference data sets
 (<http://www.kamishima.net/sushi/>).
 
 ## Getting FastLAS

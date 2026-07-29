@@ -1,8 +1,6 @@
-% The same mode bias as ex29_space_ilasp.las, as a FastLAS task. FastLAS
-% does
-% not enumerate the space: --space-size reports the candidate set it
-% actually
-% keeps for these examples.
+% The same mode bias as ex29_space_ilasp.las, but as a FastLAS task.
+% FastLAS does not enumerate the whole space: --space-size reports the
+% candidate set it actually keeps for these examples.
 bird(a). bird(b).
 #modeh(flies(var(bird))).
 #modeb(winged(var(bird))).

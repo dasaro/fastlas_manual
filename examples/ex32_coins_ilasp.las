@@ -2,7 +2,8 @@
 %   ILASP --version=4 <file>
 % Three coins are flipped twice. The only hypothesis covering both flips
 % is a pair of rules forming an even loop through negation, which ILASP
-% builds and FastLAS does not. The FastLAS rendering of the same task,
+% builds and FastLAS does not.
+% The FastLAS rendering of the same task,
 % examples/solutions/sol16_coins.las, returns UNSATISFIABLE.
 coin(c1). coin(c2). coin(c3).
 

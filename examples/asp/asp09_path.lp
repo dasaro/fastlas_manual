@@ -1,4 +1,4 @@
-% Find a path from start to end (LPXAI Lecture 3, exam question).
+% Find a path from start to end (exam question).
 place(a;b;c;d). start(a). end(d).
 street(a,b;a,c;b,c;c,d;b,d).
 dangerous(a,b,4;a,c,1;b,c,3;c,d,1;b,d,1).

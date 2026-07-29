@@ -1,5 +1,5 @@
 % The pet owner problem: own as many animals as possible, but prefer that
-% owned animals do not eat one another (LPXAI Lecture 3, weak constraints).
+% owned animals do not eat one another (weak constraints).
 animal(dog;cat;fish).
 eats(cat, fish; dog, cat).
 0 { own(A) } 1 :- animal(A).

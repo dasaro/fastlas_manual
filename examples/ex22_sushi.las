@@ -1,7 +1,5 @@
-% A SUSHI-style preference task, using the feature encoding of LPXAI
-% Lecture 4
-% (style, major group, oiliness, price; cf. Kamishima's SUSHI preference
-% data).
+% A SUSHI-style preference task using the feature encoding (style, major group, oiliness, price; cf. Kamishima's SUSHI
+% preference data).
 % The taste to be recovered: seafood that is oily enough.
 %   likes(S) :- oiliness(S,O), O >= 3, seafood(S).
 sushi(s1). sushi(s2). sushi(s3). sushi(s4). sushi(s5). sushi(s6).

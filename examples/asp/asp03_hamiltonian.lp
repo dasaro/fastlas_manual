@@ -1,4 +1,4 @@
-% Hamiltonian cycles: guess a start and a set of edges, then test (LPXAI Lecture 2).
+% Hamiltonian cycles: guess a start and a set of edges, then test.
 vertex(a;b;c;d;e;f).
 edge(a,b; b,c; c,a; d,f; f,e; e,d; a,d; f,c; b,e).
 {start(V):vertex(V)}=1.

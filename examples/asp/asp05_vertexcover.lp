@@ -1,4 +1,4 @@
-% A vertex cover of the graph (LPXAI Lecture 4, exam solution).
+% A vertex cover of the graph (exam solution).
 vertex(a;b;c;d;e;f).
 edge(a,b;b,c;c,a;d,f;f,e;e,d;a,d;f,c;b,e).
 {in(X) : vertex(X)}.

@@ -1,9 +1,7 @@
 % Positive examples are covered BRAVELY: an inclusion need hold in only
-% SOME
-% answer set, not all of them. The background has two answer sets, {x,
-% p} and
-% {y}; only the first contains q, and that is enough for e1 to be
-% covered.
+% SOME answer set, not all of them. The background has two answer sets,
+% {x,p} and {y}; only the first contains q, and that is enough for e1
+% to be covered.
 1 { x ; y } 1.
 p :- x.
 #modeh(q).

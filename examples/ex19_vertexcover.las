@@ -1,4 +1,4 @@
-% Learn one half of the vertex-cover definition of LPXAI Lecture 4:
+% Learn one half of the vertex-cover definition:
 %   covered(X,Y) :- edge(X,Y), in(X).
 % The graph and the guessed set "in" are supplied as example contexts.
 vertex(a). vertex(b).

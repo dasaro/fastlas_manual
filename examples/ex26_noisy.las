@@ -1,7 +1,5 @@
-% e1 and e2 contradict each other. e1 is hard (no weight) so it must be
-% covered;
-% e2 carries penalty 1, so FastLAS may leave it uncovered and pay 1 for
-% doing so.
+% e1 and e2 contradict each other. e1 is hard, so it must be covered.
+% e2 carries penalty 1, so FastLAS may leave it uncovered and pay 1.
 #modeh(p).
 #modeb(a).
 #pos(e1,   {p}, {},  { a. }).

@@ -1,6 +1,6 @@
-% The pet-owner problem of LPXAI Lecture 3. clingo scores the conflict
-% with a
-% weak constraint; FastLAS learns the conflict itself as a hard rule:
+% The pet-owner problem. Clingo scores the conflict
+% with a weak constraint; FastLAS learns the conflict itself as a hard
+% rule:
 %   violated :- own(V0), own(V1), eats(V0,V1).
 animal(dog). animal(cat). animal(fish).
 #modeh(violated).

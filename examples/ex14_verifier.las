@@ -1,8 +1,8 @@
-% Verifier reframing: the labelling in/1,out/1 is GIVEN as context, so
-% the
-% feature attacked_by_in is deterministic input (not derived from the
-% target).
-% We learn a constraint-style verifier  violated :- <features>.
+% Verifier reframing: the labelling in/1 and out/1 is GIVEN as context,
+% so attacked_by_in/1 is deterministic input rather than something
+% learned through the target predicate.
+% We learn a constraint-style verifier:
+%   violated :- <features>.
 arg(a).  arg(b).
 attacked_by_in(X) :- att(Y,X), in(Y).
 

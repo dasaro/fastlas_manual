@@ -1,4 +1,4 @@
-% Learn the graph-colouring conflict of LPXAI Lecture 3 as a verifier:
+% Learn the graph-colouring conflict as a verifier:
 %   violated :- edge(V0,V1), colour(V0,V2), colour(V1,V2).
 vertex(a). vertex(b).  shade(red). shade(blue).
 #modeh(violated).
